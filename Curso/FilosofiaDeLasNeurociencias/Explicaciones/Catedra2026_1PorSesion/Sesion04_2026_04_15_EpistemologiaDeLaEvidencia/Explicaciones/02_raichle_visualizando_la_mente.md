@@ -1,0 +1,1 @@
+/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/MetodosYEvidencia/02_raichle_visualizando_la_mente.md

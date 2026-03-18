@@ -1,0 +1,1 @@
+/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/FundamentosYMarco/01_bechtel_mandik_mundale_filosofia_y_neurociencias.md

@@ -1,0 +1,1 @@
+/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/FundamentosYMarco/03_hinton_redes_neuronales.md

@@ -1,0 +1,1 @@
+/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/2b - Hinton - (1992) How Neural Networks Learn from Experience.md

@@ -1,0 +1,1 @@
+/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/6b - Zeki - (1992) The Visual Image in Mind and Brain.md

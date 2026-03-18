@@ -1,0 +1,1 @@
+/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/MaterialComplementario/Chirimuuta, Mazviita - (2024) The Brain Abstracted. Simplification in the History and Philosophy of Neuroscience.md
