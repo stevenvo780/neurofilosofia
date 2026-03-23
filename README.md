@@ -1,4 +1,0 @@
-# FilosofiaDeLasNeurociencias
-# neurofilosofia
-# neurofilosofia
-# neurofilosofia
