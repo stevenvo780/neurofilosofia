@@ -46,7 +46,7 @@ Con esa pregunta en mente, empiezo.
 
 ### Que decir
 
-Quiero empezar con la frase que organiza todo el texto: el cerebro es una computadora notable.
+Quiero empezar con la frase que organiza todo el texto: La maquina que aprende a ser cerebro.
 
 Esa frase suena fuerte, y precisamente por eso me interesa. Yo no la voy a tomar como una verdad obvia, sino como una apuesta. Hinton esta proponiendo una forma de investigar la mente y el cerebro desde el aprendizaje, la representacion y la computacion.
 

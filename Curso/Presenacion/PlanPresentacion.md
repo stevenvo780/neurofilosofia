@@ -226,8 +226,10 @@ Grafo animado de 5 nodos: `CEREBRO → INFORMACIÓN → REPRESENTACIÓN → MODE
 **Historia contada visualmente:** línea de tiempo animada — Werbos 1974 (punto aislado, olvidado), Rumelhart + Parker 1982 (redescubierto), Hinton + Williams + Rumelhart 1986 (publicado y aceptado).
 
 **Qué mostrar:**
-- La red muestra primero flujo hacia adelante (flechas verdes →), luego flujo de error hacia atrás (flechas rojas ←). El contraste es inmediato e intuitivo.
-- Los 4 pasos animados uno por uno, con sus fórmulas sincronizadas en KaTeX:
+- Controles de estado secuencial: botones interactivos para ejecutar paso a paso el `→ Forward Pass` y el `← Backprop Pass`. Esta vista permite desglosar el flujo completo como un paso de detalle esencial de la arquitectura.
+- La red muestra primero flujo hacia adelante (flechas verdes →), calculando activaciones capa por capa.
+- Luego, en el Backprop Pass, el flujo de error hacia atrás (flechas rojas ←). El contraste es inmediato e intuitivo.
+- Los 4 pasos detallados del algoritmo animados uno por uno en la etapa de retropropagación, con sus fórmulas sincronizadas en KaTeX:
   1. `EA_j = y_j − d_j`
   2. `EI_j = EA_j · y_j · (1 − y_j)`
   3. `EW_ij = EI_j · y_i`
