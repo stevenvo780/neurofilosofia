@@ -1,55 +1,46 @@
 # Filosofia de las Neurociencias
 
-Este archivo es el punto de entrada principal de toda la carpeta.
+Carpeta de entrada al workspace de filosofía de las neurociencias.
 
-## Estructura recomendada
+## Estructura del workspace
 
 ### 1. Biblioteca ordenada
 
-Usa esta carpeta si quieres encontrar rapido las lecturas originales en formato Markdown, separadas por tipo:
+Lecturas originales en formato Markdown, separadas por tipo:
 
-- [BibliografiaOrdenada/README.md](/workspace/Curso/FilosofiaDeLasNeurociencias/BibliografiaOrdenada/README.md)
-- [BibliografiaOrdenada/MdParaIa/Principal](/workspace/Curso/FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/Principal)
-- [BibliografiaOrdenada/MdParaIa/TextosEnEspanol](/workspace/Curso/FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/TextosEnEspanol)
-- [BibliografiaOrdenada/MdParaIa/MaterialComplementario](/workspace/Curso/FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/MaterialComplementario)
-
-Las carpetas `LecturasPdf` siguen reservadas para PDFs originales, pero hoy estan vacias.
+- [FilosofiaDeLasNeurociencias/BibliografiaOrdenada/README.md](../FilosofiaDeLasNeurociencias/BibliografiaOrdenada/README.md)
+- [FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/Principal](../FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/Principal)
+- [FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/TextosEnEspanol](../FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/TextosEnEspanol)
+- [FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/MaterialComplementario](../FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/MaterialComplementario)
+- `LecturasPdf/` — reservado para PDFs originales (actualmente vacío)
 
 ### 2. Explicaciones consolidadas
 
-Usa esta carpeta si quieres estudiar el contenido ya sintetizado en espanol:
+Síntesis en español del material del curso:
 
-- [Explicaciones/GUIA_MAESTRA.md](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/GUIA_MAESTRA.md)
-- [Explicaciones/Temas/GUIA_DE_CONSULTA.md](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/GUIA_DE_CONSULTA.md)
+- [FilosofiaDeLasNeurociencias/Explicaciones/GUIA_MAESTRA.md](../FilosofiaDeLasNeurociencias/Explicaciones/GUIA_MAESTRA.md)
+- [FilosofiaDeLasNeurociencias/Explicaciones/Temas](../FilosofiaDeLasNeurociencias/Explicaciones/Temas)
 
-### 3. Explicaciones por temas
+### 3. Sesiones del curso (calendario)
 
-Para entrar directo a un bloque del curso:
+Organizado por fecha de clase:
 
-- [Explicaciones/Temas/FundamentosYMarco](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/FundamentosYMarco)
-- [Explicaciones/Temas/MetodosYEvidencia](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/MetodosYEvidencia)
-- [Explicaciones/Temas/PercepcionYVision](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/PercepcionYVision)
-- [Explicaciones/Temas/MemoriaYRepresentacion](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/MemoriaYRepresentacion)
-- [Explicaciones/Temas/Lenguaje](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/Lenguaje)
-- [Explicaciones/Temas/EmocionInterocepcionYNeuropsiquiatria](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/EmocionInterocepcionYNeuropsiquiatria)
-- [Explicaciones/Temas/FuncionesEjecutivasYLobulosFrontales](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/FuncionesEjecutivasYLobulosFrontales)
-- [Explicaciones/Temas/ConcienciaAgenciaYModelos](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/ConcienciaAgenciaYModelos)
-- [Explicaciones/Temas/MaterialComplementario](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/MaterialComplementario)
+- [FilosofiaDeLasNeurociencias/Explicaciones/Sesiones](../FilosofiaDeLasNeurociencias/Explicaciones/Sesiones)
 
-### 4. Sesiones del curso
+Cada sesión contiene:
+- `Explicaciones/` — síntesis de los textos de la sesión
+- `LecturasOriginalesMd/` — textos originales en Markdown
+- `LecturasPdf/` — PDFs originales (reservado)
 
-Si quieres ordenar el estudio por calendario de clase, entra aqui:
+### 4. Presentación Hinton 1992
 
-- [Explicaciones/Sesiones/README.md](/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Sesiones/README.md)
+Aplicación web interactiva para el texto central del curso:
 
-## Estado actual del material
+- [Curso/Presenacion/](../Curso/Presenacion/)
+- Repo web: `repos/RedesNeuronalesFilosofiaNeurociencia/`
 
-- No se detectaron archivos `.pdf` en esta biblioteca.
-- La antigua carpeta `PdfCentralizados` quedo vacia.
-- La carpeta `BibliografiaOrdenada` ahora es la vista recomendada para navegar la bibliografia sin mezclar materiales.
+## Estado actual
 
-## Criterio de limpieza aplicado
-
-- Se centralizo la entrada en este archivo y en dos guias maestras.
-- La documentacion redundante no se perdio: se movio a carpetas `Archivo`.
-- Los borradores y archivos sin titulo quedaron apartados para no contaminar la navegacion principal.
+- `FilosofiaDeLasNeurociencias/` es la ubicación canónica de todo el material.
+- `FilosofiaDeLasNeurocienciasExplicaciones` apunta a `FilosofiaDeLasNeurociencias/Explicaciones`.
+- La antigua carpeta `Curso/FilosofiaDeLasNeurociencias/` fue unificada en la raíz.
