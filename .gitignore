@@ -1,0 +1,23 @@
+# Repositorios locales (tienen su propio git)
+repos/
+
+# Builds y artefactos
+dist/
+build/
+*.pyc
+__pycache__/
+*.o
+*.so
+*.class
+*.jar
+
+# Temporales
+tmp_hinton/
+tmp_*/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

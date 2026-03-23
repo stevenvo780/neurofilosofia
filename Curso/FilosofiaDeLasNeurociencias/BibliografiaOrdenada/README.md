@@ -1,28 +1,27 @@
-# BibliografiaOrdenada
+# Bibliografia ordenada
 
-Esta carpeta existe para separar con claridad dos tipos de recursos:
-
-- `MdParaIa`: archivos en formato `.md`, faciles de leer, buscar, procesar y citar desde herramientas de IA.
-- `LecturasPdf`: lugar reservado para las lecturas originales en PDF.
-
-## Situacion actual
-
-En la bibliografia original no se detectaron archivos `.pdf`. Actualmente todo el material encontrado esta en `.md`.
-
-Por eso:
-
-- `MdParaIa` esta poblada con enlaces simbolicos a la bibliografia actual.
-- `LecturasPdf` esta creada y ordenada, pero vacia por ahora.
+Esta carpeta es la vista recomendada para navegar la bibliografia sin mezclar materiales.
 
 ## Estructura
 
-- `MdParaIa/Principal`
-- `MdParaIa/MaterialComplementario`
-- `MdParaIa/TextosEnEspanol`
-- `LecturasPdf/Principal`
-- `LecturasPdf/MaterialComplementario`
-- `LecturasPdf/TextosEnEspanol`
+### Markdown de trabajo
 
-## Nota importante
+- [MdParaIa/Principal](/workspace/Curso/FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/Principal)
+- [MdParaIa/TextosEnEspanol](/workspace/Curso/FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/TextosEnEspanol)
+- [MdParaIa/MaterialComplementario](/workspace/Curso/FilosofiaDeLasNeurociencias/BibliografiaOrdenada/MdParaIa/MaterialComplementario)
 
-No se movio ni modifico la carpeta original `Bibliografia`. Esta carpeta nueva es una vista ordenada para busqueda y trabajo diario.
+### PDFs originales
+
+- [LecturasPdf/Principal](/workspace/Curso/FilosofiaDeLasNeurociencias/BibliografiaOrdenada/LecturasPdf/Principal)
+- [LecturasPdf/TextosEnEspanol](/workspace/Curso/FilosofiaDeLasNeurociencias/BibliografiaOrdenada/LecturasPdf/TextosEnEspanol)
+- [LecturasPdf/MaterialComplementario](/workspace/Curso/FilosofiaDeLasNeurociencias/BibliografiaOrdenada/LecturasPdf/MaterialComplementario)
+
+## Estado actual
+
+- No se detectaron archivos `.pdf` en la biblioteca original.
+- Por eso `LecturasPdf` sigue vacia.
+- `MdParaIa` concentra enlaces simbolicos a la bibliografia real, separados por tipo.
+
+## Fuente original
+
+La carpeta [Bibliografia](/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia) se mantuvo como respaldo original. Esta carpeta solo reorganiza el acceso.
