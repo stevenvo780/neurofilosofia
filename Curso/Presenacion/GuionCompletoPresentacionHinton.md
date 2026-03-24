@@ -12,7 +12,7 @@ No esta escrito para leerlo palabra por palabra como libreto teatral. La idea es
 
 La idea que debe quedar al final es esta:
 
-**Hinton no solo presenta una tecnica de aprendizaje, sino una forma de pensar la cognicion como formacion de representaciones internas distribuidas mediante ajuste de conexiones.**
+**La red neuronal artificial no es una descripcion del cerebro, sino una apuesta en un programa de investigacion cuyo valor epistemico es mas funcional como emergencia continua que como reduccion acabada. La ambiguedad ontologica de Hinton no es un defecto: es lo que permite construir un modelo con menos compromisos metafisicos y mas capacidad predictiva — la posicion mas pragmatica disponible.**
 
 ### Modo recomendado al presentar
 
@@ -755,7 +755,57 @@ Esta distincion es clave para la filosofia de la neurociencia. Que dos sistemas 
 
 ### Frase puente
 
-Con ese resultado en mano, podemos cerrar el argumento.
+Con ese resultado en mano, antes de cerrar hay una pregunta que Hinton nunca hizo — y que nosotros debemos hacer.
+
+---
+
+## Slide S12c — ¿Por que no se hablo de emergencia?
+
+### Que mostrar
+
+La slide tiene 6 pasos internos (flechas o clics avanzan uno por uno):
+
+1. **El elefante en la sala**: La palabra "emergencia" no aparece ni una vez en Hinton 1992. Conteo: 0 menciones vs ~18 "representacion distribuida" vs ~25 "informacion". Cita provocadora sobre la decision ontologica disfrazada de ingenieria.
+
+2. **El problema formal de P**: Formulas LaTeX:
+   - $P = f(\{N_i\}_{i=1}^k, \mathbf{R})$ donde $\mathbf{R} = \{w_{ij}\}$
+   - $P \neq \sum_{i=1}^k N_i \Rightarrow P$ es irreducible a sus partes
+   - Las representaciones distribuidas de Hinton satisfacen exactamente esta definicion de emergencia debil.
+
+3. **La jugada de Hinton**: Reduccion a informacion. Dos columnas: lo que Hinton evita (preguntar "que emerge") vs lo que hace (preguntar "que informacion se codifica"). La representacion distribuida *es en si misma* una propiedad emergente de los pesos — llamarla "informacion codificada" no elimina la emergencia, la renombra.
+
+4. **Emergencia continua — la ontologia no dicha**: Formula $\partial P / \partial t \neq 0$. En cada paso de entrenamiento emergen propiedades nuevas continuamente. Tres columnas comparativas: emergencia fuerte clasica / emergencia continua (lo que realmente ocurre) / reduccion simple (donde Hinton cree estar).
+
+5. **La bifurcacion epistemologica**: Dos niveles — Ontologico: monismo ($P \equiv g(\mathbf{R})$, todo es pesos/informacion, una sustancia) vs Epistemico: emergencia ($P \not\leftarrow \{N_i\}$ sin simular $\mathbf{R}$, irreducible en practica). **Resultado**: Hinton es un monista ontologico que opera como emergentista epistemico.
+
+6. **ST: Reduccionismo informacional vs Emergentismo debil**: Tabla de 5 dimensiones (Ontologia, Prediccion, Explicacion, Mecanismo, Realizabilidad) comparando REDUCT_INFO con EMERG_WEAK. Score: 2-2-1. **Veredicto**: REDUCT_INFO ∥ EMERG_WEAK — ambas son logicamente compatibles. La tension no se resuelve: se habita.
+
+### Que decir
+
+Antes de cerrar la presentacion, quiero hacer una pregunta que Hinton nunca hace — y que la filosofia de las neurociencias deberia hacer.
+
+La palabra "emergencia" no aparece ni una sola vez en el texto de 1992. Cero menciones. Y sin embargo, todo su argumento depende de que las representaciones distribuidas hagan algo que ninguna neurona individual puede hacer. Eso es, por definicion, emergencia debil.
+
+Formalmente: si una propiedad P del sistema completo no puede derivarse de ninguna unidad individual Ni, entonces P es irreducible a sus partes — eso es emergencia.
+
+Entonces, ¿por que Hinton no usa la palabra? Porque hace una jugada ontologica: reemplaza "que emerge" por "que informacion se codifica". Es una reduccion al lenguaje informacional. Pero la representacion distribuida en si misma es una propiedad emergente de la configuracion de pesos. Renombrarla no la elimina.
+
+Lo mas interesante es que la emergencia aqui es *continua*: en cada paso de entrenamiento, los pesos cambian y la propiedad P cambia con ellos. No hay un salto cualitativo dramatico — pero la novedad esta ahi, distribuida en cada actualizacion de gradiente.
+
+El resultado filosofico es una bifurcacion: a nivel ontologico, Hinton es un monista — todo es informacion, todo es pesos, una sola sustancia. Pero a nivel epistemico, opera como emergentista — no puedes predecir lo que la red va a representar sin correrla entera. Reducible en principio, irreducible en practica.
+
+Kim argumentaria que esta posicion es inestable. Pero eso no la refuta — la convierte en una tension filosofica genuina, no en un error.
+
+### Notas para profesor (modo P)
+
+- Kim, J. (1999). "Making Sense of Emergence" — la emergencia epistemica sin emergencia ontologica es inestable: o P es real y causalmente eficaz, o es un epifenomeno.
+- Las representaciones distribuidas de Hinton son causalmente eficaces (determinan el output) pero supuestamente reducibles a pesos. ¿Es P real o un artefacto descriptivo?
+- Conexion con Bechtel (2001): la nocion funcional de representacion es una forma de emergencia epistemica disfrazada de funcionalismo.
+- Esta slide conecta con S10 (representaciones distribuidas) y con S12b (convergencia funcional ≠ convergencia mecanistica).
+
+### Frase puente
+
+Con esa tension abierta — monismo ontologico con emergencia epistemica — cerramos el argumento. Y la tesis final es que esa ambiguedad ontologica no es un defecto: es la posicion mas pragmatica para investigar la cognicion.
 
 ---
 
@@ -763,26 +813,28 @@ Con ese resultado en mano, podemos cerrar el argumento.
 
 ### Que mostrar
 
-- Tesis central: "La red neuronal artificial no es una descripcion del cerebro, sino una apuesta en un programa de investigacion."
-- Arco de tres autores: Daugman / Hinton / Bechtel con sus tesis e implicaciones.
-- Pregunta para la discusion.
-- Badges modales: ◇ (posible), □ (necesario), O (brecha epistemica persistente).
+- Tesis central: "La red neuronal artificial no es una descripcion del cerebro, sino una apuesta en un programa de investigacion cuyo valor epistemico es mas funcional como emergencia continua que como reduccion acabada. La ambiguedad ontologica no es un defecto: permite construir un modelo con menos compromisos metafisicos y mas capacidad predictiva."
+- Arco de tres autores: Daugman / Hinton / Bechtel con sus tesis e implicaciones (Hinton actualizado: la emergencia continua opera sin compromisos ontologicos fuertes).
+- Pregunta para la discusion (emergencia como tension productiva).
+- Badges modales: ◇ (posible), □ (necesario), ∂ (emergencia continua pragmatica), O (brecha epistemica persistente).
 
 ### Que decir
 
 Para terminar, quiero dejar clara la tesis que ha organizado toda la presentacion.
 
-La red neuronal artificial no es una descripcion del cerebro. Es una apuesta en un programa de investigacion. Su valor explicativo, no solo instrumental, depende de si ese programa genera predicciones nuevas y corroborables sobre como funciona la cognicion real.
+La red neuronal artificial no es una descripcion del cerebro. Es una apuesta en un programa de investigacion. Y lo que vimos hoy, sobre todo en la slide de emergencia, muestra que su valor epistemico es mas funcional como emergencia continua que como reduccion acabada.
+
+¿Que quiero decir con eso? Que la ambiguedad ontologica de Hinton — no decidir si P es una propiedad real o un artefacto descriptivo — no es un defecto. Es una ventaja pragmatica. Permite investigar sin tener que resolver primero todas las preguntas metafisicas. Menos compromisos ontologicos, mas capacidad de generar predicciones y modelos utiles.
 
 Fijense en el arco de los tres autores.
 
-Daugman nos dice que la computacion es el lenguaje tecnologico de nuestra epoca. Eso es algo necesario tener en cuenta: no porque invalide a Hinton, sino porque nos previene de confundir el lenguaje con la realidad que describe.
+Daugman nos dice que la computacion es el lenguaje tecnologico de nuestra epoca. Necesario tenerlo en cuenta: nos previene de confundir el lenguaje con la realidad que describe.
 
-Hinton nos dice que el aprendizaje distribuido puede modelar cognicion. Lo que vimos hoy lo confirma como herramienta. Si ademas explica el cerebro, es una posibilidad abierta, no una certeza. El simbolo ◇ que ven en pantalla expresa exactamente eso: posible, pero no necesario.
+Hinton genera propiedades emergentes continuas sin declararlas — la cognicion se modela sin reglas simbolicas ni compromisos ontologicos fuertes. Su ambiguedad ontologica es precisamente lo que permite investigar sin decidir primero que es real. El simbolo ∂ que ven en pantalla expresa esa emergencia continua; el simbolo ◇ expresa que la convergencia cerebro-red es posible, no necesaria.
 
 Bechtel nos deja con la pregunta que ninguno de los dos puede responder solo: que condiciones hacen que algo sea una representacion mental en sentido real? Esa pregunta sigue abierta.
 
-La pregunta que dejo para la discusion es esta: cuando un modelo computacional cuenta como explicacion neurocientifica, y no solo como prediccion o herramienta?
+La pregunta que dejo para la discusion es esta: si la emergencia continua es epistemicamente inevitable pero ontologicamente ambigua, ¿es mas honesto — y mas fertil — un modelo que asume esa tension que uno que pretende haberla resuelto?
 
 Eso es lo que hace que el texto de Hinton siga siendo filosoficamente relevante en 2024, no solo historicamente interesante.
 
@@ -790,7 +842,7 @@ Eso es lo que hace que el texto de Hinton siga siendo filosoficamente relevante 
 
 En una frase:
 
-**Hinton no demuestra que el cerebro sea una computadora; muestra por que pensar el aprendizaje como representacion distribuida se volvio una hipotesis imposible de ignorar.**
+**Hinton no demuestra que el cerebro sea una computadora; muestra que operar como emergentista epistemico desde un monismo ontologico es la posicion mas pragmatica para investigar la cognicion — y esa ambiguedad resulta ser mas productiva que cualquier compromiso metafisico fuerte.**
 
 ---
 
@@ -798,7 +850,7 @@ En una frase:
 
 Para terminar, yo diria esto casi literal:
 
-> En conclusion, el texto de Hinton es importante porque no solo presenta una tecnica de aprendizaje, sino una forma de pensar la cognicion. Su propuesta es que una red puede aprender ajustando conexiones y formando representaciones internas distribuidas. Eso cambio profundamente la inteligencia artificial y tambien cambio la filosofia de la mente y de las neurociencias. Sin embargo, el propio Hinton reconoce limites importantes, sobre todo en la plausibilidad biologica de la retropropagacion. Por eso su texto sigue siendo valioso no como verdad definitiva, sino como una apuesta de investigacion muy potente: una apuesta que todavia hoy organiza muchas de nuestras preguntas sobre mente, cerebro y aprendizaje.
+> En conclusion, el texto de Hinton es importante porque no solo presenta una tecnica de aprendizaje, sino una forma de pensar la cognicion como emergencia continua sin compromisos ontologicos fuertes. Su propuesta es que una red puede aprender ajustando conexiones y formando representaciones internas distribuidas — propiedades que ningun componente individual contiene. Eso cambio profundamente la inteligencia artificial y la filosofia de la mente. Sin embargo, Hinton nunca declara que esto sea emergencia, y ahi esta la jugada: al no decidir si P es una propiedad real o un artefacto descriptivo, construye un modelo con menos compromisos metafisicos y mas capacidad predictiva. Esa ambiguedad ontologica no es un defecto — es la posicion mas pragmatica disponible, y es lo que hace que su programa de investigacion siga vivo treinta anos despues.
 
 ---
 
@@ -820,7 +872,7 @@ La implausibilidad biologica de la retropropagacion. Es el punto mas fuerte, por
 
 Yo responderia:
 
-Que desplaza la idea de cognicion desde reglas simbolicas explicitas hacia representaciones distribuidas aprendidas, y eso cambia como pensamos explicacion, representacion y aprendizaje.
+Que desplaza la cognicion desde reglas simbolicas explicitas hacia representaciones distribuidas aprendidas, y al hacerlo opera como emergentista epistemico sin comprometerse ontologicamente. Esa ambiguedad resulta ser la posicion mas pragmatica: permite investigar sin decidir primero que es real, y genera un modelo con menos compromisos metafisicos y mas capacidad predictiva. Es emergencia continua funcionando como valor epistemico.
 
 ### Si te preguntan: "Por que lo conectas con filosofia de las neurociencias?"
 
@@ -860,7 +912,8 @@ Y concentra mas tiempo en:
 5. S07 — Alcances + critica
 6. S08 — Limites
 7. S11 — Codigos demograficos
-8. S13 — Cierre argumental
+8. S12c — ¿Por que no emergencia? (picante, cierra el arco filosofico)
+9. S13 — Cierre argumental
 
 ---
 
@@ -882,8 +935,9 @@ Y concentra mas tiempo en:
 | S11 | Codigos demograficos | 1.5 min |
 | S12 | De 1992 a hoy | 2 min |
 | S12b | Convergencia empirica | 1.5 min |
+| S12c | ¿Por que no emergencia? | 2 min |
 | S13 | Cierre argumental | 2 min |
-| **Total** | | **~23.5 min** |
+| **Total** | | **~25.5 min** |
 
 ---
 
