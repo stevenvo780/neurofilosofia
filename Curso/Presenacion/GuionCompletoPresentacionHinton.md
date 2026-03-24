@@ -1,5 +1,7 @@
 # Guion Completo de Presentacion — Hinton (1992)
 
+> **Nota de uso rapido:** si necesitas la version comprimida para `20` minutos, revisa `Guion20Min_Hinton_FocoFilosofico.md`. Si quieres un machete minimo por slide con linea de `Siguiente`, revisa `ResumenBreveSlides_Hinton_20min.md`.
+
 ## Uso recomendado
 
 Este guion esta pensado para la presentacion web actual sobre Geoffrey Hinton y su texto:
