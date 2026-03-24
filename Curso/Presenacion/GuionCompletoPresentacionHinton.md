@@ -1,7 +1,5 @@
 # Guion Completo de Presentacion — Hinton (1992)
 
-> **Nota de uso rapido:** si necesitas la version comprimida para `20` minutos, revisa `Guion20Min_Hinton_FocoFilosofico.md`. Si quieres un machete minimo por slide con linea de `Siguiente`, revisa `ResumenBreveSlides_Hinton_20min.md`.
-
 ## Uso recomendado
 
 Este guion esta pensado para la presentacion web actual sobre Geoffrey Hinton y su texto:
@@ -134,24 +132,154 @@ Entonces la pregunta deja de ser "como copiar una neurona" y pasa a ser "que es 
 
 ### Que mostrar
 
-- Diagrama animado: entradas → suma ponderada → funcion de activacion → salida.
-- Sliders de pesos (interactivo).
-- Grafica de las tres funciones de activacion: sigmoide, ReLU, umbral.
-- Analogia biologica por pares.
+- Diagrama animado McCulloch-Pitts: entradas x1-x5 → pesos (lineas violeta/rojo por signo) → suma ponderada Σ → caja f(·) → salida y. Pulsos animados que fluyen de izquierda a derecha.
+- Sliders de pesos interactivos (arrastrar cambia el diagrama en tiempo real).
+- Tres botones de funcion de activacion: Sigmoide σ / ReLU / Umbral — con grafica lateral actualizada.
+- Cinco tarjetas de analogia biologica clicables (desbloqueo secuencial): Dendrita / Sinapsis / Colina axonica / Umbral de disparo / Tasa de disparo.
 
-### Que decir
+---
 
-Aqui aparece la neurona artificial. Y lo primero que conviene decir con claridad es esto: Hinton no copia la neurona biologica, la idealiza.
+### Que decir — APERTURA (antes de tocar nada)
 
-La unidad artificial recibe entradas, las multiplica por pesos, las suma y luego pasa ese resultado por una funcion de activacion. Ese procedimiento es mucho mas simple que el funcionamiento real de una neurona.
+Aqui aparece la neurona artificial. Lo primero que conviene decir con claridad es esto: Hinton no copia la neurona biologica, la idealiza. Y esa idealizacion burda, como el mismo la llama, es lo que hace el modelo tratable.
 
-Pueden mover los sliders para ver como cambia la salida en tiempo real. Un peso positivo excita, un peso negativo inhibe. La magnitud del peso indica la fuerza de la conexion.
+El diagrama que ven muestra el computo completo de una sola unidad. Cinco entradas entran por la izquierda. Cada una viene multiplicada por un peso: si el peso es violeta, es excitador; si es rojo, es inhibidor. El nodo Σ suma todo eso mas un sesgo. Luego la caja f(·) aplica una funcion de activacion. Y a la derecha sale el valor y.
 
-Sobre las funciones de activacion: la sigmoide produce una salida continua entre cero y uno, y es diferenciable en todo punto, lo que la hace ideal para el algoritmo de retropropagacion. La ReLU es mas rapida y evita el problema de gradientes saturados — es la que usan la mayoria de las redes modernas. El umbral es la version mas biologica: todo o nada, igual que el potencial de accion de McCulloch y Pitts en 1943.
+Pueden mover los sliders para ver como cambia la salida en tiempo real. Eso es todo el computo de una neurona artificial: suma ponderada mas funcion de activacion.
 
-Entonces que se gana y que se pierde con esta simplificacion. Se pierde geometria, quimica, temporalidad fina y gran parte de la complejidad biologica. Pero se gana algo muy importante: un modelo manipulable, entrenable y matematicamente tratable.
+> **[Siguiente → clic en boton "Sigmoide σ"]**
 
-Y ahi esta uno de los puntos filosoficos mas importantes del texto: una idealizacion puede ser cientificamente util sin ser una copia literal de su objeto. El problema es decidir hasta que punto esa idealizacion sigue explicando algo real y hasta que punto solo sirve como herramienta.
+---
+
+### Paso 1 — Funcion Sigmoide σ
+
+**Que se ve en pantalla:**
+Boton "Sigmoide σ" activo en violeta. La grafica lateral muestra una curva en S que va de 0 a 1 pasando por 0.5 en el origen. Un punto coloreado marca donde cae el valor actual de la entrada neta.
+
+**Que decir:**
+
+La sigmoide produce una salida continua entre cero y uno. Lo importante no es la formula: es que es diferenciable en todo punto. Y eso es exactamente lo que necesita la retropropagacion para calcular gradientes. Sin diferenciabilidad, no hay aprendizaje por gradiente descendente.
+
+Historicamente, la sigmoide fue la funcion que hizo posible entrenar redes multicapa en los ochenta. Tiene un problema: cuando la entrada es muy grande o muy pequena, la derivada se aplana casi a cero — lo que se llama saturacion del gradiente.
+
+> **[Siguiente → clic en boton "ReLU"]**
+
+---
+
+### Paso 2 — Funcion ReLU
+
+**Que se ve en pantalla:**
+Boton "ReLU" activo en verde. La grafica muestra una recta plana en cero para valores negativos y una recta ascendente para valores positivos.
+
+**Que decir:**
+
+ReLU, Rectified Linear Unit: si la entrada es negativa, la salida es cero. Si es positiva, la salida es la entrada misma. Eso es todo.
+
+Parece demasiado simple, pero tiene dos ventajas enormes. Es rapidisima de calcular. Y no satura para valores positivos grandes — la derivada siempre es 1 en esa zona, lo que mantiene el gradiente vivo durante el entrenamiento. Por eso la mayoria de las redes profundas modernas usan ReLU o alguna variante.
+
+> **[Siguiente → clic en boton "Umbral"]**
+
+---
+
+### Paso 3 — Funcion Umbral
+
+**Que se ve en pantalla:**
+Boton "Umbral" activo en amarillo. La grafica muestra un escalon: cero antes del origen, uno despues. Un salto discontinuo.
+
+**Que decir:**
+
+El umbral es la version mas biologica de las tres. Todo o nada. Si la suma supera un umbral, la unidad dispara con valor 1. Si no, permanece inactiva con valor 0. Exactamente como el potencial de accion de la neurona biologica.
+
+Esta es la funcion de McCulloch y Pitts de 1943. Es la mas antigua. Su problema: no es diferenciable en el punto de disparo, asi que no puede usarse con retropropagacion. Sirve para analisis logico, no para aprendizaje por gradiente.
+
+La progresion que vimos en estas tres funciones refleja exactamente el trade-off que Hinton nombra: la sigmoide y la ReLU sacrifican realismo biologico para ganar trainabilidad matematica.
+
+> **[Siguiente → clic en tarjeta "Dendrita"]**
+
+---
+
+### Paso 4 — Analogia biologica: Dendrita → Entrada xᵢ
+
+**Que se ve en pantalla:**
+Tarjeta "Dendrita" expandida mostrando: bio_sub "recibe senales" → art "Entrada xᵢ" / art_sub "valor numerico".
+
+**Que decir:**
+
+Ahora veamos que conserva y que pierde esta idealizacion respecto a la biologia. Las dendritas son las ramificaciones que reciben senales de otras neuronas. En el modelo artificial, eso se convierte en el vector de entradas: valores numericos que llegan desde otras unidades o desde el mundo.
+
+Lo que se pierde: la geometria de las dendritas importa en la neurona real. Sinapsis en diferentes partes del arbol dendritico tienen efectos distintos. Eso el modelo lo ignora completamente.
+
+> **[Siguiente → clic en tarjeta "Sinapsis"]**
+
+---
+
+### Paso 5 — Analogia biologica: Sinapsis → Peso wᵢ
+
+**Que se ve en pantalla:**
+Tarjeta "Sinapsis" expandida: bio_sub "fuerza de conexion" → art "Peso wᵢ" / art_sub "+excitador / −inhibidor".
+
+**Que decir:**
+
+La sinapsis es la zona de contacto donde se liberan neurotransmisores. Lo que Hinton conserva de esto es la eficacia sinaptica: la fuerza de esa conexion. En el modelo, eso es el peso.
+
+Un peso positivo = sinapsis excitatoria. Un peso negativo = sinapsis inhibitoria. El aprendizaje consiste en cambiar esa eficacia, igual que la plasticidad sinaptica en el cerebro.
+
+Este es el corazon de la analogia de Hinton. Todo lo demas es simplificacion. Esto es lo que el conserva.
+
+> **[Siguiente → clic en tarjeta "Colina axonica"]**
+
+---
+
+### Paso 6 — Analogia biologica: Colina axonica → Suma Σ xᵢwᵢ + b
+
+**Que se ve en pantalla:**
+Tarjeta "Colina axonica" expandida: bio_sub "integra entradas" → art "Suma Σ xᵢwᵢ+b" / art_sub "integracion lineal".
+
+**Que decir:**
+
+La colina axonica es la region donde se integran todas las senales que llegaron por las dendritas. Si la suma supera el umbral, dispara. En el modelo, esta integracion es la suma ponderada mas el sesgo: Σ xᵢwᵢ + b. Completamente lineal.
+
+Lo que se pierde: la integracion real es no lineal, dependiente del tiempo, sensible a la morfologia. El modelo convierte todo eso en una suma escalar instantanea.
+
+> **[Siguiente → clic en tarjeta "Umbral de disparo"]**
+
+---
+
+### Paso 7 — Analogia biologica: Umbral de disparo → Activacion f(·)
+
+**Que se ve en pantalla:**
+Tarjeta "Umbral de disparo" expandida: bio_sub "~−55 mV" → art "Activacion f(·)" / art_sub "sigmoide / ReLU / umbral".
+
+**Que decir:**
+
+El umbral de disparo de la neurona biologica esta alrededor de −55 milivolts. Si el potencial de membrana supera ese valor, hay potencial de accion. Si no, silencio.
+
+En el modelo, eso es la funcion de activacion que acabamos de ver. El umbral biologico exacto desaparece — en su lugar tenemos tres opciones matematicas con diferentes propiedades de entrenabilidad. Lo que se conserva: la idea de un mecanismo no lineal de decision.
+
+> **[Siguiente → clic en tarjeta "Tasa de disparo"]**
+
+---
+
+### Paso 8 — Analogia biologica: Tasa de disparo → Salida y
+
+**Que se ve en pantalla:**
+Tarjeta "Tasa de disparo" expandida: bio_sub "Hz de potenciales" → art "Salida y" / art_sub "valor 0→1".
+
+**Que decir:**
+
+La neurona biologica no manda un numero. Manda pulsos discretos, y la informacion esta en la frecuencia de esos pulsos: Hz. En la neurona real, mas excitacion = mas Hz.
+
+En el modelo artificial, todo eso se colapsa en un solo numero entre 0 y 1. La tasa de disparo se convierte en una magnitud continua. Se pierde la temporalidad, los spikes individuales, la variabilidad. Se gana: diferenciabilidad y tratabilidad matematica.
+
+---
+
+### Resumen del trade-off filosofico
+
+Lo que se pierde con esta idealizacion: geometria del arbol dendritico, quimica sinaptica, temporalidad de los spikes, morfologia, neuromodulacion, plasticidad intrinseca.
+
+Lo que se gana: un modelo matematicamente tratable que puede entrenarse por gradiente descendente, que escala a millones de unidades, y que genera predicciones corroborables sobre representacion y aprendizaje.
+
+Y ahi esta uno de los puntos filosoficos mas importantes del texto: una idealizacion puede ser cientificamente util sin ser una copia literal de su objeto. El problema — que Hinton deja abierto — es decidir hasta que punto esa idealizacion sigue explicando algo real y hasta que punto solo sirve como herramienta.
 
 ### Frase puente
 
@@ -164,19 +292,37 @@ Una sola neurona artificial todavia no hace mucho. Lo interesante empieza cuando
 ### Que mostrar
 
 - Red con capas (entrada, ocultas, salida).
-- Forward pass animado.
-- Activaciones y pesos coloreados por valor.
-- Demo en vivo con TensorFlow.js.
+- Forward pass animado con boton "Propagacion Forward" → fases Capa 1/4, 2/4, 3/4, 4/4.
+- Activaciones y pesos coloreados: purpura = positivo, rojo = negativo, amarillo = señal activa.
+- Leyenda de colores y grosor de lineas = magnitud del peso.
 
 ### Que decir
 
 En esta parte aparece una de las contribuciones mas influyentes del texto: la arquitectura multicapa con unidades ocultas.
 
-La idea es sencilla, pero muy poderosa. Hay una capa de entrada, una o mas capas ocultas y una capa de salida. La informacion avanza hacia adelante, pero lo realmente importante es que las unidades ocultas no reciben instrucciones explicitas sobre que representar.
+La idea es sencilla pero muy poderosa. Hay una capa de entrada, una o mas capas ocultas y una capa de salida. Miren el diagrama: cuatro columnas de nodos conectados entre si por lineas. El color y el grosor de cada linea indica el peso de esa conexion.
 
-Eso es el corazon del conexionismo de Hinton. Las representaciones no estan puestas desde afuera como si fueran simbolos ya definidos. Emergen del entrenamiento mismo.
+`[Click → Propagacion Forward]`
 
-Por eso este modelo se opone, al menos parcialmente, a la idea clasica de que pensar consiste solo en manipular simbolos explicitamente codificados. Aqui lo que tenemos son patrones distribuidos de activacion que van aprendiendo regularidades.
+Voy a activar el forward pass para que vean como fluye la informacion.
+
+`[Siguiente → Capa 1/4: Entrada]`
+
+La capa de entrada recibe las coordenadas (x, y) de un punto del espacio. Son solo dos neuronas. No saben nada aun: simplemente transmiten los valores numericos hacia adelante.
+
+`[Siguiente → Capa 2/4: Oculta 1]`
+
+En la primera capa oculta hay ocho unidades. Cada una recibe señal de las dos neuronas de entrada, ponderada por los pesos de las conexiones. Estas unidades empiezan a detectar patrones no lineales que la capa de entrada no puede ver por si sola. Nadie les dijo que detectar: lo aprendieron del entrenamiento.
+
+`[Siguiente → Capa 3/4: Oculta 2]`
+
+La segunda capa oculta tambien tiene ocho unidades. Recibe la salida de la primera capa oculta y refina las representaciones. Las capas ocultas son el corazon del conexionismo de Hinton: las representaciones no estan puestas desde afuera como simbolos ya definidos, emergen del proceso de aprendizaje mismo.
+
+`[Siguiente → Capa 4/4: Salida]`
+
+Finalmente, la capa de salida tiene una sola neurona: produce un numero entre 0 y 1 que representa la clasificacion. Por encima de 0.5, un punto es de una clase. Por debajo, de la otra. La frontera de decision que ven en el grafico derecho es exactamente el umbral que esta neurona aprendio a trazar.
+
+Por eso este modelo se opone, al menos parcialmente, a la idea clasica de que pensar consiste en manipular simbolos explicitamente codificados. Aqui lo que tenemos son patrones distribuidos de activacion que van aprendiendo regularidades del mundo.
 
 ### Frase puente
 
@@ -195,13 +341,25 @@ Pero para que esas capas aprendan algo, tiene que haber un proceso de entrenamie
 
 ### Que decir
 
-En esta slide se ve muy bien que aprender no es magia. La red recibe una entrada, produce una salida, se compara con la respuesta esperada y a partir de ese error se ajustan los pesos.
+En esta slide se ve muy bien que aprender no es magia. El entrenamiento es un ciclo de cuatro pasos que se repite miles de veces. Vamos fase por fase con la animacion.
 
-Vamos fase por fase. Primero se presenta un punto del espacio. La red genera una prediccion. Luego se mide el error: que tan equivocada estuvo. Despues se calcula como cada conexion contribuyo a ese error. Y finalmente se actualizan los pesos para que la proxima vez el error sea menor.
+`[Siguiente → PRESENTAR]`
 
-Fijense en la frontera de decision: cada epoca de entrenamiento, la red aprende a separar mejor las clases. El conocimiento no queda guardado en una instruccion concreta, sino en la reorganizacion progresiva de los pesos.
+La fase verde: se presenta un punto del espacio bidimensional. Tiene coordenadas (x, y) y una etiqueta correcta, clase 0 o clase 1. La red lo recibe como entrada y ejecuta un forward pass: produce una prediccion numerica. Todavia no sabe si se equivoco.
 
-Eso es aprendizaje supervisado. La red no descubre sola si acerto o no: necesita que alguien, o algo, le diga cual era la salida correcta.
+`[Siguiente → EVALUAR]`
+
+La fase roja: se mide el error. Se compara la prediccion de la red con la etiqueta real. Si la red dijo 0.8 pero la respuesta correcta era 0, el error es grande. Si dijo 0.85 y la respuesta era 1, el error es pequeno. Cuantificar el error es lo que hace posible mejorarlo.
+
+`[Siguiente → CALCULAR EP]`
+
+La fase amarilla: se calcula el error por peso, la contribucion de cada conexion individual al error total. Esto es lo que hace la retropropagacion, que veremos en detalle en la siguiente slide. Lo importante aqui es que no es arbitrario: cada peso recibe una senal precisa de cuanto contribuyo al error y en que direccion hay que corregirlo.
+
+`[Siguiente → ACTUALIZAR]`
+
+La fase violeta: se actualizan los pesos en la direccion que reduce el error. Cada conexion se ajusta un pequeño paso. El conocimiento no queda guardado en una instruccion concreta, sino en la reorganizacion progresiva de todos los pesos de la red.
+
+Fijense en la frontera de decision: con cada epoca de entrenamiento, la red aprende a separar mejor las dos clases de la espiral. La curva de error abajo cae monotonamente. Eso es aprendizaje supervisado: la red no descubre sola si acerto, necesita una señal externa que le diga cual era la salida correcta.
 
 Por eso Hinton fue tan influyente: convierte el aprendizaje en un proceso gradual, cuantificable y visible. La red no aplica una regla ya dada: se transforma a si misma mediante entrenamiento.
 
@@ -221,17 +379,39 @@ Ahora bien, el mecanismo que hace posible ese ajuste eficiente de pesos es preci
 
 ### Que decir
 
-La retropropagacion del error es probablemente el centro tecnico del texto. La idea es calcular como contribuye cada peso al error final para corregirlo de manera eficiente.
+La retropropagacion del error es el centro tecnico del texto. La idea es calcular como contribuye cada peso al error final para corregirlo de manera eficiente.
 
-Historicamente esto es interesante. En 1974 Werbos lo descubrio en su tesis doctoral. Nadie lo escucho. En 1982 dos grupos independientes lo redescubrieron. En 1986 Hinton, Rumelhart y Williams lo publicaron en Nature y el mundo finalmente lo vio. Costo doce anos que el campo lo adoptara.
+Historicamente esto es interesante. En 1974 Werbos lo descubrio en su tesis doctoral, nadie lo escucho. En 1982 dos grupos independientes lo redescubrieron. En 1986 Hinton, Rumelhart y Williams lo publicaron en Nature. Costo doce anos que el campo lo adoptara.
 
-Lo mas importante aqui no es memorizar las formulas, sino entender la intuicion: el error final se propaga hacia atras y reparte responsabilidad a traves de la red. Despues, los pesos se actualizan en la direccion que reduce ese error.
+`[Click → Boton "Forward"]`
 
-Los cuatro pasos son: calcular el error de activacion en la capa de salida; ponderarlo por la derivada de la funcion de activacion; derivar el error de cada peso individual; y propagar ese error hacia la capa anterior para repetir el proceso.
+Primero el pase hacia adelante: la señal entra a la izquierda en verde y avanza hacia la salida. La red genera una prediccion. Hasta aqui no hay aprendizaje.
+
+`[Click → Boton "Backprop"]`
+
+Ahora activamos la retropropagacion. Las particulas rojas fluyen de derecha a izquierda: el error sale de la capa de salida y viaja hacia atras a traves de toda la red. Fijense en el color de las conexiones: las mas rojas son las que cargaron mas responsabilidad en el error.
+
+Ahora vamos paso por paso con los cuatro cuadros de abajo.
+
+`[Click → Paso 1: Error de activacion]`
+
+El primer paso es calcular la diferencia entre lo que la red produjo y lo que debia producir. Ese numero es el error de activacion de la neurona de salida. Sin este numero, nada de lo que sigue es posible.
+
+`[Click → Paso 2: Error de entrada]`
+
+El segundo paso pondera ese error por la derivada de la funcion de activacion. La sigmoide tiene una pendiente que varia segun donde este la neurona. Una pendiente cercana a cero significa que ese peso contribuyo poco al error aunque tuviese un valor grande. La derivada distribuye la culpa de forma proporcional.
+
+`[Click → Paso 3: Error del peso]`
+
+El tercer paso calcula el error por peso individual: cuanto debe cambiar exactamente cada conexion para reducir el error. Es el gradiente concreto de la funcion de perdida respecto a ese peso.
+
+`[Click → Paso 4: Propagar atras]`
+
+El cuarto paso propaga ese error hacia la capa anterior para repetir el proceso. El mismo ciclo se aplica a cada capa hasta llegar a la entrada. Al final todos los pesos tienen su señal de correccion.
 
 Eso hizo posible entrenar redes multicapa de forma efectiva. Sin retropropagacion, el conexionismo habria sido mucho menos convincente como programa de investigacion.
 
-Pero aqui aparece una dificultad que no hay que esconder: este algoritmo funciona extraordinariamente bien, aunque no parezca biologicamente plausible en sentido estricto.
+Pero aqui aparece una dificultad que no hay que esconder: este algoritmo funciona extraordinariamente bien, aunque no parezca biologicamente plausible en sentido estricto. El cerebro no tiene un canal de error que fluya hacia atras por las mismas sinapsis.
 
 ### Frase puente
 
@@ -498,22 +678,50 @@ Con eso llegamos a la convergencia: que pasa cuando se comparan directamente neu
 
 ### Que mostrar
 
-- Arco de tres autores: Daugman (□ — metafora historica) / Hinton (◇ — apuesta empirica) / Bechtel (? — que cuenta como representacion).
-- Las tesis de cada autor y su implicacion para la presentacion.
+- Timeline en serpentina con 12 hitos: 3 filas de 4 nodos, cada uno clickeable para expandir detalle.
+- Fila 1 (PRE-HISTORIA 1943-1969): McCulloch-Pitts / Hebb / Rosenblatt / Minsky-Papert.
+- Fila 2 (RENACIMIENTO 1974-1998): Werbos / Rumelhart / Hinton ★ / LeCun.
+- Fila 3 (ERA MODERNA 2012-2024): AlexNet / Transformers / GPT-3 / LLMs.
+- Hinton 1992 destacado con borde violeta pulsante y etiqueta "PROTAGONISTA".
+- Panel de realizabilidad multiple: Putnam / Fodor / Tension.
+- Frase de cierre: "Hinton no afirma una verdad eterna — apuesta en un programa de investigacion."
+- Badges: ◇CONV_POSS y ◇¬BRAIN_COMP.
 
 ### Que decir
 
-Llegamos al momento de ubicar el texto de Hinton dentro del arco mas amplio del curso.
+Para entender el peso historico del texto de Hinton, hay que verlo en perspectiva. Esta timeline muestra ochenta anos de historia en un solo golpe de vista.
 
-Daugman nos advirtio que toda teoria del cerebro viene acompanada de la metafora tecnologica de su epoca. Antes fue la hidraulica, luego la relojeria, luego el telegrafo. Ahora es la computadora. Eso no invalida a Hinton, pero obliga a preguntarse si la computacion es el lenguaje final o simplemente el lenguaje vigente.
+`[Click en McCulloch-Pitts 1943]`
 
-Hinton mismo no reclama haber encontrado la verdad definitiva. Su apuesta es que el aprendizaje distribuido puede modelar cognicion sin reglas simbolicas explicitas. Funciona como herramienta. Si ademas explica el cerebro, eso es una apuesta empirica que sigue abierta, no un hecho establecido.
+Todo empieza aqui. En 1943, McCulloch y Pitts formalizan matematicamente la primera neurona artificial: un umbral logico binario. No aprendia nada, pero dio el lenguaje matematico que todo lo posterior hereda.
 
-Y Bechtel nos deja con la pregunta mas dificil: que es exactamente una representacion mental? Cuando Hinton dice que las unidades ocultas forman representaciones, eso exige responder que condiciones hacen que algo cuente como representacion en sentido real. La convergencia entre cerebro y red no puede afirmarse antes de responder eso.
+`[Click en Hebb 1949]`
 
-Treinta anos despues, es evidente que muchas intuiciones de Hinton fueron enormemente fecundas. El aprendizaje distribuido, las redes multicapa y la idea de representaciones internas transformaron la investigacion en inteligencia artificial.
+Hebb formula la primera regla de aprendizaje: las neuronas que se activan juntas se conectan. Sin supervision, sin error calculado. Solo correlacion. Es la base de la plasticidad sinaptica computacional.
 
-Pero la pregunta filosofica sigue abierta.
+`[Click en Minsky-Papert 1969]`
+
+En 1969 llega la crisis. Minsky y Papert demuestran que una sola capa no puede resolver XOR. El primer invierno de la IA congela el campo durante mas de una decada.
+
+`[Click en Werbos 1974]`
+
+La solucion al XOR ya existia en 1974: la tesis doctoral de Werbos describia la retropropagacion del error. Nadie lo escucho.
+
+`[Click en Hinton 1992]`
+
+Aqui esta nuestro protagonista. Hinton — junto con Rumelhart en 1986 — demuestra que backprop funciona en redes multicapa. En 1992 escribe el articulo de Scientific American que estamos analizando: representaciones distribuidas, capas ocultas, aprendizaje sin reglas explicitas. No es un dogma, es una apuesta en un programa de investigacion.
+
+`[Click en AlexNet 2012]`
+
+El 2012 es el punto de no retorno. AlexNet gana ImageNet con una brecha de 10 puntos porcentuales. GPUs + datos masivos + dropout. Empieza el Deep Learning como paradigma dominante.
+
+`[Click en LLMs 2024]`
+
+Y aqui estamos en 2024. Agentes generativos, razonamiento emergente, multimodalidad. La pregunta filosofica que Hinton dejo abierta en 1992 ahora pesa mas que nunca: estas redes explican el cerebro, o son una nueva ontologia computacional sin analogo biologico?
+
+Miren abajo el panel de realizabilidad multiple. Putnam en 1967 dijo que lo que define un estado mental es la funcion, no el material. Fodor extendio eso: la psicologia puede ser autonoma respecto a la neurociencia. Pero hay una tension critica: si el sustrato importa, si hay algo en la biologia que no se puede capturar funcionalmente, la equivalencia se rompe. Y eso es exactamente lo que esta en disputa cuando preguntamos si las redes de Hinton explican el cerebro.
+
+El badge ◇ que ven abajo dice que la convergencia es posible, no necesaria. En logica modal K, ◇P significa que hay un mundo posible donde P es verdadero. Que las redes y el cerebro converjan funcionalmente es coherente con los datos. Que eso implique convergencia mecanistica es una apuesta, no una prueba.
 
 ### Frase puente
 
