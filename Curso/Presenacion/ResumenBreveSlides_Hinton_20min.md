@@ -35,6 +35,8 @@ Este archivo está pensado como machete limpio para hablar sin leer. Cada slide 
 
 **Decir:** “La neurona real es compleja, pero Hinton retiene algo crucial: la experiencia cambia la eficacia de las conexiones. La información no vive en un punto; está distribuida.”
 
+**Orden interno:** Dendrita → Soma → Axón → Sinapsis. Si vas muy rápido, deja el peso conceptual en `Sinapsis`.
+
 **Siguiente:** “Con esa idea mínima aparece la neurona artificial.”
 
 ---
@@ -65,6 +67,8 @@ Este archivo está pensado como machete limpio para hablar sin leer. Cada slide 
 
 **Decir:** “La red produce una salida, compara con la correcta y ajusta sus conexiones. El conocimiento queda inscrito en los pesos, no en una regla escrita de antemano.”
 
+**Orden interno:** Presentar → Evaluar → Calcular error → Actualizar.
+
 **Siguiente:** “La herramienta técnica que permite eso es la retropropagación.”
 
 ---
@@ -74,6 +78,8 @@ Este archivo está pensado como machete limpio para hablar sin leer. Cada slide 
 **Idea central:** la retropropagación vuelve entrenables las redes multicapa.
 
 **Decir:** “El error se reparte hacia atrás para corregir eficientemente los pesos. Fue decisiva para el conexionismo, pero abre un problema: funciona muy bien sin ser claramente plausible como mecanismo biológico.”
+
+**Orden interno:** Forward pass → Backprop pass → Error de activación → Error de entrada → Error del peso → Propagar hacia atrás.
 
 **Siguiente:** “Y ahí aparece la pregunta filosófica fuerte.”
 
@@ -105,10 +111,13 @@ Este archivo está pensado como machete limpio para hablar sin leer. Cada slide 
 
 **Decir:** “La pregunta es cómo aprender sin etiquetas. Hinton responde que una buena representación debe ser económica y reconstructiva: comprimir sin destruir.”
 
+**Orden interno:** Apertura → tab `PCA` → tab `Competitivo` → tab `Kohonen` → tab `Hebb` → tabla comparativa.
+
 **Apoyo rápido:**
 - `PCA`: descubre estructura sin maestro.
+- `Competitivo`: diferencia categorías sin etiquetas previas.
+- `Kohonen`: ordena topológicamente patrones semejantes.
 - `Hebb`: aprendizaje local, más plausible biológicamente.
-- Competitivo/Kohonen: mencionarlos en una frase si hay tiempo.
 
 **Siguiente:** “Entonces surge otra pregunta: dónde está una representación.”
 

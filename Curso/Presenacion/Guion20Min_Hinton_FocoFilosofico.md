@@ -6,6 +6,8 @@ Este guion está pensado para la presentación web real de `RedesNeuronalesFilos
 
 No está hecho para leerlo literal. Está hecho para hablar con soltura, llegar bien a los 20 minutos y dejar más espacio a lo filosófico que a lo técnico.
 
+Además, esta versión **preserva la lógica interna de los slides que avanzan por pasos**. O sea: cuando en el guion largo un slide depende de clics, tabs o fases sucesivas, aquí también aparece esa secuencia, solo que más comprimida.
+
 ## Tesis que debe quedar al final
 
 **Hinton no demuestra que el cerebro sea una computadora; propone un programa de investigación en el que aprender significa formar representaciones internas distribuidas mediante ajuste de conexiones.**
@@ -86,6 +88,24 @@ Mi tesis de lectura será esta: **Hinton abre un programa de investigación fecu
 
 La neurona biológica es materialmente compleja: dendritas, soma, axón, sinapsis, plasticidad. Hinton no intenta copiar toda esa complejidad.
 
+### Paso 1 — clic en Dendrita
+
+Aquí conviene decir algo muy breve: las dendritas reciben señales de otras neuronas. En el modelo artificial, esto se conserva como entrada. Ya desde aquí aparece una simplificación decisiva: muchas señales distintas terminan tratadas como un vector.
+
+### Paso 2 — clic en Soma
+
+El soma integra lo que llega. Si se supera cierto umbral, la neurona dispara. En la red artificial, este momento reaparece como función de activación. Lo importante filosóficamente es que Hinton abstrae una operación y deja de lado gran parte del sustrato material.
+
+### Paso 3 — clic en Axón
+
+El axón conduce la señal. En la red artificial, esto se vuelve simplemente salida. Aquí puedes decir en una frase que el modelo sacrifica conducción real, tiempo y mielina para ganar tratabilidad.
+
+### Paso 4 — clic en Sinapsis
+
+Este es el paso más importante del slide. La sinapsis cambia con la experiencia. Eso es lo que Hinton conserva como núcleo del aprendizaje: **aprender es modificar conexiones**. En la red artificial, la sinapsis reaparece como peso.
+
+### Cierre del slide
+
 Lo que conserva es algo más abstracto pero crucial: **aprender consiste en cambiar la eficacia de las conexiones**. La información no está en una sola neurona aislada, sino distribuida en muchísimas relaciones sinápticas.
 
 Ese punto ya anticipa la tesis central: el aprendizaje no es una regla escrita desde afuera, sino una reorganización interna del sistema.
@@ -134,6 +154,24 @@ En otras palabras, el conocimiento no está programado desde afuera; se forma de
 
 Aprender, en la versión supervisada, significa algo bastante concreto: la red recibe una entrada, genera una salida, compara esa salida con la correcta y ajusta sus pesos.
 
+### Paso 1 — PRESENTAR
+
+Entra un dato. Basta con decir: la red todavía no sabe; solo recibe una configuración de entrada.
+
+### Paso 2 — EVALUAR
+
+La red produce una predicción. Aquí aparece la comparación entre lo que dijo la red y la respuesta correcta.
+
+### Paso 3 — CALCULAR ERROR
+
+El punto clave es que el error no es solo una sanción externa; se convierte en información utilizable para modificar la red.
+
+### Paso 4 — ACTUALIZAR
+
+Los pesos cambian y con eso cambia la frontera de decisión. Aquí puedes subrayar la idea filosófica central: **el aprendizaje queda inscrito en la estructura interna del sistema**.
+
+### Cierre del slide
+
 Lo importante no es memorizar el procedimiento, sino notar su consecuencia filosófica: **el conocimiento queda encarnado en los pesos**, no en una regla verbalizable. La red cambia su estructura interna a partir del error.
 
 Eso convierte el aprendizaje en un proceso visible, gradual y cuantificable.
@@ -149,6 +187,32 @@ Eso convierte el aprendizaje en un proceso visible, gradual y cuantificable.
 ### Qué decir
 
 La retropropagación permite repartir hacia atrás la responsabilidad por el error y corregir los pesos de manera eficiente.
+
+### Paso 0 — Forward pass
+
+Primero la información avanza hacia adelante. Conviene decirlo simple: la red produce una salida a partir de las activaciones de sus capas.
+
+### Paso 0b — Backprop pass
+
+Luego aparece el movimiento inverso: el error vuelve hacia atrás. Esta inversión es justamente lo que vuelve tan potente al algoritmo y tan problemática su plausibilidad biológica.
+
+### Paso 1 — Error de activación
+
+Se calcula la diferencia entre salida obtenida y salida esperada. Aquí nace el error como magnitud formal.
+
+### Paso 2 — Error de entrada
+
+Ese error se pondera por la derivada de la activación. No hace falta detenerse mucho: basta con decir que el algoritmo mide cuánto puede corregirse efectivamente cada unidad.
+
+### Paso 3 — Error del peso
+
+Se distribuye responsabilidad a cada conexión. Este paso importa mucho porque vuelve localizable algo que al comienzo era global: el error total.
+
+### Paso 4 — Propagar hacia atrás
+
+El error sigue viajando a la capa anterior y el proceso se repite. Aquí puedes dejar la frase filosófica fuerte: **la red aprende porque el error se vuelve una forma de causalidad interna**.
+
+### Cierre del slide
 
 Históricamente fue decisiva porque hizo entrenables las redes multicapa. Sin ella, el conexionismo habría sido mucho menos convincente.
 
@@ -200,17 +264,39 @@ Esta es la parte más filosófica del texto. La pregunta es: **¿cómo puede una
 
 La respuesta general de Hinton es que una buena representación debe cumplir dos condiciones: ser **económica** y ser **reconstructiva**. Es decir, debe comprimir sin destruir del todo la señal.
 
-Aquí yo recomiendo usar solo dos ejemplos fuertes y mencionar los otros dos muy rápido.
+### Apertura del slide
 
-#### PCA
+Antes de tocar los tabs, di esto con calma: hasta ahora había maestro, etiquetas y corrección externa. Aquí Hinton pregunta cómo puede surgir una representación sin instructor omnisciente. Ese es el centro filosófico del slide.
+
+> **[Siguiente → clic en tab 9a]**
+
+### Paso 1 — Tab 9a: PCA
 
 Con `PCA`, la idea es que la red descubre correlaciones y reduce redundancia. Filosóficamente esto importa porque muestra que una estructura relevante puede emerger de los datos mismos, sin maestro externo.
 
-#### Hebb
+Si quieres una fórmula oral muy corta: de muchos datos redundantes pasamos a pocas dimensiones significativas.
+
+> **[Siguiente → clic en tab 9b]**
+
+### Paso 2 — Tab 9b: Competitivo
+
+Aquí la idea ya no es tanto comprimir como categorizar. Una unidad gana y se especializa. Di solo lo esencial: el sistema empieza a diferenciar tipos de patrones sin que nadie le haya dado las categorías por adelantado.
+
+> **[Siguiente → clic en tab 9c]**
+
+### Paso 3 — Tab 9c: Kohonen
+
+Kohonen agrega vecindad topológica. Cuando una unidad gana, arrastra a sus vecinas. Este es el paso donde conviene subrayar la cercanía con el cerebro: patrones semejantes terminan representados en posiciones cercanas.
+
+> **[Siguiente → clic en tab 9d]**
+
+### Paso 4 — Tab 9d: Hebb
 
 Con `Hebb`, aparece la alternativa más biológicamente plausible: las neuronas que se activan juntas fortalecen su conexión. Aquí no hay una señal global de error; hay cambios locales. Y eso vuelve a abrir la gran tensión del texto: **retropropagación es más potente; Hebb es más plausible biológicamente**.
 
-Si te queda aire, agrega en una sola frase: competitivo y Kohonen muestran otras formas de autoorganización y clasificación sin etiquetas.
+### Después de los tabs — Tabla comparativa
+
+Cuando queda la tabla visible, cierra el slide así: todos estos modelos intentan resolver el mismo problema — reducir redundancia sin destruir estructura. La diferencia es que los más potentes suelen ser menos biológicamente plausibles, y los más plausibles suelen ser menos potentes.
 
 ### Puente
 
