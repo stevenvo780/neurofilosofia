@@ -52,6 +52,10 @@ Si quieres abrir formalmente puedes decir:
 
 > "Pueden escanear el QR para seguir la presentacion desde su movil. La aplicacion es interactiva — en cualquier momento pueden explorar los diagramas desde su pantalla."
 
+`[Click → Boton QR / "Acceso movil"]`
+
+Al hacer clic aparece el modal con el codigo QR y el enlace directo. Deja unos segundos para que el publico escanee. Cierra el modal con Escape o volviendo a hacer clic, y luego avanzas al slide siguiente.
+
 Luego avanzas al slide siguiente y arranca el guion propiamente dicho.
 
 ### Nota practica
