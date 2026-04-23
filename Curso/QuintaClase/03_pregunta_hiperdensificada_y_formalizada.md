@@ -2,29 +2,35 @@
 
 ## Version breve para el profesor analitico
 
-Si asumimos monismo material, pero aceptamos que nuestras particiones teoricas no tienen por que coincidir con categorias psicologicas ordinarias, es epistemicamente licito modelar fenomenos complejos mediante estructuras relacionales mas austeras -por ejemplo grafos, hipergrafos o sistemas de variables y funciones- usando esos marcos no solo para describir dependencias, sino tambien para fijar hasta donde conviene explicar y hasta donde conviene computar? Mi intuicion es que un subproceso emergente puede abrirse como hipergrafo cuando su detalle importa, o contraerse en un nodo cuando ese detalle ya no cambia la inferencia relevante. Mi duda, sobre todo en clave analitica, es si ese salto formal aumenta poder explicativo real o si solo cambia el vocabulario y pierde el nivel psicologico o sistemico que el emergentismo quiere resguardar.
+Si parto de un monismo material, pero acepto que mis particiones teoricas no tienen por que coincidir con categorias psicologicas ordinarias, me pregunto si es epistemicamente licito modelar fenomenos complejos distinguiendo entre grafos multivariables como aproximacion formal mas cercana al sustrato e hipergrafos o clases como abstracciones teoricas de orden superior. Mi intuicion es que esos marcos sirven no solo para describir dependencias, sino tambien para fijar hasta donde conviene explicar y hasta donde conviene computar. Un subproceso puede abrirse como hipergrafo cuando su detalle importa, o contraerse en un nodo cuando ese detalle ya no cambia la inferencia relevante. Mi duda, sobre todo en clave analitica, es si ese salto formal aumenta poder explicativo real o si solo cambia el vocabulario y pierde el nivel psicologico o sistemico que el emergentismo quiere resguardar.
 
 ## Version hiperdensa
 
-Sea `S` un sustrato material, sea `Q` una pregunta explicativa y sea `M_Q` un modelo tal que:
+Sea `S` un sustrato material, sea `Q` una pregunta explicativa, sea `G_Q` un grafo multivariable definido sobre `S` y sea `M_Q` un modelo de orden superior tal que:
 
-- `M_Q = (V, E, H, X, F)`
+- `G_Q = (V, E, X, F)`
 - `V`: componentes o unidades relevantes;
 - `E`: relaciones binarias;
-- `H`: relaciones de aridad mayor que 2;
 - `X`: variables de estado;
 - `F`: reglas de actualizacion o dinamica.
 
-Sea ademas `kappa_Q` un operador de contraccion tal que toma un subhipergrafo `G*` de `M_Q` y lo reemplaza por un nodo `n_G*` cuando el detalle interno de `G*` deja de ser inferencialmente relevante para `Q`.
+Sea ademas `M_Q = (G_Q, H, C)` donde:
+
+- `H`: relaciones de aridad mayor que 2 definidas sobre `G_Q`;
+- `C`: clases o agrupamientos teoricos definidos sobre patrones de `G_Q`.
+
+Sea ademas `kappa_Q` un operador de contraccion tal que toma un subgrafo o subhipergrafo `G*` de `M_Q` y lo reemplaza por un nodo `n_G*` cuando el detalle interno de `G*` deja de ser inferencialmente relevante para `Q`.
 
 Supongamos que:
 
-- no postulamos `M_Q` como sustancia extra, sino como formalizacion de dependencias en `S`;
+- `G_Q` es la aproximacion formal mas cercana al sustrato `S`;
+- `M_Q` no es una sustancia extra, sino una organizacion epistemica construida sobre `G_Q`;
 - las particiones de `V` y `H` son teorico-relativas;
+- las clases `C` no son materiales, sino abstracciones definidas para fines explicativos;
 - `kappa_Q` no elimina arbitrariamente estructura, sino que preserva las dependencias necesarias para responder `Q`;
 - ciertos terminos mentalistas `P = {mente, memoria, creencia, ...}` no se toman como primitivos.
 
-La pregunta es:
+Mi pregunta es:
 
 `bajo que condiciones una descripcion de S mediante M_Q y kappa_Q puede reemplazar legitimamente a P sin perdida explicativa relevante?`
 
@@ -41,7 +47,7 @@ entonces:
 - `phi_Q` es solo una traduccion nominal;
 - o bien produce una mejora explicativa en virtud de mayor precision, poder predictivo, intervencion, ajuste mecanicista y tractabilidad computacional.
 
-La cuestion es si el pasaje
+Mi cuestion es si el pasaje
 
 `P -> C(M_Q)`
 
@@ -60,7 +66,7 @@ Y todavia mas precisamente:
 Mi pregunta es si puede defenderse un esquema asi:
 
 - ontologia: monismo material;
-- metodologia: formalizacion estructural multinivel con expansion y compresion controladas;
+- metodologia: grafos multivariables sobre el sustrato y formalizacion estructural multinivel con expansion y compresion controladas;
 - semantica teorica: irrealismo local respecto de los cortes;
 - epistemologia: pluralismo explicativo restringido por evidencia, capacidad inferencial y tractabilidad.
 
@@ -82,7 +88,7 @@ Si:
 - `L2 =` lenguaje neurobiologico local exhaustivo;
 - `L3 =` lenguaje estructural-relacional formal obtenido por compresion controlada.
 
-La pregunta es si puede ocurrir que:
+Mi pregunta es si puede ocurrir que:
 
 `Exp(L3, Phi) >= Exp(L1, Phi)`
 
@@ -102,4 +108,4 @@ En ese caso, la duda es:
 
 ## Version ultra corta
 
-Aceptado un monismo material, quisiera preguntarle si es licito reemplazar parte del vocabulario mentalista por una formalizacion estructural mas austera -por ejemplo en terminos de grafos, hipergrafos y dinamicas de variables- sin reificar el modelo, y si ademas es licito contraer subestructuras complejas en nodos cuando ese recorte preserva lo explicativamente relevante y vuelve el modelo tratable. Mi duda es si eso cuenta como mejora explicativa real o solo como cambio de lenguaje que pierde fenomeno.
+Aceptado un monismo material, quisiera preguntarle si es licito reemplazar parte del vocabulario mentalista por una formalizacion estructural mas austera, distinguiendo entre grafos multivariables como aproximacion formal al sustrato e hipergrafos o clases como abstracciones epistemicas, y si ademas es licito contraer subestructuras complejas en nodos cuando ese recorte preserva lo explicativamente relevante y vuelve el modelo tratable. Mi duda es si eso cuenta como mejora explicativa real o solo como cambio de lenguaje que pierde fenomeno.

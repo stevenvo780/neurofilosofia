@@ -1,8 +1,8 @@
-# Dos posturas de la clase segun lo que captaste
+# Dos posturas de la clase segun lo que capte
 
 ## Advertencia
 
-Esto no pretende ser transcripcion literal. Es una reconstruccion fuerte y ordenada de las dos orientaciones que aparecieron en clase segun tu escucha.
+Esto no pretende ser transcripcion literal. Es una reconstruccion fuerte y ordenada de las dos orientaciones que aparecieron en clase segun mi escucha.
 
 ## 1. Postura analitica-revisionista o eliminativista moderada
 
@@ -122,23 +122,23 @@ La otra teme que se confunda austeridad con explicacion suficiente.
 
 Por eso la friccion real tambien pasa por el criterio de recorte: que puede contraerse sin perdida y que debe mantenerse desplegado para que la explicacion siga siendo adecuada.
 
-## 4. Tu punto de intervencion
+## 4. Mi punto de intervencion
 
-Tu intervencion no coincide por completo con ninguna de las dos.
+Mi intervencion no coincide por completo con ninguna de las dos.
 
-Tomas de la primera:
+Tomo de la primera:
 
 - la exigencia de no reificar categorias comunes;
 - la preferencia por formalizacion y austeridad;
 - la idea de que no todo termino heredado merece sobrevivir.
 
-Tomas de la segunda:
+Tomo de la segunda:
 
 - la importancia de estructura, organizacion y dependencia global;
 - la idea de que el nivel local no agota la inteligibilidad;
 - la necesidad de modelos para complejidad.
 
-Y propones una tercera formulacion:
+Y propongo una tercera formulacion:
 
 - monismo material;
 - modelos estructurales relacionales multinivel;
@@ -147,9 +147,9 @@ Y propones una tercera formulacion:
 - explicacion mas austera que el mentalismo comun;
 - pero mas rica que el reduccionismo puramente local.
 
-## 5. Donde tu pregunta presiona mas al profesor analitico
+## 5. Donde mi pregunta presiona mas al profesor analitico
 
-Tu pregunta, en el fondo, presiona mas a la postura analitica que a la sistemica.
+Mi pregunta, en el fondo, presiona mas a la postura analitica que a la sistemica.
 
 Si el profesor analitico acepta que muchas categorias mentales deben depurarse cuando no agregan poder explicativo, entonces parece que tambien deberia aceptar algo mas:
 
@@ -157,7 +157,7 @@ Si el profesor analitico acepta que muchas categorias mentales deben depurarse c
 - que la legitimidad de ese recorte no depende solo de eliminar palabras, sino de preservar dependencias relevantes;
 - que el ahorro computacional y la tractabilidad tambien importan como virtudes epistemicas.
 
-Tu desafio no es entonces defender una metafisica exuberante, sino preguntar:
+Mi desafio no es entonces defender una metafisica exuberante, sino preguntar:
 
 `bajo que condiciones es licito contraer un hipergrafo explicativo a un nodo sin empobrecer el fenomeno?`
 
@@ -171,6 +171,6 @@ La postura sistemica pregunta:
 
 `que patrones globales se pierden si simplificamos demasiado?`
 
-Tu pregunta agrega:
+Mi pregunta agrega:
 
 `podemos reemplazar parte del vocabulario mentalista por una formalizacion relacional suficientemente precisa, usando ademas compresion y expansion controladas, sin caer ni en eliminacion vacia ni en emergencia imprecisa?`

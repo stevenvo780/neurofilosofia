@@ -2,29 +2,30 @@
 
 ## 1. Punto de partida
 
-La inquietud central es esta:
+Mi inquietud central es esta:
 
 si aceptamos una ontologia monista minima, donde todo lo real relevante para la explicacion empirica es material, entonces parece posible describir fenomenos complejos sin comprometerse de entrada con categorias psicologicas densas como `mente`, `memoria`, `creencia`, `yo` o incluso `representacion`, al menos en su version ordinaria.
 
-Desde ahi surge una sospecha metodologica:
+Desde ahi surge mi sospecha metodologica:
 
-tal vez una parte importante del trabajo explicativo puede formularse con estructuras relacionales suficientemente generales, por ejemplo grafos, hipergrafos, redes dinamicas, sistemas de variables y funciones de actualizacion, sin asumir que esas estructuras sean entidades sustantivas adicionales. En ese caso, el hipergrafo no seria una nueva sustancia ni un segundo plano de realidad, sino un aparato formal para recortar dependencias, agrupamientos, restricciones y modos de organizacion.
+tal vez una parte importante del trabajo explicativo puede formularse con estructuras relacionales suficientemente generales, por ejemplo grafos multivariables, hipergrafos, redes dinamicas, sistemas de variables y funciones de actualizacion, sin asumir que esas estructuras sean entidades sustantivas adicionales. Pero aqui conviene distinguir niveles: el grafo, con sus variables y dependencias, seria lo mas cercano al sustrato que el modelo puede ofrecer; en cambio, el hipergrafo y las clases estructurales serian construcciones epistemicas de orden superior para recortar agrupamientos, restricciones y modos de organizacion.
 
-La tesis tentativa no seria entonces:
+Mi tesis tentativa no seria entonces:
 
 - `el hipergrafo existe materialmente como cosa aparte`;
 
 sino mas bien:
 
 - `el sustrato material existe`;
-- `el modelo hipergrafico organiza formalmente relaciones en ese sustrato`;
-- `las categorias usadas por el modelo son delimitaciones teoricas`;
+- `el grafo multivariable es la aproximacion formal mas cercana al sustrato`;
+- `el hipergrafo y las clases organizan y comprimen epistemicamente patrones del grafo`;
+- `las categorias usadas por el modelo son delimitaciones teoricas no materiales`;
 - `el modelo tambien fija hasta donde conviene explicar y hasta donde conviene computar`;
 - `esas delimitaciones pueden ser mas austeras y mas precisas que el vocabulario psicologico ordinario`.
 
 ## 2. El problema filosofico
 
-La pregunta aparece cuando se cruzan tres intuiciones:
+Mi pregunta aparece cuando se cruzan tres intuiciones:
 
 1. La intuicion eliminativista o revisionista:
    algunos conceptos de la psicologia ordinaria pueden ser demasiado groseros, pedagogicos o historicamente contingentes para una teoria madura.
@@ -45,7 +46,7 @@ El problema es decidir si este paso es legitimo y que precio paga:
 
 ## 3. Relacion con la tension de la clase
 
-Segun lo que captaste, una postura de la clase insistia en que ciertos conceptos como `mente` o `memoria` podrian retirarse sin perdida fuerte de nivel explicativo. Esa posicion se acerca, al menos metodologicamente, a una exigencia analitica:
+Segun lo que capte, una postura de la clase insistia en que ciertos conceptos como `mente` o `memoria` podrian retirarse sin perdida fuerte de nivel explicativo. Esa posicion se acerca, al menos metodologicamente, a una exigencia analitica:
 
 - no multiplicar entidades o vocabularios si no agregan capacidad predictiva o mecanicista;
 - no confundir utilidad pedagogica con necesidad teorica;
@@ -58,7 +59,7 @@ La otra postura, que hablaba mas en clave emergentista o sistemica, parecia reco
 - distintos niveles de descripcion pueden conservar autonomia relativa;
 - una teoria del fenomeno debe captar coordinacion, no solo localizacion.
 
-Tu pregunta intenta empujar ambas posiciones al mismo tiempo.
+Mi pregunta intenta empujar ambas posiciones al mismo tiempo.
 
 Pero la presion principal recae sobre la postura analitica. Si esa postura sostiene que debemos retirar conceptos vagos cuando no agregan poder explicativo, entonces tambien debe decir bajo que condiciones es licito contraer una estructura compleja en una unidad teorica mas simple sin mutilar el fenomeno.
 
@@ -72,7 +73,7 @@ Sino algo mas fino:
 
 ## 4. La analogia con grandes redes neuronales
 
-La intuicion que traes desde el analisis contemporaneo de grandes redes neuronales es importante.
+La intuicion que traigo desde el analisis contemporaneo de grandes redes neuronales es importante.
 
 En esos sistemas, muchas veces no se parte nombrando componentes con categorias psicologicas robustas. Se trabaja con:
 
@@ -99,36 +100,38 @@ Pero ese ejemplo tambien impone un limite:
 
 en redes neuronales artificiales, llamar a algo `memoria` o `atencion` ya involucra una decision teorica y no solo una observacion neutra. Por eso el uso de formalismos no elimina por completo el problema filosofico; solo lo desplaza a la eleccion del marco y a las condiciones bajo las cuales una variable o un patron merecen un nombre.
 
-## 5. Ontologia minima y estatuto del hipergrafo
+## 5. Ontologia minima y estatuto del grafo y del hipergrafo
 
-Tu propuesta puede formularse asi:
+Mi propuesta puede formularse asi:
 
 - Ontologia minima: solo asumimos existencia material del sustrato.
-- Ontologia derivada o debil: los recortes estructurales no son sustancias extras, sino modos de modelar relaciones en el sustrato.
+- Nivel formal basal: el grafo multivariable es el recurso descriptivo mas cercano al sustrato, porque intenta fijar componentes, variables y dependencias sin agregar todavia recortes de orden superior.
+- Nivel epistemico derivado: los hipergrafos, las clases y otras operaciones de agrupamiento no son sustancias extras, sino construcciones teoricas para condensar, reorganizar y hacer tratables patrones definidos sobre el grafo.
 - Realismo moderado: el modelo no es arbitrario si preserva dependencias reales, regularidades estables y constricciones causales.
 - Irrealismo local respecto de los cortes: las fronteras exactas entre nodos, hiperaristas, modulos o niveles pueden depender del interes explicativo y del aparato teorico.
 
 Eso permite evitar dos errores simetricos:
 
 1. Reificar el modelo.
-   Seria tratar al hipergrafo como si fuera una segunda materia.
+   Seria tratar una construccion epistemica como si fuera una entidad material del mismo rango que el sustrato.
 
 2. Disolver el modelo en puro instrumentalismo.
    Seria decir que toda formalizacion es igualmente valida aunque no capture ninguna restriccion real.
 
 La posicion intermedia seria:
 
-el modelo no es la realidad, pero tampoco es una ficcion libre; vale en la medida en que detecta estructura objetivamente anclada en el sustrato material, aunque sus particiones y nombres sean teorico-relativos.
+el modelo no es la realidad, pero tampoco es una ficcion libre; el grafo vale en la medida en que aproxima dependencias objetivamente ancladas en el sustrato material, y el hipergrafo vale en la medida en que organiza epistemicamente esas dependencias sin fingir que constituye una capa material adicional.
 
 ## 6. Granularidad, compresion y costo explicativo
 
-Tu intuicion agrega un punto decisivo: no toda descripcion materialmente verdadera es una descripcion operable.
+Mi intuicion agrega un punto decisivo: no toda descripcion materialmente verdadera es una descripcion operable.
 
 Si intentamos computar a la vez todos los detalles fisicos, biologicos, funcionales y conductuales del sistema, la explicacion se vuelve rapidamente inabordable. Por eso una teoria no solo debe ser ontologicamente sobria; tambien debe ser epistemicamente tratable.
 
 Aqui el hipergrafo cumple una funcion adicional:
 
-- no solo representa relaciones;
+- no es la capa mas cercana al sustrato;
+- opera sobre un grafo previo y sobre sus dependencias;
 - tambien delimita hasta donde conviene abrir detalle y hasta donde conviene comprimirlo;
 - permite decidir que subestructura debe tratarse como proceso interno desarrollado y cual puede contraerse a un nodo unico para la pregunta en curso.
 
@@ -138,7 +141,7 @@ un patron emergente puede aparecer, para una pregunta dada, como un hipergrafo i
 
 Eso no equivale a negar la complejidad del fenomeno. Equivale a sostener que la complejidad debe dosificarse segun el problema explicativo. Una teoria que intenta explicarlo todo al mismo tiempo corre el riesgo de volverse literalmente inoperativa: demasiado cara para computar, demasiado densa para inferir y demasiado saturada para intervenir.
 
-Por eso tu intuicion puede formularse como una tesis de compresion controlada:
+Por eso mi intuicion puede formularse como una tesis de compresion controlada:
 
 - expandimos el modelo cuando el fenomeno exige mas detalle;
 - contraemos el modelo cuando el detalle extra ya no cambia la inferencia pertinente;
@@ -156,11 +159,11 @@ Esto se ve mejor en preguntas de psicologia conductual. Si la pregunta es por la
 
 Pero no necesitamos, para cada pregunta, computar todo el detalle de cada sustrato. A veces bastara con modelar un modulo perceptivo, un circuito valorativo o un patron de aprendizaje como nodo funcional condensado; otras veces habra que volver a abrir ese nodo y desplegar su hipergrafo interno.
 
-En ese sentido, el hipergrafo no es solo un esquema elegante. Es un instrumento para fijar nivel de analisis, controlar complejidad y hacer interoperable la explicacion: lo bastante estricta para una maquina y lo bastante interpretable para una persona.
+En ese sentido, el hipergrafo no es solo un esquema elegante. Es un instrumento epistemico para fijar nivel de analisis, controlar complejidad y hacer interoperable la explicacion: lo bastante estricto para una maquina y lo bastante interpretable para una persona.
 
 ## 8. Donde entra el emergentismo
 
-Tu intuicion no necesita comprometerse con un emergentismo metafisico fuerte.
+Mi intuicion no necesita comprometerse con un emergentismo metafisico fuerte.
 
 No hace falta decir:
 
@@ -175,7 +178,7 @@ Basta con sostener algo mas sobrio:
 
 En este punto, `emergencia` puede entenderse de manera metodologicamente mas sobria: no como nombre de una sustancia nueva, sino como marca de que cierta organizacion debe tratarse, para una pregunta dada, en un nivel donde sus dependencias relevantes sean visibles y tratables.
 
-En ese sentido, tu propuesta puede leerse como:
+En ese sentido, mi propuesta puede leerse como:
 
 - monismo ontologico;
 - pluralismo explicativo controlado;
@@ -206,10 +209,10 @@ Posibles condiciones:
 
 ## 10. Forma final de la inquietud
 
-La inquietud completa podria resumirse asi:
+Mi inquietud completa podria resumirse asi:
 
 si todo lo real en juego es material, pero nuestras particiones conceptuales son en parte construcciones teoricas, entonces quizas convenga describir fenomenos complejos mediante estructuras relacionales formales que capten organizacion, dependencia y dinamica sin asumir desde el inicio categorias mentales densas. Ademas, quizas convenga usar esas estructuras para decidir hasta donde expandir una explicacion y hasta donde comprimirla, de modo que el modelo siga siendo tractable sin perder la forma relevante del fenomeno. La pregunta es si este desplazamiento hacia una descripcion mas analitica y matematizable constituye un avance epistemicamente legitimo o si, por el contrario, sacrifica aspectos esenciales del fenomeno que justamente motivaban nociones como mente, memoria o sujeto.
 
 ## 11. Version lista para decir oralmente
 
-Quiero preguntarle si, aceptando un monismo material, seria licito sustituir parte del vocabulario mentalista por una descripcion estructural mas austera, por ejemplo en terminos de grafos, hipergrafos, variables y relaciones, tratando esas particiones como recortes teoricos sobre un mismo sustrato y no como nuevas entidades. Mi intuicion es que esos modelos tambien permiten decidir hasta donde abrir detalle y hasta donde comprimirlo: un proceso puede desplegarse como hipergrafo cuando su estructura interna importa, o contraerse en un nodo cuando ese detalle ya no agrega diferencia inferencial y solo vuelve la explicacion inoperativa. Mi duda, sobre todo en terminos analiticos, es si ese paso cuenta como depuracion teorica licita y aumento real de poder explicativo, o si solo cambia de lenguaje y pierde demasiado del nivel psicologico o sistemico.
+Quiero preguntarle si, aceptando un monismo material, seria licito sustituir parte del vocabulario mentalista por una descripcion estructural mas austera, distinguiendo entre grafos multivariables como aproximacion formal mas cercana al sustrato e hipergrafos o clases como recortes epistemicos de orden superior y no como nuevas entidades. Mi intuicion es que esos modelos tambien permiten decidir hasta donde abrir detalle y hasta donde comprimirlo: un proceso puede desplegarse como hipergrafo cuando su estructura interna importa, o contraerse en un nodo cuando ese detalle ya no agrega diferencia inferencial y solo vuelve la explicacion inoperativa. Mi duda, sobre todo en terminos analiticos, es si ese paso cuenta como depuracion teorica licita y aumento real de poder explicativo, o si solo cambia de lenguaje y pierde demasiado del nivel psicologico o sistemico.

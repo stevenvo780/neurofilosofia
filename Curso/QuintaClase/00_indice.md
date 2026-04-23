@@ -12,6 +12,7 @@ Archivos:
 - `01_desarrollo_completo_de_la_pregunta.md`
 - `02_dos_posturas_de_los_profesores.md`
 - `03_pregunta_hiperdensificada_y_formalizada.md`
+- `04_pregunta_para_wpp.txt`
 
 Advertencia metodologica:
 
