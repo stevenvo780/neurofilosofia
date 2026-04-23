@@ -226,8 +226,10 @@ Grafo animado de 5 nodos: `CEREBRO → INFORMACIÓN → REPRESENTACIÓN → MODE
 **Historia contada visualmente:** línea de tiempo animada — Werbos 1974 (punto aislado, olvidado), Rumelhart + Parker 1982 (redescubierto), Hinton + Williams + Rumelhart 1986 (publicado y aceptado).
 
 **Qué mostrar:**
-- La red muestra primero flujo hacia adelante (flechas verdes →), luego flujo de error hacia atrás (flechas rojas ←). El contraste es inmediato e intuitivo.
-- Los 4 pasos animados uno por uno, con sus fórmulas sincronizadas en KaTeX:
+- Controles de estado secuencial: botones interactivos para ejecutar paso a paso el `→ Forward Pass` y el `← Backprop Pass`. Esta vista permite desglosar el flujo completo como un paso de detalle esencial de la arquitectura.
+- La red muestra primero flujo hacia adelante (flechas verdes →), calculando activaciones capa por capa.
+- Luego, en el Backprop Pass, el flujo de error hacia atrás (flechas rojas ←). El contraste es inmediato e intuitivo.
+- Los 4 pasos detallados del algoritmo animados uno por uno en la etapa de retropropagación, con sus fórmulas sincronizadas en KaTeX:
   1. `EA_j = y_j − d_j`
   2. `EI_j = EA_j · y_j · (1 − y_j)`
   3. `EW_ij = EI_j · y_i`
@@ -389,18 +391,19 @@ Dos líneas de lógica de primer orden que formalizan exactamente lo que muestra
 - Traducción inter-especie con redes neuronales: casos reales.
 
 **Cierre filosófico fuerte:**
-La ontología de la que parte Hinton era ya presuntuosa en 1992. Hoy esa presunción se ha multiplicado exponencialmente. Lo que sigue sin respuesta:
+La ontología de la que parte Hinton era ya presuntuosa en 1992. Hoy esa presunción se ha multiplicado exponencialmente. Pero la ambigüedad ontológica de Hinton resulta ser una ventaja pragmática: permite construir un modelo de investigación con menos compromisos metafísicos y más capacidad predictiva. El valor epistémico del framework es más funcional como emergencia continua que como reducción acabada. Lo que sigue sin respuesta:
 - El problema difícil de la conciencia.
 - La ausencia de experiencia subjetiva en cualquier modelo actual.
 - La pregunta por el sustrato: ¿puede el silicio hacer lo que hace el carbono?
 - Los límites frente al razonamiento causal, el embodiment, la agencia real.
+- ¿Es la ambigüedad ontológica productiva indefinidamente, o Kim (1999) tiene razón en que es inestable?
 
 **ST puntual — `05_Presupuestos_Expandidos` (STModalBadge):**
 Dos insignias modales al lado de las tesis finales de Hinton:
 - `◇(CONV_POSS)` — satisfacible en Modal K. La convergencia es posible, no necesaria.
 - `◇(¬BRAIN_COMP)` — satisfacible en Modal K. La tesis computacional del cerebro es contingente, no lógicamente necesaria.
 
-Mensaje final: Hinton no está afirmando una verdad eterna — está apostando en un programa de investigación. Los ST lo hacen visible.
+Mensaje final: Hinton no está afirmando una verdad eterna — está apostando en un programa de investigación cuyo valor epistémico es más funcional como emergencia continua que como reducción acabada. La ambigüedad ontológica es la posición más pragmática disponible. Los ST lo hacen visible.
 
 **Librería:** GSAP para la línea de tiempo, API Ollama para la demo en vivo, D3.js para el gráfico de escala.
 
@@ -445,3 +448,6 @@ El panel lateral de chat usa el modelo con el texto completo de Hinton + las not
 - [ ] Andersen y Zipser: la retropropagación produce unidades que se parecen a neuronas reales
 - [ ] La convergencia final es posible (◇), no necesaria (□) — Hinton apuesta
 - [ ] INTERNAL_REPR se sostiene desde 5 caminos independientes — el texto está mejor construido de lo que parece
+- [ ] Emergencia continua: Hinton opera como emergentista epistémico sin declararlo — P es irreducible a sus partes pero ontológicamente ambigua
+- [ ] La ambigüedad ontológica como ventaja pragmática: menos compromisos metafísicos, más capacidad predictiva
+- [ ] Tesis central: el valor epistémico es más funcional como emergencia continua que como reducción acabada
