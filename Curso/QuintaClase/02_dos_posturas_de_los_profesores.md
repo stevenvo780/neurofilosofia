@@ -15,11 +15,14 @@ Los conceptos heredados de la psicologia ordinaria o de cierta filosofia de la m
 - El lenguaje ordinario fue hecho para orientacion practica, no para teoria madura.
 - Muchas categorias comunes son vagas, sobrecargadas y poco aptas para integrarse con neurociencia.
 - Una teoria mejor puede requerir otro vocabulario.
+- Una teoria buena no solo debe ser verdadera, sino tambien manejable: no conviene cargar el modelo con mas estructura de la que produce diferencia inferencial.
 - Mantener una palabra no garantiza mantener un fenomeno bien recortado.
 
 ### Supuesto filosofico
 
 No hay privilegio inicial del nivel psicologico comun. Lo que cuenta es la potencia explicativa, inferencial y mecanicista del aparato teorico.
+
+En una lectura mas fuerte, tambien cuenta la tractabilidad: si un modelo intenta explicarlo todo al mismo tiempo, puede perder utilidad cientifica aunque siga acumulando detalle.
 
 ### Riesgo que esta postura quiere evitar
 
@@ -40,12 +43,13 @@ Aunque no desaparezcan del todo, deberian ser sometidas a revision severa y no s
 
 - exige rigor conceptual;
 - evita metafisica inflada;
+- favorece modelos mas comprimidos y computacionalmente operables;
 - presiona hacia mejores criterios de individuacion;
 - dialoga bien con neurociencia, conexionismo y modelado formal.
 
 ### Debilidad posible
 
-Puede subestimar la autonomia relativa de ciertos niveles de descripcion y perder fenomenos complejos por exceso de depuracion conceptual.
+Puede subestimar la autonomia relativa de ciertos niveles de descripcion, confundir ahorro de vocabulario con explicacion suficiente y perder fenomenos complejos por exceso de depuracion conceptual.
 
 ## 2. Postura emergentista-sistemica o pluralista de niveles
 
@@ -58,11 +62,14 @@ Aunque todo dependa del sustrato material, los fenomenos complejos requieren mas
 - Los sistemas complejos exhiben regularidades no triviales.
 - El comportamiento global no siempre se deja leer de modo transparente desde componentes aislados.
 - La explicacion puede requerir categorias funcionales, organizacionales o sistemicas.
+- A veces hace falta expandir los bordes del modelo para que aparezcan dependencias entre organismo, entorno e historia que una descripcion mas comprimida oculta.
 - El lenguaje de redes, mecanismos, niveles o sistemas no es mero adorno si capta restricciones reales.
 
 ### Supuesto filosofico
 
 Monismo ontologico no implica reduccion explicativa total. Puede haber dependencia material con pluralidad legitima de descripciones.
+
+En una lectura mas metodologica, el punto no es explicarlo todo a la vez, sino abrir el modelo hasta el punto en que la organizacion relevante del fenomeno se vuelva visible.
 
 ### Riesgo que esta postura quiere evitar
 
@@ -84,6 +91,7 @@ Hay autonomia explicativa relativa, organizacion multinivel y necesidad de model
 - preserva complejidad del fenomeno;
 - integra niveles;
 - es sensible a organizacion y contexto;
+- permite reabrir nodos o unidades teoricas cuando el fenomeno exige mas detalle;
 - evita confundir base material con descripcion suficiente.
 
 ### Debilidad posible
@@ -104,9 +112,15 @@ La postura analitica sospecha del exceso de categorias.
 
 La postura sistemica sospecha del exceso de poda conceptual.
 
+La postura analitica teme modelos sobrecargados.
+
+La postura sistemica teme compresiones prematuras.
+
 Una teme que se confunda descripcion con metafora.
 
 La otra teme que se confunda austeridad con explicacion suficiente.
+
+Por eso la friccion real tambien pasa por el criterio de recorte: que puede contraerse sin perdida y que debe mantenerse desplegado para que la explicacion siga siendo adecuada.
 
 ## 4. Tu punto de intervencion
 
@@ -127,16 +141,31 @@ Tomas de la segunda:
 Y propones una tercera formulacion:
 
 - monismo material;
-- modelos estructurales relacionales;
+- modelos estructurales relacionales multinivel;
+- expansion y compresion controladas por la pregunta explicativa;
 - cortes teoricos no reificados;
 - explicacion mas austera que el mentalismo comun;
 - pero mas rica que el reduccionismo puramente local.
 
-## 5. Formula comparativa minima
+## 5. Donde tu pregunta presiona mas al profesor analitico
+
+Tu pregunta, en el fondo, presiona mas a la postura analitica que a la sistemica.
+
+Si el profesor analitico acepta que muchas categorias mentales deben depurarse cuando no agregan poder explicativo, entonces parece que tambien deberia aceptar algo mas:
+
+- que una estructura compleja puede condensarse en una unidad teorica mas simple cuando sus detalles internos no producen diferencia inferencial para la pregunta actual;
+- que la legitimidad de ese recorte no depende solo de eliminar palabras, sino de preservar dependencias relevantes;
+- que el ahorro computacional y la tractabilidad tambien importan como virtudes epistemicas.
+
+Tu desafio no es entonces defender una metafisica exuberante, sino preguntar:
+
+`bajo que condiciones es licito contraer un hipergrafo explicativo a un nodo sin empobrecer el fenomeno?`
+
+## 6. Formula comparativa minima
 
 La postura analitica pregunta:
 
-`que conceptos sobran?`
+`que conceptos y que niveles sobran?`
 
 La postura sistemica pregunta:
 
@@ -144,4 +173,4 @@ La postura sistemica pregunta:
 
 Tu pregunta agrega:
 
-`podemos reemplazar parte del vocabulario mentalista por una formalizacion relacional suficientemente precisa, sin caer ni en eliminacion vacia ni en emergencia imprecisa?`
+`podemos reemplazar parte del vocabulario mentalista por una formalizacion relacional suficientemente precisa, usando ademas compresion y expansion controladas, sin caer ni en eliminacion vacia ni en emergencia imprecisa?`
