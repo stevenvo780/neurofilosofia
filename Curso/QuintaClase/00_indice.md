@@ -11,7 +11,7 @@ Archivos:
 
 - `01_pregunta_desarrollada.md`: desarrollo completo y justificacion de la pregunta.
 - `02_reconstruccion_de_las_posturas.md`: reconstruccion de las dos orientaciones principales que aparecieron en clase.
-- `03_versiones_de_la_pregunta.md`: versiones breve, formal y matematizada de la misma duda.
+- `03_versiones_de_la_pregunta.md`: formulacion formalizada de la pregunta.
 - `04_mensaje_breve_para_ricardo.txt`: version breve en texto plano para enviar por mensaje.
 
 Advertencia metodologica:

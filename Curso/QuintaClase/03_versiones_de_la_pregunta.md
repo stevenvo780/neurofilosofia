@@ -1,10 +1,4 @@
-# Versiones de la pregunta
-
-## Version breve para Ricardo
-
-Ricardo, quiero hacerte una pregunta que me quedo dando vueltas desde la clase. Si parto de un monismo material, ¿te parece epistemicamente licito reemplazar parte del vocabulario mentalista por una descripcion mas austera, distinguiendo entre grafos multivariables como aproximacion formal mas cercana al sustrato e hipergrafos o clases como abstracciones teoricas de orden superior? Mi intuicion es que esos marcos sirven no solo para describir dependencias, sino tambien para fijar hasta donde conviene explicar y hasta donde conviene computar. Una estructura puede abrirse cuando su detalle interno importa, o contraerse en un nodo cuando ese detalle ya no cambia la inferencia relevante. Lo que quiero preguntarte es si ese paso mejora realmente la explicacion o si termina perdiendo algo esencial del nivel psicologico o sistemico.
-
-## Version formal
+# Pregunta formalizada
 
 Sea `S` un sustrato material, sea `Q` una pregunta explicativa, sea `G_Q` un grafo multivariable definido sobre `S` y sea `M_Q` un modelo de orden superior tal que:
 
@@ -25,7 +19,7 @@ Supongamos que:
 
 - `G_Q` es la aproximacion formal mas cercana al sustrato `S`;
 - `M_Q` no es una sustancia extra, sino una organizacion epistemica construida sobre `G_Q`;
-- las particiones de `V` y `H` son teorico-relativas;
+- las particiones de `V`, `H` y `C` son teorico-relativas;
 - las clases `C` no son materiales, sino abstracciones definidas para fines explicativos;
 - `kappa_Q` no elimina arbitrariamente estructura, sino que preserva las dependencias necesarias para responder `Q`;
 - ciertos terminos mentalistas `P = {mente, memoria, creencia, ...}` no se toman como primitivos.
@@ -57,55 +51,14 @@ es:
 - una revision conceptual licita;
 - o una eliminacion empobrecedora del fenomeno.
 
-Y todavia mas precisamente:
+Y mas precisamente:
 
 `cuando es licito reemplazar un hipergrafo por un nodo, no porque deje de existir complejidad, sino porque esa complejidad ya no introduce diferencia explicativa para Q?`
 
-## Version en filosofia de la ciencia
+La misma duda tambien puede expresarse en terminos de niveles explicativos:
 
-Mi pregunta es si puede defenderse un esquema asi:
+- `L1`: lenguaje psicologico ordinario o psicologico-funcional;
+- `L2`: lenguaje neurobiologico local;
+- `L3`: lenguaje estructural-relacional formal.
 
-- ontologia: monismo material;
-- metodologia: grafos multivariables sobre el sustrato y formalizacion estructural multinivel con expansion y compresion controladas;
-- semantica teorica: irrealismo local respecto de los cortes;
-- epistemologia: pluralismo explicativo restringido por evidencia, capacidad inferencial y tractabilidad.
-
-Y entonces:
-
-`la emergencia no seria una nueva sustancia, sino el nombre provisional de invariantes organizacionales que requieren un nivel de descripcion no trivial y a veces una expansion del modelo que luego puede volver a comprimirse`.
-
-Quiero saber si ese movimiento es legitimo o si corre el riesgo de vaciar precisamente aquello que queria explicar.
-
-## Version mas matematizada
-
-Sea un fenomeno complejo `Phi` y sea `Exp(L, Phi)` la potencia explicativa de un lenguaje `L` respecto de `Phi`.
-
-Sea tambien `Cost(L, Phi)` el costo computacional y descriptivo de usar `L` para modelar `Phi`.
-
-Si:
-
-- `L1 =` lenguaje psicologico ordinario;
-- `L2 =` lenguaje neurobiologico local exhaustivo;
-- `L3 =` lenguaje estructural-relacional formal obtenido por compresion controlada.
-
-Mi pregunta es si puede ocurrir que:
-
-`Exp(L3, Phi) >= Exp(L1, Phi)`
-
-y a la vez
-
-`Cost(L3, Phi) << Cost(L2, Phi)`
-
-y a la vez
-
-`L3` no implique compromiso ontologico extra respecto de `L2`,
-
-pero tampoco se reduzca trivialmente a `L2` porque capture restricciones organizacionales no visibles en una descripcion puramente local.
-
-En ese caso, la duda es:
-
-`debemos interpretar L3 como reduccion, como reconstruccion estructural o como emergencia debil formalizada?`
-
-## Version muy breve
-
-Ricardo, quiero preguntarte si te parece licito reemplazar parte del vocabulario mentalista por una formalizacion estructural mas austera, distinguiendo entre grafos multivariables como aproximacion formal al sustrato e hipergrafos o clases como abstracciones epistemicas, y si ademas es licito contraer subestructuras complejas en nodos cuando ese recorte preserva lo explicativamente relevante y vuelve el modelo tratable. Mi duda es si eso cuenta como mejora explicativa real o si pierde fenomeno.
+En ese marco, la pregunta es si `L3` puede mejorar la explicacion respecto de `L1` sin despegarse ilegitimamente de `L2`, precisamente porque permite representar dependencias relevantes con un costo inferencial y computacional menor que el seguimiento exhaustivo del nivel local.

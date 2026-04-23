@@ -159,7 +159,35 @@ Pero no necesitamos, para cada pregunta, computar todo el detalle de cada sustra
 
 En ese sentido, el hipergrafo no es solo un esquema elegante. Es un instrumento epistemico para fijar nivel de analisis, controlar complejidad y hacer interoperable la explicacion: lo bastante estricto para una maquina y lo bastante interpretable para una persona.
 
-## 8. Donde entra el emergentismo
+## 8. Los niveles explicativos `L1`, `L2` y `L3`
+
+Aqui quiero recuperar una distincion que para mi es importante y que no quiero que se pierda.
+
+No estoy hablando de tres mundos, ni de tres sustancias, ni de tres capas ontologicas separadas. Estoy hablando de tres niveles o lenguajes de descripcion para un mismo fenomeno.
+
+Puedo escribirlo asi:
+
+- `L1`: lenguaje psicologico ordinario o psicologico-funcional;
+- `L2`: lenguaje neurobiologico local;
+- `L3`: lenguaje estructural-relacional formal.
+
+En `L1` hablamos con categorias como `memoria`, `creencia`, `atencion`, `representacion`, `decision` o `conducta dirigida a metas`. Ese lenguaje puede ser util, pero tambien puede arrastrar la vaguedad propia del lenguaje ordinario.
+
+En `L2` hablamos en terminos de circuitos, regiones, poblaciones neuronales, dinamicas locales, variables fisiologicas y mecanismos de bajo nivel. Ese lenguaje se acerca mas al sustrato, pero no necesariamente vuelve visible por si solo la organizacion global relevante para toda pregunta.
+
+En `L3` hablamos en terminos de grafos multivariables, hipergrafos, clases, restricciones, patrones de dependencia, reglas de actualizacion y operaciones de compresion o expansion. Ese lenguaje no agrega una nueva ontologia; intenta reconstruir formalmente relaciones que pueden ser poco visibles o demasiado costosas de seguir tanto en `L1` como en `L2`.
+
+La cuestion importante es que `L3` no vale simplemente por ser mas abstracto. Vale si logra captar mejor ciertas dependencias relevantes sin despegarse ilegitimamente de `L2` y sin quedarse preso de la vaguedad de `L1`.
+
+Por eso mi duda tambien puede formularse asi:
+
+- cuando `L1` resulta demasiado vago;
+- y cuando `L2` resulta demasiado local o demasiado costoso de seguir en toda su extension;
+- `L3` puede funcionar como un nivel explicativo mas adecuado que preserve estructura relevante sin multiplicar ontologia.
+
+Lo que quiero saber es bajo que condiciones ese paso es legitimo.
+
+## 9. Donde entra el emergentismo
 
 Mi intuicion no necesita comprometerse con un emergentismo metafisico fuerte.
 
@@ -183,11 +211,15 @@ En ese sentido, mi propuesta puede leerse como:
 - formalismo estructural;
 - anti-reificacion de categorias ordinarias.
 
-## 9. La pregunta epistemologica exacta
+## 10. La pregunta epistemologica exacta
 
 El nucleo de la pregunta no es ontologico en primer termino, sino epistemologico-metodologico:
 
 `cuando pasamos de categorias psicologicas comunes a una formalizacion estructural mas austera, y ademas usamos operaciones de expansion y contraccion segun la pregunta, estamos ganando poder explicativo real o simplemente cambiando el vocabulario para evitar malas metaforas?`
+
+Dicho con la distincion anterior:
+
+`cuando pasamos de L1 a L3, y cuando intentamos no perder ni la cercania mecanicista de L2 ni la forma relevante del fenomeno, estamos ganando poder explicativo real o solo cambiando el lenguaje?`
 
 Y mas precisamente:
 
@@ -205,12 +237,10 @@ Posibles condiciones:
 - no introducir entidades innecesarias;
 - mantener conexion con mecanismos o dependencias reales.
 
-## 10. Resumen de la inquietud
+## 11. Resumen de la inquietud
 
 Mi inquietud completa podria resumirse asi:
 
 si todo lo real en juego es material, pero nuestras particiones conceptuales son en parte construcciones teoricas, entonces quizas convenga describir fenomenos complejos mediante estructuras relacionales formales que capten organizacion, dependencia y dinamica sin asumir desde el inicio categorias mentales densas. Ademas, quizas convenga usar esas estructuras para decidir hasta donde expandir una explicacion y hasta donde comprimirla, de modo que el modelo siga siendo tractable sin perder la forma relevante del fenomeno. La pregunta es si este desplazamiento hacia una descripcion mas analitica y matematizable constituye un avance epistemicamente legitimo o si, por el contrario, sacrifica aspectos esenciales del fenomeno que justamente motivaban nociones como mente, memoria o sujeto.
 
-## 11. Version oral
-
-Ricardo, quiero preguntarte si, aceptando un monismo material, te parece licito sustituir parte del vocabulario mentalista por una descripcion estructural mas austera, distinguiendo entre grafos multivariables como aproximacion formal mas cercana al sustrato e hipergrafos o clases como recortes epistemicos de orden superior y no como nuevas entidades. Mi intuicion es que esos modelos tambien permiten decidir hasta donde abrir detalle y hasta donde comprimirlo: un proceso puede desplegarse como hipergrafo cuando su estructura interna importa, o contraerse en un nodo cuando ese detalle ya no agrega diferencia inferencial y solo vuelve la explicacion inoperativa. Lo que quiero preguntarte es si ese paso cuenta como una depuracion teorica licita y un aumento real de poder explicativo, o si solo cambia de lenguaje y pierde demasiado del nivel psicologico o sistemico.
+Tambien puedo decirlo en terminos mas tecnicos: si `L1` es demasiado vago y `L2` es demasiado local o demasiado costoso de seguir exhaustivamente, mi duda es si `L3` puede funcionar como un nivel explicativo formalmente mas preciso sin introducir una ontologia extra y sin perder fenomeno.
