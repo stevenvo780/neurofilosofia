@@ -1,4 +1,4 @@
-# Desarrollo completo de la pregunta
+# Pregunta desarrollada
 
 ## 1. Punto de partida
 
@@ -10,11 +10,9 @@ Desde ahi surge mi sospecha metodologica:
 
 tal vez una parte importante del trabajo explicativo puede formularse con estructuras relacionales suficientemente generales, por ejemplo grafos multivariables, hipergrafos, redes dinamicas, sistemas de variables y funciones de actualizacion, sin asumir que esas estructuras sean entidades sustantivas adicionales. Pero aqui conviene distinguir niveles: el grafo, con sus variables y dependencias, seria lo mas cercano al sustrato que el modelo puede ofrecer; en cambio, el hipergrafo y las clases estructurales serian construcciones epistemicas de orden superior para recortar agrupamientos, restricciones y modos de organizacion.
 
-Mi tesis tentativa no seria entonces:
+No quiero decir que el hipergrafo exista materialmente como una cosa aparte.
 
-- `el hipergrafo existe materialmente como cosa aparte`;
-
-sino mas bien:
+Lo que quiero decir, mas bien, es esto:
 
 - `el sustrato material existe`;
 - `el grafo multivariable es la aproximacion formal mas cercana al sustrato`;
@@ -100,7 +98,7 @@ Pero ese ejemplo tambien impone un limite:
 
 en redes neuronales artificiales, llamar a algo `memoria` o `atencion` ya involucra una decision teorica y no solo una observacion neutra. Por eso el uso de formalismos no elimina por completo el problema filosofico; solo lo desplaza a la eleccion del marco y a las condiciones bajo las cuales una variable o un patron merecen un nombre.
 
-## 5. Ontologia minima y estatuto del grafo y del hipergrafo
+## 5. Ontologia minima y niveles del modelo
 
 Mi propuesta puede formularse asi:
 
@@ -118,7 +116,7 @@ Eso permite evitar dos errores simetricos:
 2. Disolver el modelo en puro instrumentalismo.
    Seria decir que toda formalizacion es igualmente valida aunque no capture ninguna restriccion real.
 
-La posicion intermedia seria:
+La posicion que me interesa defender seria:
 
 el modelo no es la realidad, pero tampoco es una ficcion libre; el grafo vale en la medida en que aproxima dependencias objetivamente ancladas en el sustrato material, y el hipergrafo vale en la medida en que organiza epistemicamente esas dependencias sin fingir que constituye una capa material adicional.
 
@@ -207,12 +205,12 @@ Posibles condiciones:
 - no introducir entidades innecesarias;
 - mantener conexion con mecanismos o dependencias reales.
 
-## 10. Forma final de la inquietud
+## 10. Resumen de la inquietud
 
 Mi inquietud completa podria resumirse asi:
 
 si todo lo real en juego es material, pero nuestras particiones conceptuales son en parte construcciones teoricas, entonces quizas convenga describir fenomenos complejos mediante estructuras relacionales formales que capten organizacion, dependencia y dinamica sin asumir desde el inicio categorias mentales densas. Ademas, quizas convenga usar esas estructuras para decidir hasta donde expandir una explicacion y hasta donde comprimirla, de modo que el modelo siga siendo tractable sin perder la forma relevante del fenomeno. La pregunta es si este desplazamiento hacia una descripcion mas analitica y matematizable constituye un avance epistemicamente legitimo o si, por el contrario, sacrifica aspectos esenciales del fenomeno que justamente motivaban nociones como mente, memoria o sujeto.
 
-## 11. Version lista para decir oralmente
+## 11. Version oral
 
-Quiero preguntarle si, aceptando un monismo material, seria licito sustituir parte del vocabulario mentalista por una descripcion estructural mas austera, distinguiendo entre grafos multivariables como aproximacion formal mas cercana al sustrato e hipergrafos o clases como recortes epistemicos de orden superior y no como nuevas entidades. Mi intuicion es que esos modelos tambien permiten decidir hasta donde abrir detalle y hasta donde comprimirlo: un proceso puede desplegarse como hipergrafo cuando su estructura interna importa, o contraerse en un nodo cuando ese detalle ya no agrega diferencia inferencial y solo vuelve la explicacion inoperativa. Mi duda, sobre todo en terminos analiticos, es si ese paso cuenta como depuracion teorica licita y aumento real de poder explicativo, o si solo cambia de lenguaje y pierde demasiado del nivel psicologico o sistemico.
+Ricardo, quiero preguntarte si, aceptando un monismo material, te parece licito sustituir parte del vocabulario mentalista por una descripcion estructural mas austera, distinguiendo entre grafos multivariables como aproximacion formal mas cercana al sustrato e hipergrafos o clases como recortes epistemicos de orden superior y no como nuevas entidades. Mi intuicion es que esos modelos tambien permiten decidir hasta donde abrir detalle y hasta donde comprimirlo: un proceso puede desplegarse como hipergrafo cuando su estructura interna importa, o contraerse en un nodo cuando ese detalle ya no agrega diferencia inferencial y solo vuelve la explicacion inoperativa. Lo que quiero preguntarte es si ese paso cuenta como una depuracion teorica licita y un aumento real de poder explicativo, o si solo cambia de lenguaje y pierde demasiado del nivel psicologico o sistemico.

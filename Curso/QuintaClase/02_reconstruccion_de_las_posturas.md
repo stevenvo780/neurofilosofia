@@ -1,8 +1,8 @@
-# Dos posturas de la clase segun lo que capte
+# Reconstruccion de las posturas de la clase
 
 ## Advertencia
 
-Esto no pretende ser transcripcion literal. Es una reconstruccion fuerte y ordenada de las dos orientaciones que aparecieron en clase segun mi escucha.
+Esto no pretende ser transcripcion literal. Es una reconstruccion ordenada de las dos orientaciones que identifique en clase segun mi escucha.
 
 ## 1. Postura analitica-revisionista o eliminativista moderada
 
@@ -147,17 +147,17 @@ Y propongo una tercera formulacion:
 - explicacion mas austera que el mentalismo comun;
 - pero mas rica que el reduccionismo puramente local.
 
-## 5. Donde mi pregunta presiona mas al profesor analitico
+## 5. Donde mi pregunta presiona mas la linea analitica de Ricardo
 
-Mi pregunta, en el fondo, presiona mas a la postura analitica que a la sistemica.
+Mi pregunta, en el fondo, presiona mas la linea analitica que asocio sobre todo con Ricardo que la orientacion sistemica.
 
-Si el profesor analitico acepta que muchas categorias mentales deben depurarse cuando no agregan poder explicativo, entonces parece que tambien deberia aceptar algo mas:
+Si Ricardo acepta que muchas categorias mentales deben depurarse cuando no agregan poder explicativo, entonces parece que tambien deberia aceptar algo mas:
 
 - que una estructura compleja puede condensarse en una unidad teorica mas simple cuando sus detalles internos no producen diferencia inferencial para la pregunta actual;
 - que la legitimidad de ese recorte no depende solo de eliminar palabras, sino de preservar dependencias relevantes;
 - que el ahorro computacional y la tractabilidad tambien importan como virtudes epistemicas.
 
-Mi desafio no es entonces defender una metafisica exuberante, sino preguntar:
+Mi objetivo no es defender una metafisica exuberante, sino preguntar con precision:
 
 `bajo que condiciones es licito contraer un hipergrafo explicativo a un nodo sin empobrecer el fenomeno?`
 

@@ -1,10 +1,10 @@
-# Pregunta hiperdensificada y formalizada
+# Versiones de la pregunta
 
-## Version breve para el profesor analitico
+## Version breve para Ricardo
 
-Si parto de un monismo material, pero acepto que mis particiones teoricas no tienen por que coincidir con categorias psicologicas ordinarias, me pregunto si es epistemicamente licito modelar fenomenos complejos distinguiendo entre grafos multivariables como aproximacion formal mas cercana al sustrato e hipergrafos o clases como abstracciones teoricas de orden superior. Mi intuicion es que esos marcos sirven no solo para describir dependencias, sino tambien para fijar hasta donde conviene explicar y hasta donde conviene computar. Un subproceso puede abrirse como hipergrafo cuando su detalle importa, o contraerse en un nodo cuando ese detalle ya no cambia la inferencia relevante. Mi duda, sobre todo en clave analitica, es si ese salto formal aumenta poder explicativo real o si solo cambia el vocabulario y pierde el nivel psicologico o sistemico que el emergentismo quiere resguardar.
+Ricardo, quiero hacerte una pregunta que me quedo dando vueltas desde la clase. Si parto de un monismo material, ¿te parece epistemicamente licito reemplazar parte del vocabulario mentalista por una descripcion mas austera, distinguiendo entre grafos multivariables como aproximacion formal mas cercana al sustrato e hipergrafos o clases como abstracciones teoricas de orden superior? Mi intuicion es que esos marcos sirven no solo para describir dependencias, sino tambien para fijar hasta donde conviene explicar y hasta donde conviene computar. Una estructura puede abrirse cuando su detalle interno importa, o contraerse en un nodo cuando ese detalle ya no cambia la inferencia relevante. Lo que quiero preguntarte es si ese paso mejora realmente la explicacion o si termina perdiendo algo esencial del nivel psicologico o sistemico.
 
-## Version hiperdensa
+## Version formal
 
 Sea `S` un sustrato material, sea `Q` una pregunta explicativa, sea `G_Q` un grafo multivariable definido sobre `S` y sea `M_Q` un modelo de orden superior tal que:
 
@@ -61,7 +61,7 @@ Y todavia mas precisamente:
 
 `cuando es licito reemplazar un hipergrafo por un nodo, no porque deje de existir complejidad, sino porque esa complejidad ya no introduce diferencia explicativa para Q?`
 
-## Version en lenguaje de filosofia de la ciencia
+## Version en filosofia de la ciencia
 
 Mi pregunta es si puede defenderse un esquema asi:
 
@@ -106,6 +106,6 @@ En ese caso, la duda es:
 
 `debemos interpretar L3 como reduccion, como reconstruccion estructural o como emergencia debil formalizada?`
 
-## Version ultra corta
+## Version muy breve
 
-Aceptado un monismo material, quisiera preguntarle si es licito reemplazar parte del vocabulario mentalista por una formalizacion estructural mas austera, distinguiendo entre grafos multivariables como aproximacion formal al sustrato e hipergrafos o clases como abstracciones epistemicas, y si ademas es licito contraer subestructuras complejas en nodos cuando ese recorte preserva lo explicativamente relevante y vuelve el modelo tratable. Mi duda es si eso cuenta como mejora explicativa real o solo como cambio de lenguaje que pierde fenomeno.
+Ricardo, quiero preguntarte si te parece licito reemplazar parte del vocabulario mentalista por una formalizacion estructural mas austera, distinguiendo entre grafos multivariables como aproximacion formal al sustrato e hipergrafos o clases como abstracciones epistemicas, y si ademas es licito contraer subestructuras complejas en nodos cuando ese recorte preserva lo explicativamente relevante y vuelve el modelo tratable. Mi duda es si eso cuenta como mejora explicativa real o si pierde fenomeno.
