@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/3a - Ray - Introduction to Human Neuroscience.md

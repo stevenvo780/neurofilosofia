@@ -16,12 +16,12 @@ La idea que debe quedar al final es esta:
 
 ### Modo recomendado al presentar
 
-- Usa el **modo publico** como modo principal.
-- Usa el **modo profesor** solo si quieres mostrar una formula o responder una pregunta tecnica.
-- No dependas del panel de IA en vivo.
-- Si ves que el tiempo se aprieta, recorta primero las secciones 2, 10 y 12.
+* Usa el **modo publico** como modo principal.
+* Usa el **modo profesor** solo si quieres mostrar una formula o responder una pregunta tecnica.
+* No dependas del panel de IA en vivo.
+* Si ves que el tiempo se aprieta, recorta primero las secciones 2, 10 y 12.
 
----
+***
 
 ## Apertura general antes de empezar
 
@@ -35,14 +35,14 @@ La pregunta de fondo que atraviesa toda la presentacion es esta:
 
 Con esa pregunta en mente, empiezo.
 
----
+***
 
 ## Slide 1 — Apertura
 
 ### Que mostrar
 
-- La frase de apertura.
-- El mapa Hinton - Daugman - Bechtel.
+* La frase de apertura.
+* El mapa Hinton - Daugman - Bechtel.
 
 ### Que decir
 
@@ -60,14 +60,14 @@ Mi punto de partida va a ser este: Hinton abre un programa de investigacion pote
 
 Para entender esa apuesta, primero hay que mirar que es lo que Hinton esta simplificando.
 
----
+***
 
 ## Slide 2 — La neurona real
 
 ### Que mostrar
 
-- Modelo 3D de neurona.
-- Partes: dendritas, soma, axon, sinapsis.
+* Modelo 3D de neurona.
+* Partes: dendritas, soma, axon, sinapsis.
 
 ### Que decir
 
@@ -83,15 +83,15 @@ Lo que empieza a verse aqui es el gran gesto del texto: Hinton va a sacrificar m
 
 Entonces la pregunta deja de ser "como copiar una neurona" y pasa a ser "que es lo minimo que necesito conservar para modelar aprendizaje".
 
----
+***
 
 ## Slide 3 — La neurona artificial
 
 ### Que mostrar
 
-- Sliders de pesos.
-- Funcion de activacion.
-- Entrada total y salida.
+* Sliders de pesos.
+* Funcion de activacion.
+* Entrada total y salida.
 
 ### Que decir
 
@@ -107,15 +107,15 @@ Y ahi esta uno de los puntos filosoficos mas importantes del texto: una idealiza
 
 Una sola neurona artificial todavia no hace mucho. Lo interesante empieza cuando estas unidades se organizan en capas.
 
----
+***
 
 ## Slide 4 — Arquitectura de tres capas
 
 ### Que mostrar
 
-- Red con capas.
-- Forward pass.
-- Activaciones y pesos.
+* Red con capas.
+* Forward pass.
+* Activaciones y pesos.
 
 ### Que decir
 
@@ -131,15 +131,15 @@ Por eso este modelo se opone, al menos parcialmente, a la idea clasica de que pe
 
 Pero para que esas capas aprendan algo, tiene que haber un proceso de entrenamiento.
 
----
+***
 
 ## Slide 5 — Entrenamiento supervisado
 
 ### Que mostrar
 
-- Fases del entrenamiento.
-- Curva de error.
-- Frontera de decision.
+* Fases del entrenamiento.
+* Curva de error.
+* Frontera de decision.
 
 ### Que decir
 
@@ -155,15 +155,15 @@ Por eso Hinton fue tan influyente. Porque convierte el aprendizaje en un proceso
 
 Ahora bien, el mecanismo que hace posible ese ajuste eficiente de pesos es precisamente la retropropagacion.
 
----
+***
 
 ## Slide 6 — Retropropagacion
 
 ### Que mostrar
 
-- Historia breve: Werbos, redescubrimiento, Hinton.
-- Flujo forward y backward.
-- Cuatro pasos.
+* Historia breve: Werbos, redescubrimiento, Hinton.
+* Flujo forward y backward.
+* Cuatro pasos.
 
 ### Que decir
 
@@ -181,15 +181,15 @@ Pero aqui aparece una dificultad que no hay que esconder: este algoritmo funcion
 
 Y justo por eso la siguiente pregunta es inevitable: si funciona tan bien, eso significa que explica el cerebro?
 
----
+***
 
 ## Slide 7 — Alcances y primera critica
 
 ### Que mostrar
 
-- Aplicaciones.
-- Demo de clasificacion de digitos.
-- Panel de tension.
+* Aplicaciones.
+* Demo de clasificacion de digitos.
+* Panel de tension.
 
 ### Que decir
 
@@ -207,15 +207,15 @@ En otras palabras, Hinton ofrece una herramienta potentisima y una hipotesis amb
 
 Y lo interesante es que Hinton mismo no oculta los problemas de su enfoque.
 
----
+***
 
 ## Slide 8 — Limites de la retropropagacion
 
 ### Que mostrar
 
-- Tarjetas de limites.
-- Superficie de error.
-- Regla de Hebb como alternativa.
+* Tarjetas de limites.
+* Superficie de error.
+* Regla de Hebb como alternativa.
 
 ### Que decir
 
@@ -233,15 +233,15 @@ Yo diria que este es uno de los mejores puntos del texto, porque muestra que el 
 
 Y precisamente por esas limitaciones, Hinton abre la puerta al aprendizaje no supervisado.
 
----
+***
 
 ## Slide 9 — Aprendizaje no supervisado
 
 ### Que mostrar
 
-- Tabs de PCA, competitivo y Kohonen.
-- Idea de compresion y reconstruccion.
-- Tabla comparativa.
+* Tabs de PCA, competitivo y Kohonen.
+* Idea de compresion y reconstruccion.
+* Tabla comparativa.
 
 ### Que decir
 
@@ -257,15 +257,15 @@ Lo importante aqui no es solo la tecnica particular, sino el cambio de perspecti
 
 Eso nos lleva directamente al problema de donde viven las representaciones en una red.
 
----
+***
 
 ## Slide 10 — Representaciones distribuidas, localistas y sparse
 
 ### Que mostrar
 
-- Debate localismo vs distribuido.
-- Tipos de representacion.
-- Redes recurrentes.
+* Debate localismo vs distribuido.
+* Tipos de representacion.
+* Redes recurrentes.
 
 ### Que decir
 
@@ -283,15 +283,15 @@ Las redes recurrentes empujan esto todavia mas, porque permiten que la actividad
 
 Y si esto es mas que una intuicion computacional, deberiamos encontrar algo parecido en evidencia biologica.
 
----
+***
 
 ## Slide 11 — Codigos demograficos
 
 ### Que mostrar
 
-- Bump de actividad.
-- Experimento de anestesiar neuronas.
-- Movimiento ocular.
+* Bump de actividad.
+* Experimento de anestesiar neuronas.
+* Movimiento ocular.
 
 ### Que decir
 
@@ -307,15 +307,15 @@ Este punto me parece importante porque le da al conexionismo algo mas que poder 
 
 Con eso llegamos al cierre: que queda hoy de la apuesta de Hinton?
 
----
+***
 
 ## Slide 12 — Cierre
 
 ### Que mostrar
 
-- Timeline.
-- Cierre final.
-- Badges modales si quieres.
+* Timeline.
+* Cierre final.
+* Badges modales si quieres.
 
 ### Que decir
 
@@ -333,7 +333,7 @@ En una frase:
 
 **Hinton no demuestra que el cerebro sea una computadora; muestra por que pensar el aprendizaje como representacion distribuida se volvio una hipotesis imposible de ignorar.**
 
----
+***
 
 ## Version final del cierre oral
 
@@ -341,7 +341,7 @@ Para terminar, yo diria esto casi literal:
 
 > En conclusion, el texto de Hinton es importante porque no solo presenta una tecnica de aprendizaje, sino una forma de pensar la cognicion. Su propuesta es que una red puede aprender ajustando conexiones y formando representaciones internas distribuidas. Eso cambio profundamente la inteligencia artificial y tambien cambio la filosofia de la mente y de las neurociencias. Sin embargo, el propio Hinton reconoce limites importantes, sobre todo en la plausibilidad biologica de la retropropagacion. Por eso su texto sigue siendo valioso no como verdad definitiva, sino como una apuesta de investigacion muy potente: una apuesta que todavia hoy organiza muchas de nuestras preguntas sobre mente, cerebro y aprendizaje.
 
----
+***
 
 ## Preguntas posibles del profesor y respuestas breves
 
@@ -369,7 +369,7 @@ Yo responderia:
 
 Porque no es solo un texto tecnico de IA. El texto implica una imagen del cerebro, del aprendizaje y de la representacion. Y esas son justamente preguntas filosoficas centrales en neurociencia.
 
----
+***
 
 ## Recorte de emergencia si tienes poco tiempo
 
@@ -389,7 +389,7 @@ Y concentra mas tiempo en:
 6. Slide 8
 7. Slide 11
 
----
+***
 
 ## Ultimo consejo
 

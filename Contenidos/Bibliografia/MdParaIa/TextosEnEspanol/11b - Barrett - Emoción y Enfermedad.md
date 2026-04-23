@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/TextosPresentacionEstudiantesEnEspanol/11b - Barrett - Emoción y Enfermedad.md

@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/PercepcionYVision/02_zeki_imagen_visual_mente_y_cerebro.md

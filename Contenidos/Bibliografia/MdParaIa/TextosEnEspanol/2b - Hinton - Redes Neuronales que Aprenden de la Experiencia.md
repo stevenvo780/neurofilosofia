@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/TextosPresentacionEstudiantesEnEspanol/2b - Hinton - Redes Neuronales que Aprenden de la Experiencia.md

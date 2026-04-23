@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/MemoriaYRepresentacion/03_bechtel_representaciones.md

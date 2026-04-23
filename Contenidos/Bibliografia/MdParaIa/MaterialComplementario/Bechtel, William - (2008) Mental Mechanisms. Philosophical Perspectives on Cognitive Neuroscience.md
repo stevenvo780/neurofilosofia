@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/MaterialComplementario/Bechtel, William - (2008) Mental Mechanisms. Philosophical Perspectives on Cognitive Neuroscience.md

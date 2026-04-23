@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/15b - Webb - (1996) A Cricket Robot.md

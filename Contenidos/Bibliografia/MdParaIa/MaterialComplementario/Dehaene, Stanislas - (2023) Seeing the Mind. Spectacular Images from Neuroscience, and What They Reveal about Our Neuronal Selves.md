@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/MaterialComplementario/Dehaene, Stanislas - (2023) Seeing the Mind. Spectacular Images from Neuroscience, and What They Reveal about Our Neuronal Selves.md

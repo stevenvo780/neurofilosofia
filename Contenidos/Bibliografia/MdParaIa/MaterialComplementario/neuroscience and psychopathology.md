@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/MaterialComplementario/neuroscience and psychopathology.md

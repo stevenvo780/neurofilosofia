@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/12a - Suchy - (2023) _Neuroscience of Executive Functioning_.md

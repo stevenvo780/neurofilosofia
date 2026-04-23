@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/TextosPresentacionEstudiantesEnEspanol/6b - Zeki - La Imagen Visual en la Mente y el Cerebro.md

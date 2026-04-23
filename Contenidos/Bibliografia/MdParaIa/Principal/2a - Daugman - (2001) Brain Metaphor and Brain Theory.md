@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/2a - Daugman - (2001) Brain Metaphor and Brain Theory.md

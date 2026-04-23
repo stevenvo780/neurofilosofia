@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/MemoriaYRepresentacion/01_de_brigard_robins_memoria.md

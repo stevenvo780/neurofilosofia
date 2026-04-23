@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/TextosPresentacionEstudiantesEnEspanol/4b - Raichle - Representación Visual de las Operaciones Mentales.md

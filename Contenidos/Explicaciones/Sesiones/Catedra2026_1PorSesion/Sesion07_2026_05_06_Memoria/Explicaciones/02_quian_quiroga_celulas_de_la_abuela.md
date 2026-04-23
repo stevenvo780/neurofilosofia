@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/MemoriaYRepresentacion/02_quian_quiroga_celulas_de_la_abuela.md

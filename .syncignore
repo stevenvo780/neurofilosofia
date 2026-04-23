@@ -4,8 +4,11 @@
 # Usa nombre/ para carpetas, *.ext para extensiones.
 # ──────────────────────────────────────────────────────────────
 
-# Carpeta de repositorios locales (nunca sincronizar)
-repos
+# Repositorios: permitir sincronizar codigo fuente, pero no dependencias pesadas
+repos/*/node_modules
+repos/*/dist
+repos/*/build
+repos/*/.git
 
 # Build artifacts & caches
 __pycache__

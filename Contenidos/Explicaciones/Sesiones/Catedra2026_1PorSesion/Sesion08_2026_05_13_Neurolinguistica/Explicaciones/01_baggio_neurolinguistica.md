@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/Lenguaje/01_baggio_neurolinguistica.md

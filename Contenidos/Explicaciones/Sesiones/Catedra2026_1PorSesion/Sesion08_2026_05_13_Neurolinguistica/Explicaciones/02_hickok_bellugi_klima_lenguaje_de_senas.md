@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/Lenguaje/02_hickok_bellugi_klima_lenguaje_de_senas.md

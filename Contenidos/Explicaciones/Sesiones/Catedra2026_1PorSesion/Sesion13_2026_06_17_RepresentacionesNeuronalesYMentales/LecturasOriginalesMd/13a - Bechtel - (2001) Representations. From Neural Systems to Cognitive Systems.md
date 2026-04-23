@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/13a - Bechtel - (2001) Representations. From Neural Systems to Cognitive Systems.md

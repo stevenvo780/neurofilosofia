@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/TextosPresentacionEstudiantesEnEspanol/10b - Laureys - Estado Vegetativo.md

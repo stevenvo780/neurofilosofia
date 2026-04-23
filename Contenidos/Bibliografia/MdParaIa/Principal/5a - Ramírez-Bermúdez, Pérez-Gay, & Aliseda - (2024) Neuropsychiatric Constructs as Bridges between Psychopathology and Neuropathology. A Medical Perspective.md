@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/5a - Ramírez-Bermúdez, Pérez-Gay, & Aliseda - (2024) Neuropsychiatric Constructs as Bridges between Psychopathology and Neuropathology. A Medical Perspective.md

@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/1 - Bechtel, Mandik, & Mundale - (2001) Philosophy Meets the Neurosciences.md

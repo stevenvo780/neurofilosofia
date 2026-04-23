@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/FundamentosYMarco/02_daugman_metaforas_del_cerebro.md

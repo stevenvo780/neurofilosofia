@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/PercepcionYVision/01_trivino_mosquera_vision.md

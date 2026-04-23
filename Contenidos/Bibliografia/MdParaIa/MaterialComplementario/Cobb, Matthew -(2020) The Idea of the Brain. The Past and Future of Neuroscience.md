@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/MaterialComplementario/Cobb, Matthew -(2020) The Idea of the Brain. The Past and Future of Neuroscience.md

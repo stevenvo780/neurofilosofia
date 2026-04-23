@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/MetodosYEvidencia/01_bechtel_epistemologia_de_la_evidencia.md

@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/ConcienciaAgenciaYModelos/01_laureys_estado_vegetativo.md

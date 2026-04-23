@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/4a - Bechtel - (2004) The Epistemology of Evidence in Cognitive Neuroscience.md

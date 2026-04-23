@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/4b - Raichle - (1994) Visualizing the Mind.md

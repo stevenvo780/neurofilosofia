@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Bibliografia/9b - LeDoux - (1994) Emotion, Memory and the Brain.md

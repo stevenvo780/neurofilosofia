@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/EmocionInterocepcionYNeuropsiquiatria/01_ledoux_emocion_memoria_y_cerebro.md

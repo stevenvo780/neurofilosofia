@@ -1,1 +1,0 @@
-/workspace/Curso/FilosofiaDeLasNeurociencias/Explicaciones/Temas/ConcienciaAgenciaYModelos/02_nave_cerebro_predictivo.md
