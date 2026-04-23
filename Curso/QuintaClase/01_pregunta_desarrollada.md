@@ -4,7 +4,7 @@
 
 Mi inquietud central es esta:
 
-si aceptamos una ontologia monista minima, donde todo lo real relevante para la explicacion empirica es material, entonces parece posible describir fenomenos complejos sin comprometerse de entrada con categorias psicologicas densas como `mente`, `memoria`, `creencia`, `yo` o incluso `representacion`, al menos en su version ordinaria.
+si aceptamos una ontologia monista minima, donde todo lo real relevante para la explicacion empirica es material, entonces parece posible describir fenomenos complejos sin comprometerse de entrada con categorias psicologicas heredadas del lenguaje ordinario, como `mente`, `memoria`, `creencia`, `yo` o incluso `representacion`, al menos en su version ordinaria.
 
 Desde ahi surge mi sospecha metodologica:
 
@@ -40,6 +40,7 @@ El problema es decidir si este paso es legitimo y que precio paga:
 - si evitamos categorias psicologicas comunes, filtramos ruido conceptual o perdemos fenomeno;
 - si hablamos de `emergencia`, decimos algo fuerte sobre la realidad o solo marcamos ignorancia local;
 - si una formalizacion austera permite computar y delimitar mejor el fenomeno, eso cuenta como avance epistemico o solo como conveniencia practica;
+- si el nuevo lenguaje identifica variables y regularidades empiricamente aislables, o si solo rebautiza con mas elegancia el mismo fenomeno;
 - si hablamos de `sistemas`, `redes` o `hipergrafos`, explicamos mejor o solo renombramos complejidades.
 
 ## 3. Relacion con la tension de la clase
@@ -48,6 +49,7 @@ Segun lo que capte, una postura de la clase insistia en que ciertos conceptos co
 
 - no multiplicar entidades o vocabularios si no agregan capacidad predictiva o mecanicista;
 - no confundir utilidad pedagogica con necesidad teorica;
+- no convertir descripciones ordinarias en pseudoentidades tecnicas sin independencia empirica;
 - no asumir que las taxonomias del lenguaje ordinario recortan adecuadamente la realidad.
 
 La otra postura, que hablaba mas en clave emergentista o sistemica, parecia recordar que:
@@ -108,6 +110,8 @@ Mi propuesta puede formularse asi:
 - Realismo moderado: el modelo no es arbitrario si preserva dependencias reales, regularidades estables y constricciones causales.
 - Irrealismo local respecto de los cortes: las fronteras exactas entre nodos, hiperaristas, modulos o niveles pueden depender del interes explicativo y del aparato teorico.
 
+Pero aqui tengo que agregar una condicion importante: ni el grafo ni el hipergrafo valen por si mismos. Solo valen si estan construidos sobre relaciones empiricas efectivas entre organismo, entorno, tarea, historia y dinamicas medidas, y no si funcionan como una mera traduccion tecnica de etiquetas mentalistas heredadas.
+
 Eso permite evitar dos errores simetricos:
 
 1. Reificar el modelo.
@@ -157,6 +161,8 @@ Esto se ve mejor en preguntas de psicologia conductual. Si la pregunta es por la
 
 Pero no necesitamos, para cada pregunta, computar todo el detalle de cada sustrato. A veces bastara con modelar un modulo perceptivo, un circuito valorativo o un patron de aprendizaje como nodo funcional condensado; otras veces habra que volver a abrir ese nodo y desplegar su hipergrafo interno.
 
+Ese punto importa porque la segunda charla obliga a recordar algo: el dato primario no es una entidad mental postulada, sino organismos haciendo cosas en entornos determinados. Por eso mi formalizacion solo seria defendible si sigue anclada en ese nivel de relaciones observables y funcionales.
+
 En ese sentido, el hipergrafo no es solo un esquema elegante. Es un instrumento epistemico para fijar nivel de analisis, controlar complejidad y hacer interoperable la explicacion: lo bastante estricto para una maquina y lo bastante interpretable para una persona.
 
 ## 8. Los niveles explicativos `L1`, `L2` y `L3`
@@ -178,6 +184,8 @@ En `L2` hablamos en terminos de circuitos, regiones, poblaciones neuronales, din
 En `L3` hablamos en terminos de grafos multivariables, hipergrafos, clases, restricciones, patrones de dependencia, reglas de actualizacion y operaciones de compresion o expansion. Ese lenguaje no agrega una nueva ontologia; intenta reconstruir formalmente relaciones que pueden ser poco visibles o demasiado costosas de seguir tanto en `L1` como en `L2`.
 
 La cuestion importante es que `L3` no vale simplemente por ser mas abstracto. Vale si logra captar mejor ciertas dependencias relevantes sin despegarse ilegitimamente de `L2` y sin quedarse preso de la vaguedad de `L1`.
+
+Ademas, `L3` solo seria legitimo si sus clases, nodos y agrupamientos recogen regularidades empiricamente aislables y no si funcionan como un simple rebautizo tecnico de las categorias de `L1`.
 
 Por eso mi duda tambien puede formularse asi:
 
@@ -229,6 +237,8 @@ Posibles condiciones:
 
 - conservar o mejorar capacidad explicativa;
 - preservar las dependencias relevantes bajo compresion;
+- seguir anclada en relaciones empiricas entre organismo, entorno, tarea, historia y dinamicas medidas;
+- evitar que las clases formales sean solo redescripciones nominales sin independencia empirica;
 - aumentar precision inferencial;
 - reducir costo computacional sin perder diferencias explicativas decisivas;
 - permitir reabrir nodos o subgrafos cuando el fenomeno lo exija;
@@ -243,4 +253,4 @@ Mi inquietud completa podria resumirse asi:
 
 si todo lo real en juego es material, pero nuestras particiones conceptuales son en parte construcciones teoricas, entonces quizas convenga describir fenomenos complejos mediante estructuras relacionales formales que capten organizacion, dependencia y dinamica sin asumir desde el inicio categorias mentales densas. Ademas, quizas convenga usar esas estructuras para decidir hasta donde expandir una explicacion y hasta donde comprimirla, de modo que el modelo siga siendo tractable sin perder la forma relevante del fenomeno. La pregunta es si este desplazamiento hacia una descripcion mas analitica y matematizable constituye un avance epistemicamente legitimo o si, por el contrario, sacrifica aspectos esenciales del fenomeno que justamente motivaban nociones como mente, memoria o sujeto.
 
-Tambien puedo decirlo en terminos mas tecnicos: si `L1` es demasiado vago y `L2` es demasiado local o demasiado costoso de seguir exhaustivamente, mi duda es si `L3` puede funcionar como un nivel explicativo formalmente mas preciso sin introducir una ontologia extra y sin perder fenomeno.
+Tambien puedo decirlo en terminos mas tecnicos: si `L1` es demasiado vago y `L2` es demasiado local o demasiado costoso de seguir exhaustivamente, mi duda es si `L3` puede funcionar como un nivel explicativo formalmente mas preciso sin introducir una ontologia extra, sin perder fenomeno y sin dejar de estar anclado en relaciones empiricas observables.

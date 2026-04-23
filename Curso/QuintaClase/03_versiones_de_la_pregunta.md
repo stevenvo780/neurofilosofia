@@ -21,6 +21,7 @@ Supongamos que:
 - `M_Q` no es una sustancia extra, sino una organizacion epistemica construida sobre `G_Q`;
 - las particiones de `V`, `H` y `C` son teorico-relativas;
 - las clases `C` no son materiales, sino abstracciones definidas para fines explicativos;
+- `G_Q` y `M_Q` deben construirse sobre relaciones empiricamente identificables entre organismo, entorno, tarea, historia y dinamicas medidas;
 - `kappa_Q` no elimina arbitrariamente estructura, sino que preserva las dependencias necesarias para responder `Q`;
 - ciertos terminos mentalistas `P = {mente, memoria, creencia, ...}` no se toman como primitivos.
 
@@ -39,7 +40,7 @@ donde `C(M_Q)` es un conjunto de clases estructurales, dinamicas o funcionales d
 entonces:
 
 - `phi_Q` es solo una traduccion nominal;
-- o bien produce una mejora explicativa en virtud de mayor precision, poder predictivo, intervencion, ajuste mecanicista y tractabilidad computacional.
+- o bien produce una mejora explicativa en virtud de mayor precision, poder predictivo, intervencion, ajuste mecanicista, tractabilidad computacional y correspondencia con regularidades empiricamente aislables.
 
 Mi cuestion es si el pasaje
 
@@ -62,3 +63,5 @@ La misma duda tambien puede expresarse en terminos de niveles explicativos:
 - `L3`: lenguaje estructural-relacional formal.
 
 En ese marco, la pregunta es si `L3` puede mejorar la explicacion respecto de `L1` sin despegarse ilegitimamente de `L2`, precisamente porque permite representar dependencias relevantes con un costo inferencial y computacional menor que el seguimiento exhaustivo del nivel local.
+
+Dicho de otro modo: `L3` solo seria legitimo si no funciona como un simple rebautizo formal de `L1`, sino como una reconstruccion que conserve anclaje empirico y gane realmente capacidad explicativa.

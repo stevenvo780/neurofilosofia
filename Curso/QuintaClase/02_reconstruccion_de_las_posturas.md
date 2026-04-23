@@ -10,6 +10,8 @@ Esto no pretende ser transcripcion literal. Es una reconstruccion ordenada de la
 
 Los conceptos heredados de la psicologia ordinaria o de cierta filosofia de la mente no deben preservarse por costumbre. Si terminos como `mente`, `memoria`, `creencia` o `deseo` no agregan precision explicativa genuina, pueden ser revisados, fragmentados o incluso eliminados.
 
+Mas precisamente, el problema no es solo que sobren palabras, sino que muchas veces esas palabras no funcionan como variables tecnicas bien definidas y se deslizan desde el lenguaje ordinario hacia la teoria sin criterios claros de aplicacion.
+
 ### Motivacion
 
 - El lenguaje ordinario fue hecho para orientacion practica, no para teoria madura.
@@ -29,6 +31,8 @@ En una lectura mas fuerte, tambien cuenta la tractabilidad: si un modelo intenta
 - antropomorfizar;
 - reificar categorias pedagogicas;
 - explicar con etiquetas en vez de mecanismos;
+- convertir descripciones ordinarias en pseudoentidades teoricas;
+- perder independencia empirica entre las variables que se dice explicar;
 - suponer que la taxonomia intuitiva coincide con la estructura del mundo.
 
 ### Version fuerte
@@ -155,6 +159,8 @@ Si Ricardo acepta que muchas categorias mentales deben depurarse cuando no agreg
 
 - que una estructura compleja puede condensarse en una unidad teorica mas simple cuando sus detalles internos no producen diferencia inferencial para la pregunta actual;
 - que la legitimidad de ese recorte no depende solo de eliminar palabras, sino de preservar dependencias relevantes;
+- que una formalizacion solo vale si sigue anclada en relaciones empiricas entre organismo, entorno, tarea e historia;
+- que las clases del modelo no deben ser simples redescripciones tecnicas de categorias ordinarias;
 - que el ahorro computacional y la tractabilidad tambien importan como virtudes epistemicas.
 
 Mi objetivo no es defender una metafisica exuberante, sino preguntar con precision:
@@ -165,7 +171,7 @@ Mi objetivo no es defender una metafisica exuberante, sino preguntar con precisi
 
 La postura analitica pregunta:
 
-`que conceptos y que niveles sobran?`
+`que conceptos y que niveles sobran, y cuales corresponden realmente a variables o relaciones distinguibles?`
 
 La postura sistemica pregunta:
 
@@ -173,4 +179,4 @@ La postura sistemica pregunta:
 
 Mi pregunta agrega:
 
-`podemos reemplazar parte del vocabulario mentalista por una formalizacion relacional suficientemente precisa, usando ademas compresion y expansion controladas, sin caer ni en eliminacion vacia ni en emergencia imprecisa?`
+`podemos reemplazar parte del vocabulario mentalista por una formalizacion relacional suficientemente precisa, usando ademas compresion y expansion controladas, sin caer ni en eliminacion vacia, ni en emergencia imprecisa, ni en un simple cambio de etiquetas?`
