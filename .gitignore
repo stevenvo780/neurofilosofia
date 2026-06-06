@@ -1,22 +1,28 @@
-# Repositorios locales (tienen su propio git)
-repos/
+# ── Fuentes pesadas fuera de git ────────────────────────────────
+# PDFs y volcados de texto completo de libros viven en la nube/local
+# (Agora) y NO se versionan. Crea la carpeta Fuentes/ localmente.
+/Fuentes/
+Contenidos/pdf/
+*.pdf
+
+# Repos locales (tienen su propio git)
+/repos/
+
+# Estado de sincronización de Agora (auto-generado)
+.agora-host-sync.json
 
 # Builds y artefactos
 dist/
 build/
-*.pyc
+target/
 __pycache__/
+*.pyc
 *.o
 *.so
 *.class
 *.jar
-
-# Temporales
-tmp_hinton/
-tmp_*/
-
-# Node
 node_modules/
+.next/
 
 # OS
 .DS_Store
