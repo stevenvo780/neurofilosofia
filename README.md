@@ -21,7 +21,6 @@ reorganizada por **función cognitiva** del material, no por acumulación histó
 | `08_Evaluacion/` | Banco de preguntas, simulacro, plan de estudio |
 | `09_Ensayos/` | Producción propia (entregables largos) |
 | `10_LogicaFormal/` | Archivos `.st` y presentación Hinton |
-| `_Borradores/` | Bandeja temporal de notas sin clasificar |
 
 ## 📦 Material fuente (fuera de git)
 Los **PDFs** y volcados de texto completo de libros **no se versionan** (ver `.gitignore`).
