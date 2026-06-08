@@ -74,11 +74,11 @@ Cuando el cerebro **predice mal** sostenidamente lo que va a necesitar (sueño, 
 
 ## 8. Lecturas del workspace
 
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/EmocionInterocepcionYNeuropsiquiatria/02_chen_interocepcion]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/EmocionInterocepcionYNeuropsiquiatria/03_barrett_emocion_y_enfermedad]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/EmocionInterocepcionYNeuropsiquiatria/04_ramirez_bermudez_constructos_neuropsiquiatricos]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MaterialComplementario/08_neuroscience_and_psychopathology]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/VisualizacionesYModelos/06_interocepcion_emocion_y_neuropsiquiatria]]
+- [[02_Lecturas/06_emocion_interocepcion_neuropsiquiatria/02_chen_interocepcion]]
+- [[02_Lecturas/06_emocion_interocepcion_neuropsiquiatria/03_barrett_emocion_y_enfermedad]]
+- [[02_Lecturas/06_emocion_interocepcion_neuropsiquiatria/04_ramirez_bermudez_constructos_neuropsiquiatricos]]
+- [[02_Lecturas/09_material_complementario/08_neuroscience_and_psychopathology]]
+- [[05_Visualizaciones/06_interocepcion_emocion_y_neuropsiquiatria]]
 
 ## 9. Conceptos clave que se desbloquean
 

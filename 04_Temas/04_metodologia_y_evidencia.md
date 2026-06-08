@@ -79,12 +79,12 @@ Errores frecuentes a evitar:
 
 ## 8. Lecturas del workspace
 
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MetodosYEvidencia/01_bechtel_epistemologia_de_la_evidencia]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MetodosYEvidencia/02_raichle_visualizando_la_mente]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MaterialComplementario/04_chirimuuta_brain_abstracted]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MaterialComplementario/06_dehaene_seeing_the_mind]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/FundamentosYMarco/02_daugman_metaforas_del_cerebro]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MaterialComplementario/02_bechtel_mental_mechanisms]]
+- [[02_Lecturas/02_metodos_y_evidencia/01_bechtel_epistemologia_de_la_evidencia]]
+- [[02_Lecturas/02_metodos_y_evidencia/02_raichle_visualizando_la_mente]]
+- [[02_Lecturas/09_material_complementario/04_chirimuuta_brain_abstracted]]
+- [[02_Lecturas/09_material_complementario/06_dehaene_seeing_the_mind]]
+- [[02_Lecturas/01_fundamentos_y_marco/02_daugman_metaforas_del_cerebro]]
+- [[02_Lecturas/09_material_complementario/02_bechtel_mental_mechanisms]]
 
 ## 9. Conceptos clave que se desbloquean
 

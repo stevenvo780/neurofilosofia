@@ -92,11 +92,11 @@ La idea de **representación distribuida** es el puente conceptual entre redes y
 
 ## 8. Lecturas del workspace
 
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/FundamentosYMarco/03_hinton_redes_neuronales]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/FundamentosYMarco/02_daugman_metaforas_del_cerebro]]
-- [[Contenidos/Explicaciones/Temas/FundamentosYMarco/05_bickle_churchland_y_neurofilosofias]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MemoriaYRepresentacion/03_bechtel_representaciones]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MaterialComplementario/04_chirimuuta_brain_abstracted]]
+- [[02_Lecturas/01_fundamentos_y_marco/03_hinton_redes_neuronales]]
+- [[02_Lecturas/01_fundamentos_y_marco/02_daugman_metaforas_del_cerebro]]
+- [[02_Lecturas/01_fundamentos_y_marco/05_bickle_churchland_y_neurofilosofias]]
+- [[02_Lecturas/04_memoria_y_representacion/03_bechtel_representaciones]]
+- [[02_Lecturas/09_material_complementario/04_chirimuuta_brain_abstracted]]
 - [[repos/RedesNeuronalesFilosofiaNeurociencia/README]]
 
 ## 9. Conceptos clave que se desbloquean

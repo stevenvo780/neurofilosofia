@@ -90,13 +90,13 @@ es decir, **predicción** y **sorpresa** son centrales. Esto enlaza con cerebro 
 
 ## 7. Lecturas del workspace
 
-- [[Contenidos/Explicaciones/Temas/Lenguaje/01_baggio_neurolinguistica]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/Lenguaje/02_hickok_bellugi_klima_lenguaje_de_senas]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/FuncionesEjecutivasYLobulosFrontales/01_suchy_funciones_ejecutivas]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/FuncionesEjecutivasYLobulosFrontales/02_miller_cummings_lobulos_frontales]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/ConcienciaAgenciaYModelos/04_obhi_haggard_libre_albedrio]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/VisualizacionesYModelos/05_lenguaje_y_arquitecturas]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/VisualizacionesYModelos/07_funciones_ejecutivas_frontales_y_agencia]]
+- [[02_Lecturas/05_lenguaje/01_baggio_neurolinguistica]]
+- [[02_Lecturas/05_lenguaje/02_hickok_bellugi_klima_lenguaje_de_senas]]
+- [[02_Lecturas/07_funciones_ejecutivas_y_lobulos_frontales/01_suchy_funciones_ejecutivas]]
+- [[02_Lecturas/07_funciones_ejecutivas_y_lobulos_frontales/02_miller_cummings_lobulos_frontales]]
+- [[02_Lecturas/08_conciencia_agencia_y_modelos/04_obhi_haggard_libre_albedrio]]
+- [[05_Visualizaciones/05_lenguaje_y_arquitecturas]]
+- [[05_Visualizaciones/07_funciones_ejecutivas_frontales_y_agencia]]
 
 ## 8. Conceptos clave que se desbloquean
 

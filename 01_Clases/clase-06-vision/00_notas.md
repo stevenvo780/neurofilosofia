@@ -11,12 +11,24 @@ La visión es el sistema sensorial mejor estudiado y, por eso, el laboratorio do
 
 Esto golpea de frente al ingenuo "ver es como una cámara". La visión es un **proceso constructivo activo** que opera sobre señales empobrecidas (la *bóveda oscura* de la clase 3), modulado por estados internos (atención, memoria, expectativas) y dividido funcionalmente en al menos dos grandes vías —**ventral ("qué")** y **dorsal ("dónde/cómo")**— cuya disociación clínica fundamenta uno de los argumentos más sólidos por la organización modular del sistema.
 
+## Plan didáctico de la clase
+
+1. **Apertura.** Psicofísica de Fechner (~1860): el problema de relacionar magnitud física y magnitud psíquica. *Ejemplo del pez beta y el elefante*: percibimos los cambios relativamente, no en magnitudes absolutas.
+2. **Sustrato anatómico, paso a paso.** Ojo → retina (conos/bastones, fóvea, punto ciego) → nervio óptico → quiasma → tracto óptico → núcleo geniculado lateral (talámico) → radiaciones ópticas → corteza visual primaria (V1, lóbulo occipital).
+3. **Decusación parcial.** En el quiasma se cruza solo la mitad nasal de cada retina. Mapa visual contralateral: hemicampo derecho → V1 izquierda.
+4. **Retinotopía y especialización.** V1 → V2, V3, V4 (color), V5/MT (movimiento). Columnas de orientación de Hubel y Wiesel.
+5. **Dos vías corticales.** Ventral (occipito-temporal): "qué" — identidad, color, forma, lectura, rostros. Dorsal (occipito-parietal): "dónde / cómo" — localización, guía de la acción.
+6. **Top-down y leyes de la Gestalt.** Proximidad, similitud, continuidad, cierre, figura-fondo. El lenguaje y la categorización modulan masivamente lo que vemos.
+7. **Disociaciones clínicas.** Agnosia visual aperceptiva vs asociativa, prosopagnosia, acromatopsia central, akinetopsia, *blindsight* (visión ciega), ataxia óptica, simultanagnosia (síndrome de Balint).
+8. **Caso DF** (paciente de Goodale & Milner): no reconoce orientación de una ranura pero introduce correctamente la carta. Disociación percepción consciente / acción visomotora.
+9. **Cierre.** Percepción visual como inferencia bayesiana; preámbulo a la Clase 11 (interocepción), Clase 13 (representaciones) y Clase 14 (cerebro predictivo).
+
 ## 2. Conceptos clave
 
 - **Psicofísica (Fechner)** — relación cuantitativa entre estímulo físico y experiencia subjetiva. *Ley de Weber-Fechner*: la sensibilidad al cambio depende de la magnitud previa (proporcional, no absoluta). El ejemplo del profesor: notamos al pez beta que crece de 15 a 25 cm; no notamos al elefante que crece igual cantidad.
 - **Espectro electromagnético visible** — 400-750 nm. Una franja minúscula del total. Otras especies ven UV (abejas, camarón mantis), IR (algunas serpientes).
 - **Transducción retinal** — fotones → señal eléctrica en conos (color, alta resolución, fovea) y bastones (baja luz, periferia).
-- **Vía retina-tálamo-corteza** — retina → nervio óptico → **quiasma óptico** (decusación parcial: hemicampo derecho proyecta a hemisferio izquierdo, viceversa) → **núcleo geniculado lateral** (tálamo) → radiación óptica → **V1** (corteza estriada occipital).
+- **Vía retina-tálamo-corteza** — retina → nervio óptico → **quiasma óptico** (decusación parcial: hemicampo derecho proyecta a hemisferio izquierdo, viceversa) → **núcleo geniculado lateral** (NGL, tálamo; con separación de vías **magnocelular** —M: movimiento, contraste— y **parvocelular** —P: detalle, color—) → radiación óptica → **V1** (corteza estriada occipital).
 - **Hubel & Wiesel** — Nobel 1981: células simples y complejas en V1; selectividad por orientación, organización columnar.
 - **Áreas visuales extraestriadas** — V2, V3 (movimiento), V4 (color, forma), V5/MT (movimiento), FFA (caras, Kanwisher), PPA (lugares), VWFA (palabras).
 - **Dos vías corticales (Ungerleider-Mishkin / Goodale-Milner)** —
@@ -29,11 +41,12 @@ Esto golpea de frente al ingenuo "ver es como una cámara". La visión es un **p
 - **Prosopagnosia** — agnosia selectiva de rostros, asociada a daño FFA (gyrus fusiforme derecho). Caso de doble disociación clásica.
 - **Blindsight / visión ciega** — paciente con lesión V1 que niega ver pero responde a estímulos por encima del azar. Disocia conciencia visual de procesamiento visual.
 - **Síndrome de Anton** — recapitulado de clase 5: ceguera cortical con anosognosia. Toca la frontera entre visión, autoacceso y conciencia.
+- **Síndrome de Balint** — lesión parietal bilateral: simultanagnosia (percibe un objeto a la vez), apraxia óptica y ataxia óptica. Forma extrema del fallo de la vía dorsal.
 
 ## 3. Autores y lecturas asociadas
 
-- **Triviño-Mosquera et al.** — cap. 3 *Percepción visual* (lectura central): `[[Contenidos/pdf/6a - Triviño-Mosquera et al. - Visión]]`, transcripción en `[[Curso/SextaClase/6a - Trivi-o-Mosquera et al. - Visi-n]]`.
-- **Zeki (1992)** — *The Visual Image in Mind and Brain*, Scientific American: `[[Contenidos/pdf/6b - Zeki - (1992) The Visual Image in Mind and Brain]]`. Defiende **modularidad funcional** (V4 color, V5 movimiento) y acroma topsia / akinetopsia como casos clínicos.
+- **Triviño-Mosquera et al.** — cap. 3 *Percepción visual* (lectura central): `[[Fuentes/pdf/6a - Triviño-Mosquera et al. - Visión]]`, transcripción en `[[01_Clases/clase-06-vision/6a_Trivino-Mosquera_vision]]`.
+- **Zeki (1992)** — *The Visual Image in Mind and Brain*, Scientific American: `[[Fuentes/pdf/6b - Zeki - (1992) The Visual Image in Mind and Brain]]`. Defiende **modularidad funcional** (V4 color, V5 movimiento) y acroma topsia / akinetopsia como casos clínicos.
 - **Fechner (1860)** — *Elemente der Psychophysik*.
 - **Helmholtz (1867)** — *Handbook of Physiological Optics*: percepción como **inferencia inconsciente**. Precursor del procesamiento bayesiano y predictive coding.
 - **Hubel & Wiesel (1959-1979)** — receptive fields, columnas de orientación.
@@ -43,7 +56,7 @@ Esto golpea de frente al ingenuo "ver es como una cámara". La visión es un **p
 - **Kanwisher** — FFA, evidencia de modularidad selectiva.
 - **Bechtel** — *Representations* (clase 3) recuperado aquí: cada área visual computa una transformación específica.
 - **Tononi (IIT)** — relevante para la pregunta visión-conciencia.
-- **Frith, Friston, Clark** — predictive processing / cerebro predictivo. Ver `[[Contenidos/pdf/15a - Nave et al. - (2020) Wilding the Predictive Brain]]`.
+- **Frith, Friston, Clark** — predictive processing / cerebro predictivo. Ver `[[Fuentes/pdf/15a - Nave et al. - (2020) Wilding the Predictive Brain]]`.
 
 ## 4. Hilos argumentales
 
@@ -109,16 +122,16 @@ flowchart LR
 
 ## 9. Cross-refs al backup
 
-- `[[Curso/SextaClase/00_indice]]` — índice.
-- `[[Curso/SextaClase/NotasJacob]]` — notas detalladas Jacob: psicofísica, sustrato, Gestalt, dos vías.
-- `[[Curso/SextaClase/NotasStev]]` — notas Stev: vía retino-cortical, decusación, top-down.
-- `[[Curso/SextaClase/6a - Trivi-o-Mosquera et al. - Visi-n]]` — transcripción del capítulo.
-- `[[Contenidos/pdf/6a - Triviño-Mosquera et al. - Visión]]` — PDF original.
-- `[[Contenidos/pdf/6b - Zeki - (1992) The Visual Image in Mind and Brain]]` — Zeki Scientific American.
-- `[[Contenidos/pdf/15a - Nave et al. - (2020) Wilding the Predictive Brain]]` — cerebro predictivo aplicable.
-- `[[Contenidos/Explicaciones/Temas/PercepcionYVision]]` — carpeta temática.
-- `[[Curso/TerceraClase/14_representaciones_multimodalidad_y_flujo]]` — *bóveda oscura*, raíz teórica.
-- `[[Curso/QuintaClase/Charla1]]` — Anton recapitulado.
+- `[[01_Clases/clase-06-vision/00_indice]]` — índice.
+- `[[01_Clases/clase-06-vision/NotasJacob]]` — notas detalladas Jacob: psicofísica, sustrato, Gestalt, dos vías.
+- `[[01_Clases/clase-06-vision/NotasStev]]` — notas Stev: vía retino-cortical, decusación, top-down.
+- `[[01_Clases/clase-06-vision/6a_Trivino-Mosquera_vision]]` — transcripción del capítulo.
+- `[[Fuentes/pdf/6a - Triviño-Mosquera et al. - Visión]]` — PDF original.
+- `[[Fuentes/pdf/6b - Zeki - (1992) The Visual Image in Mind and Brain]]` — Zeki Scientific American.
+- `[[Fuentes/pdf/15a - Nave et al. - (2020) Wilding the Predictive Brain]]` — cerebro predictivo aplicable.
+- `[[02_Lecturas/03_percepcion_y_vision/00_indice]]` — carpeta temática.
+- `[[01_Clases/clase-03-neuroanatomia/14_representaciones_multimodalidad_y_flujo]]` — *bóveda oscura*, raíz teórica.
+- `[[01_Clases/clase-05-mente-conducta-cerebro/charla1]]` — Anton recapitulado.
 
 ## 10. Para el estudiante
 

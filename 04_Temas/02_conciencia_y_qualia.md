@@ -74,11 +74,11 @@ donde $q(s)$ es el modelo interno sobre causas ocultas y $p(o, s)$ es la distrib
 
 ## 8. Lecturas del workspace
 
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/ConcienciaAgenciaYModelos/01_laureys_estado_vegetativo]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/ConcienciaAgenciaYModelos/02_nave_cerebro_predictivo]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/ConcienciaAgenciaYModelos/04_obhi_haggard_libre_albedrio]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MaterialComplementario/09_passingham_cognitive_neuroscience]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/VisualizacionesYModelos/08_cerebro_predictivo_y_formalizacion]]
+- [[02_Lecturas/08_conciencia_agencia_y_modelos/01_laureys_estado_vegetativo]]
+- [[02_Lecturas/08_conciencia_agencia_y_modelos/02_nave_cerebro_predictivo]]
+- [[02_Lecturas/08_conciencia_agencia_y_modelos/04_obhi_haggard_libre_albedrio]]
+- [[02_Lecturas/09_material_complementario/09_passingham_cognitive_neuroscience]]
+- [[05_Visualizaciones/08_cerebro_predictivo_y_formalizacion]]
 
 ## 9. Conceptos clave que se desbloquean
 

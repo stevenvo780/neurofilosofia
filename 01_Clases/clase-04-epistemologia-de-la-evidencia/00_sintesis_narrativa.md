@@ -30,8 +30,8 @@ La consecuencia metodológica es la **convergencia multitécnica** como criterio
 
 ## 3. Autores y lecturas asociadas
 
-- **Bechtel (2004)** — *The Epistemology of Evidence in Cognitive Neuroscience*: lectura central. `[[Contenidos/pdf/4a - Bechtel - (2004) The Epistemology of Evidence in Cognitive Neuroscience]]`.
-- **Raichle (1994)** — *Visualizing the Mind*: historia y lógica del PET. `[[Contenidos/pdf/4b - Raichle - (1994) Visualizing the Mind]]`.
+- **Bechtel (2004)** — *The Epistemology of Evidence in Cognitive Neuroscience*: lectura central. `[[Fuentes/pdf/4a - Bechtel - (2004) The Epistemology of Evidence in Cognitive Neuroscience]]`.
+- **Raichle (1994)** — *Visualizing the Mind*: historia y lógica del PET. `[[Fuentes/pdf/4b - Raichle - (1994) Visualizing the Mind]]`.
 - **Donders (1869)** — *On the speed of mental processes*: método de sustracción.
 - **Shallice (1988)** — *From Neuropsychology to Mental Structure*: doble disociación.
 - **Caramazza (1986)** — defensa metodológica de estudios de caso único.
@@ -104,18 +104,18 @@ flowchart TD
 
 ## 9. Cross-refs al backup
 
-- `[[Curso/CuartaClase/notas]]` — apuntes en bruto.
-- `[[Curso/CuartaClase/00_indice]]` — índice clase 4.
-- `[[Curso/CuartaClase/01_que_es_evidencia_en_neurociencia]]` — desarrollo evidencia mediada.
-- `[[Curso/CuartaClase/02_instrumentos_intervencion_y_artefactos]]` — instrumentos y artefactos.
-- `[[Curso/CuartaClase/03_lesiones_y_deficits]]` — lesión como técnica inferencial.
-- `[[Curso/CuartaClase/06_localizacion_mecanismos_y_limites]]` — localización vs mecanismo.
-- `[[Curso/CuartaClase/07_glosario_basico]]` — glosario.
-- `[[Curso/CuartaClase/Notas]]` — notas extendidas (epistemología y filosofía de la mente).
-- `[[Curso/CuartaClase/Sin título]]` — Visualizacion de la mente, derivado de Raichle.
-- `[[Contenidos/pdf/4a - Bechtel - (2004) The Epistemology of Evidence in Cognitive Neuroscience]]` — texto base.
-- `[[Contenidos/pdf/4b - Raichle - (1994) Visualizing the Mind]]` — PDF Raichle.
-- `[[Contenidos/Explicaciones/Temas/MetodosYEvidencia]]` — carpeta temática.
+- `[[01_Clases/clase-04-epistemologia-de-la-evidencia/00_notas]]` — apuntes en bruto.
+- `[[01_Clases/clase-04-epistemologia-de-la-evidencia/00_indice]]` — índice clase 4.
+- `[[01_Clases/clase-04-epistemologia-de-la-evidencia/01_que_es_evidencia_en_neurociencia]]` — desarrollo evidencia mediada.
+- `[[01_Clases/clase-04-epistemologia-de-la-evidencia/02_instrumentos_intervencion_y_artefactos]]` — instrumentos y artefactos.
+- `[[01_Clases/clase-04-epistemologia-de-la-evidencia/03_lesiones_y_deficits]]` — lesión como técnica inferencial.
+- `[[01_Clases/clase-04-epistemologia-de-la-evidencia/06_localizacion_mecanismos_y_limites]]` — localización vs mecanismo.
+- `[[01_Clases/clase-04-epistemologia-de-la-evidencia/glosario_clase]]` — glosario.
+- `[[01_Clases/clase-04-epistemologia-de-la-evidencia/00_notas]]` — notas extendidas (epistemología y filosofía de la mente).
+- `[[01_Clases/clase-04-epistemologia-de-la-evidencia/05_pet_fmri_y_neuroimagen_funcional]]` — Visualizacion de la mente, derivado de Raichle.
+- `[[Fuentes/pdf/4a - Bechtel - (2004) The Epistemology of Evidence in Cognitive Neuroscience]]` — texto base.
+- `[[Fuentes/pdf/4b - Raichle - (1994) Visualizing the Mind]]` — PDF Raichle.
+- `[[02_Lecturas/02_metodos_y_evidencia/00_indice]]` — carpeta temática.
 
 ## 10. Para el estudiante
 

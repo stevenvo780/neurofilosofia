@@ -27,7 +27,7 @@ La presentación lee a Hinton como **el laboratorio práctico** donde toda la cl
 
 ## 3. Autores y lecturas asociadas
 
-- **Hinton (1992)** — texto base: `[[Contenidos/pdf/2b - Hinton - (1992) How Neural Networks Learn from Experience]]`, traducción `[[Curso/Presenacion/2b - Hinton - (1992) Traduccion Cuidada al Espanol]]`, versión anotada `[[Curso/Presenacion/2b - Hinton - Redes Neuronales que Aprenden de la Experiencia]]`.
+- **Hinton (1992)** — texto base: `[[Fuentes/pdf/2b - Hinton - (1992) How Neural Networks Learn from Experience]]`, traducción `[[Fuentes/textos/2b - Hinton - (1992) Traduccion Cuidada al Espanol]]`, versión anotada `[[Fuentes/textos/2b - Hinton - Redes Neuronales que Aprenden de la Experiencia]]`.
 - **Rumelhart, Hinton & Williams (1986)** — *Learning representations by back-propagating errors*: paper fundador del backprop moderno (aunque Werbos 1974 lo descubrió antes).
 - **Rosenblatt (1958)** — perceptrón: predecesor histórico.
 - **Minsky & Papert (1969)** — *Perceptrons*: crítica que retrasó el campo y motivó el renacimiento conexionista de los 80.
@@ -103,17 +103,17 @@ flowchart TD
 
 ## 9. Cross-refs al backup
 
-- `[[Curso/Presenacion/2b - Hinton - (1992) How Neural Networks Learn from Experience]]` — texto original transcrito.
-- `[[Curso/Presenacion/2b - Hinton - (1992) Traduccion Cuidada al Espanol]]` — traducción.
-- `[[Curso/Presenacion/2b - Hinton - Redes Neuronales que Aprenden de la Experiencia]]` — versión anotada larga.
-- `[[Curso/Presenacion/NotasDelTexto]]` — fichado del paper.
-- `[[Curso/Presenacion/PlanPresentacion]]` — plan completo de la app web interactiva con timing 20 min.
-- `[[Curso/Presenacion/GuionCompletoPresentacionHinton]]` — guion oral.
-- `[[Curso/Presenacion/AsesorRapidoHinton]]` — Q&A de defensa oral.
-- `[[Curso/Presenacion/ExplicacionesExtra_ConexionNeuronalYSinapsis]]` — explicaciones para públicos no técnicos.
-- `[[Curso/Presenacion/ST_Hinton_Ontologia]]` — formalización ST (lógica de primer orden + modal) de la ontología del paper.
-- `[[Contenidos/pdf/2b - Hinton - (1992) How Neural Networks Learn from Experience]]` — PDF original.
-- `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/03_hinton_redes_neuronales]]` — desarrollo temático.
+- `[[Fuentes/pdf/2b - Hinton - (1992) How Neural Networks Learn from Experience]]` — texto original transcrito.
+- `[[Fuentes/textos/2b - Hinton - (1992) Traduccion Cuidada al Espanol]]` — traducción.
+- `[[Fuentes/textos/2b - Hinton - Redes Neuronales que Aprenden de la Experiencia]]` — versión anotada larga.
+- `[[10_LogicaFormal/hinton/NotasDelTexto]]` — fichado del paper.
+- `[[10_LogicaFormal/hinton/PlanPresentacion]]` — plan completo de la app web interactiva con timing 20 min.
+- `[[10_LogicaFormal/hinton/GuionCompletoPresentacionHinton]]` — guion oral.
+- `[[10_LogicaFormal/hinton/AsesorRapidoHinton]]` — Q&A de defensa oral.
+- `[[10_LogicaFormal/hinton/ExplicacionesExtra_ConexionNeuronalYSinapsis]]` — explicaciones para públicos no técnicos.
+- `[[10_LogicaFormal/hinton/01_Hinton_Ontologia_Base.st]]` — formalización ST (lógica de primer orden + modal) de la ontología del paper.
+- `[[Fuentes/pdf/2b - Hinton - (1992) How Neural Networks Learn from Experience]]` — PDF original.
+- `[[02_Lecturas/01_fundamentos_y_marco/03_hinton_redes_neuronales]]` — desarrollo temático.
 
 ## 10. Para el estudiante (y para la defensa oral)
 

@@ -105,4 +105,4 @@ No empezar por el Hard Problem ni por el debate IIT-vs-GWT. Esos son legibles so
 
 ---
 
-Ver: [[00_MAPA_DEL_CURSO]] · [[01_GLOSARIO_CONCEPTOS]] · [[03_RESUMENES_POR_AUTOR]] · [[04_PREGUNTAS_GUIA_PARCIAL]].
+Ver: [[00_Inicio/02_mapa_del_curso]] · [[01_GLOSARIO_CONCEPTOS]] · [[03_RESUMENES_POR_AUTOR]] · [[04_PREGUNTAS_GUIA_PARCIAL]].

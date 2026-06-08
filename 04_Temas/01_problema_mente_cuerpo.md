@@ -63,11 +63,11 @@ El funcionalista dice que esa $f$ es lo único que cuenta; el reductivista exige
 
 ## 7. Lecturas del workspace
 
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/FundamentosYMarco/01_bechtel_mandik_mundale_filosofia_y_neurociencias]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/FundamentosYMarco/02_daugman_metaforas_del_cerebro]]
-- [[Contenidos/Explicaciones/Temas/FundamentosYMarco/05_bickle_churchland_y_neurofilosofias]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MaterialComplementario/05_cobb_idea_of_the_brain]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MemoriaYRepresentacion/03_bechtel_representaciones]]
+- [[02_Lecturas/01_fundamentos_y_marco/01_bechtel_mandik_mundale_filosofia_y_neurociencias]]
+- [[02_Lecturas/01_fundamentos_y_marco/02_daugman_metaforas_del_cerebro]]
+- [[02_Lecturas/01_fundamentos_y_marco/05_bickle_churchland_y_neurofilosofias]]
+- [[02_Lecturas/09_material_complementario/05_cobb_idea_of_the_brain]]
+- [[02_Lecturas/04_memoria_y_representacion/03_bechtel_representaciones]]
 
 ## 8. Conceptos clave que se desbloquean
 

@@ -81,11 +81,11 @@ Un estado neural $Y$ "porta información sobre" un evento $X$ si $I(X; Y) > 0$ y
 
 ## 8. Lecturas del workspace
 
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MemoriaYRepresentacion/03_bechtel_representaciones]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MemoriaYRepresentacion/02_quian_quiroga_celulas_de_la_abuela]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MemoriaYRepresentacion/01_de_brigard_robins_memoria]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/FundamentosYMarco/03_hinton_redes_neuronales]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MaterialComplementario/02_bechtel_mental_mechanisms]]
+- [[02_Lecturas/04_memoria_y_representacion/03_bechtel_representaciones]]
+- [[02_Lecturas/04_memoria_y_representacion/02_quian_quiroga_celulas_de_la_abuela]]
+- [[02_Lecturas/04_memoria_y_representacion/01_de_brigard_robins_memoria]]
+- [[02_Lecturas/01_fundamentos_y_marco/03_hinton_redes_neuronales]]
+- [[02_Lecturas/09_material_complementario/02_bechtel_mental_mechanisms]]
 
 ## 9. Conceptos clave que se desbloquean
 

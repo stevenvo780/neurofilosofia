@@ -34,10 +34,10 @@ El recorrido neuroanatómico (neuronas, glia, mielina, ventrículos, sustancia g
 
 ## 3. Autores y lecturas asociadas
 
-- **Ray** — *Introduction to Human Neuroscience* (cap. 3, lectura central): `[[Contenidos/pdf/3a - Ray - Introduction to Human Neuroscience]]`.
-- **Bickle** — *The Neurophilosophies of Patricia and Paul Churchland*: `[[Contenidos/pdf/3b - Bickle - The Neurophilosophies of Patricia and Paul Churchland]]`. Aporta el contraste eliminativista para la discusión de representación.
-- **Bechtel (2001)** — *Representations. From Neural Systems to Cognitive Systems*: `[[Contenidos/pdf/13a - Bechtel - (2001) Representations. From Neural Systems to Cognitive Systems]]`. La tesis de la "bóveda oscura" es bechteliana.
-- **Moser & Moser (2015)** — *Where Am I. Where Am I Going*: `[[Contenidos/pdf/13b - Moser & Moser - (2015) Where Am I. Where Am I Going]]`. Células de lugar y de red — paradigma de representación neural moderna.
+- **Ray** — *Introduction to Human Neuroscience* (cap. 3, lectura central): `[[Fuentes/pdf/3a - Ray - Introduction to Human Neuroscience]]`.
+- **Bickle** — *The Neurophilosophies of Patricia and Paul Churchland*: `[[Fuentes/pdf/3b - Bickle - The Neurophilosophies of Patricia and Paul Churchland]]`. Aporta el contraste eliminativista para la discusión de representación.
+- **Bechtel (2001)** — *Representations. From Neural Systems to Cognitive Systems*: `[[Fuentes/pdf/13a - Bechtel - (2001) Representations. From Neural Systems to Cognitive Systems]]`. La tesis de la "bóveda oscura" es bechteliana.
+- **Moser & Moser (2015)** — *Where Am I. Where Am I Going*: `[[Fuentes/pdf/13b - Moser & Moser - (2015) Where Am I. Where Am I Going]]`. Células de lugar y de red — paradigma de representación neural moderna.
 - **Hebb (1949)** — *The Organization of Behavior*. Postulado hebbiano.
 - **Damasio** — somatic markers; ínsula e interocepción.
 - **Craig** (2003, 2009) — *How do you feel?*: ínsula como sede de la consciencia interoceptiva.
@@ -102,18 +102,18 @@ flowchart TD
 
 ## 9. Cross-refs al backup
 
-- `[[Curso/TerceraClase/notas]]` — apuntes en bruto.
-- `[[Curso/TerceraClase/01_neuronas]]`, `[[Curso/TerceraClase/02_astrocitos]]`, `[[Curso/TerceraClase/03_oligodendrocitos_y_mielina]]`, `[[Curso/TerceraClase/04_microglia]]` — fichas por tipo celular.
-- `[[Curso/TerceraClase/05_sinapsis_y_neurotransmisores]]` — sinapsis y NT.
-- `[[Curso/TerceraClase/06_glosario_basico]]` — glosario y mindmap.
-- `[[Curso/TerceraClase/07_sistema_nervioso_central_y_periferico]]`, `[[Curso/TerceraClase/08_orientacion_neuroanatomica]]`, `[[Curso/TerceraClase/09_ventriculos_liquido_cefalorraquideo_e_hidrocefalia]]`, `[[Curso/TerceraClase/10_sustancia_gris_y_sustancia_blanca]]`, `[[Curso/TerceraClase/11_lobulos_cerebrales]]`, `[[Curso/TerceraClase/12_surcos_giros_y_otras_formas_de_describir_la_corteza]]` — anatomía sistemática.
-- `[[Curso/TerceraClase/13_homunculo_motor_y_somatosensorial]]` — Penfield.
-- `[[Curso/TerceraClase/14_representaciones_multimodalidad_y_flujo]]` — *bóveda oscura* + multimodalidad.
-- `[[Curso/TerceraClase/15_ganglios_basales_talamo_e_insula]]` — subcortical.
-- `[[Curso/TerceraClase/16_aprendizaje_plasticidad_e_ideas_previas_del_cerebro]]` — plasticidad y priors.
-- `[[Curso/TerceraClase/17_automatizacion_y_conciencia]]` — puente hacia clase 5.
-- `[[Contenidos/pdf/13a - Bechtel - (2001) Representations. From Neural Systems to Cognitive Systems]]` — texto de cabecera filosófico.
-- `[[Contenidos/pdf/13b - Moser & Moser - (2015) Where Am I. Where Am I Going]]` — células de lugar.
+- `[[01_Clases/clase-03-neuroanatomia/00_notas]]` — apuntes en bruto.
+- `[[01_Clases/clase-03-neuroanatomia/01_neuronas]]`, `[[01_Clases/clase-03-neuroanatomia/02_astrocitos]]`, `[[01_Clases/clase-03-neuroanatomia/03_oligodendrocitos_y_mielina]]`, `[[01_Clases/clase-03-neuroanatomia/04_microglia]]` — fichas por tipo celular.
+- `[[01_Clases/clase-03-neuroanatomia/05_sinapsis_y_neurotransmisores]]` — sinapsis y NT.
+- `[[01_Clases/clase-03-neuroanatomia/glosario_clase]]` — glosario y mindmap.
+- `[[01_Clases/clase-03-neuroanatomia/07_sistema_nervioso_central_y_periferico]]`, `[[01_Clases/clase-03-neuroanatomia/08_orientacion_neuroanatomica]]`, `[[01_Clases/clase-03-neuroanatomia/09_ventriculos_liquido_cefalorraquideo_e_hidrocefalia]]`, `[[01_Clases/clase-03-neuroanatomia/10_sustancia_gris_y_sustancia_blanca]]`, `[[01_Clases/clase-03-neuroanatomia/11_lobulos_cerebrales]]`, `[[01_Clases/clase-03-neuroanatomia/12_surcos_giros_y_otras_formas_de_describir_la_corteza]]` — anatomía sistemática.
+- `[[01_Clases/clase-03-neuroanatomia/13_homunculo_motor_y_somatosensorial]]` — Penfield.
+- `[[01_Clases/clase-03-neuroanatomia/14_representaciones_multimodalidad_y_flujo]]` — *bóveda oscura* + multimodalidad.
+- `[[01_Clases/clase-03-neuroanatomia/15_ganglios_basales_talamo_e_insula]]` — subcortical.
+- `[[01_Clases/clase-03-neuroanatomia/16_aprendizaje_plasticidad_e_ideas_previas_del_cerebro]]` — plasticidad y priors.
+- `[[01_Clases/clase-03-neuroanatomia/17_automatizacion_y_conciencia]]` — puente hacia clase 5.
+- `[[Fuentes/pdf/13a - Bechtel - (2001) Representations. From Neural Systems to Cognitive Systems]]` — texto de cabecera filosófico.
+- `[[Fuentes/pdf/13b - Moser & Moser - (2015) Where Am I. Where Am I Going]]` — células de lugar.
 
 ## 10. Para el estudiante
 

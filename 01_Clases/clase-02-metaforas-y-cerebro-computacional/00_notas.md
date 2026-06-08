@@ -11,6 +11,17 @@ La clase argumenta una tesis fuerte de **filosofía de la ciencia aplicada a la 
 
 El recorrido va de las **metáforas hidráulicas** (Hipócrates, Galeno, Freud) a las **mecánicas** (Hobbes, La Mettrie, el pato de Vaucanson), de las **eléctricas** (Galvani, von Helmholtz, Hodgkin-Huxley) a las **telegráficas y telefónicas** (Ramón y Cajal + von Helmholtz), y finalmente a las **computacionales** (von Neumann, Turing, Marr) y **conexionistas** (Pitts-McCulloch, Rosenblatt, Hinton). En el camino aparece el **modelo trinitario de Marr** (computación / algoritmo y representación / implementación) como dispositivo para no confundir niveles.
 
+## Plan didáctico de la clase
+
+1. **Apertura.** ¿Por qué hablamos de "neurociencia" en plural? Convergencia interdisciplinar (~1960) entre neuroanatomía, neurofisiología, psicología, lingüística, ciencia cognitiva.
+2. **Distinción.** Neurociencia (cerebro) vs ciencia cognitiva (mente) vs filosofía de la neurociencia (qué *hace* la neurociencia, qué explicaciones usa, qué es una representación, qué es una reducción).
+3. **Herramientas para el pensamiento.** Las teorías necesitan vocabulario. Las metáforas y analogías son ese vocabulario: medio para un fin, no descripción literal.
+4. **Recorrido histórico de metáforas** (núcleo de la clase) en seis capas tecnológicas.
+5. **Salto a la computacional.** Turing, von Neumann, niveles de Marr (computacional / algorítmico / implementación).
+6. **Conexionismo.** McCulloch–Pitts (1943), Perceptrón de Rosenblatt (1958), distribuido vs localista (preámbulo a Hinton).
+7. **Crítica de Daugman.** Cada metáfora abre y a la vez recorta. La computacional no es la metáfora *final*: es la actual.
+8. **Apertura a Clase 3.** Si todo es metáfora, ¿qué dice el cerebro *real*? La anatomía funcional como contrapeso material.
+
 ## 2. Conceptos clave
 
 - **Metáfora teórica** — no mero adorno; estructura las preguntas legítimas, las técnicas y las explicaciones plausibles. Daugman insiste: cada metáfora ilumina y oculta.
@@ -26,8 +37,8 @@ El recorrido va de las **metáforas hidráulicas** (Hipócrates, Galeno, Freud) 
 
 ## 3. Autores y lecturas asociadas
 
-- **Daugman (2001)** — *Brain Metaphor and Brain Theory*: lectura central. Ver `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/02_daugman_metaforas_del_cerebro]]` y `[[Contenidos/pdf/2a - Daugman - (2001) Brain Metaphor and Brain Theory]]`.
-- **Hinton (1992)** — *How Neural Networks Learn from Experience*, lectura central, base de la presentación estudiantil. `[[Contenidos/pdf/2b - Hinton - (1992) How Neural Networks Learn from Experience]]` y `[[Curso/Presenacion/2b - Hinton - (1992) How Neural Networks Learn from Experience]]`.
+- **Daugman (2001)** — *Brain Metaphor and Brain Theory*: lectura central. Ver `[[02_Lecturas/01_fundamentos_y_marco/02_daugman_metaforas_del_cerebro]]` y `[[Fuentes/pdf/2a - Daugman - (2001) Brain Metaphor and Brain Theory]]`.
+- **Hinton (1992)** — *How Neural Networks Learn from Experience*, lectura central, base de la presentación estudiantil. `[[Fuentes/pdf/2b - Hinton - (1992) How Neural Networks Learn from Experience]]` y `[[Fuentes/pdf/2b - Hinton - (1992) How Neural Networks Learn from Experience]]`.
 - **Hipócrates / Galeno** — teoría de los humores.
 - **Hobbes**, *Leviathan*, cap. I — pensamiento como movimientos en la cabeza.
 - **La Mettrie (1748)**, *L'Homme Machine*.
@@ -95,13 +106,13 @@ flowchart LR
 
 ## 9. Cross-refs al backup
 
-- `[[Curso/SegundaClase/Sin título]]` — apuntes en bruto.
-- `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/02_daugman_metaforas_del_cerebro]]` — desarrollo Daugman.
-- `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/03_hinton_redes_neuronales]]` — desarrollo Hinton 1992.
-- `[[Contenidos/pdf/2a - Daugman - (2001) Brain Metaphor and Brain Theory]]` — PDF.
-- `[[Contenidos/pdf/2b - Hinton - (1992) How Neural Networks Learn from Experience]]` — PDF.
-- `[[Curso/Presenacion/PlanPresentacion]]` — plan completo de la presentación estudiantil sobre Hinton.
-- `[[Curso/Presenacion/2b - Hinton - Redes Neuronales que Aprenden de la Experiencia]]` — traducción anotada.
+- `[[01_Clases/clase-02-metaforas-y-cerebro-computacional/00_notas]]` — apuntes en bruto.
+- `[[02_Lecturas/01_fundamentos_y_marco/02_daugman_metaforas_del_cerebro]]` — desarrollo Daugman.
+- `[[02_Lecturas/01_fundamentos_y_marco/03_hinton_redes_neuronales]]` — desarrollo Hinton 1992.
+- `[[Fuentes/pdf/2a - Daugman - (2001) Brain Metaphor and Brain Theory]]` — PDF.
+- `[[Fuentes/pdf/2b - Hinton - (1992) How Neural Networks Learn from Experience]]` — PDF.
+- `[[10_LogicaFormal/hinton/PlanPresentacion]]` — plan completo de la presentación estudiantil sobre Hinton.
+- `[[Fuentes/textos/2b - Hinton - Redes Neuronales que Aprenden de la Experiencia]]` — traducción anotada.
 
 ## 10. Para el estudiante
 

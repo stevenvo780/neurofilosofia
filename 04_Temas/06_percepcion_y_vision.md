@@ -80,11 +80,11 @@ Si V4 dice "rojo" y MT dice "moviéndose a la derecha", ¿qué garantiza que el 
 
 ## 8. Lecturas del workspace
 
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/PercepcionYVision/01_trivino_mosquera_vision]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/PercepcionYVision/02_zeki_imagen_visual_mente_y_cerebro]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/MaterialComplementario/10_the_minds_machine_vision]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/ConcienciaAgenciaYModelos/02_nave_cerebro_predictivo]]
-- [[FilosofiaDeLasNeurociencias/Explicaciones/Temas/VisualizacionesYModelos/03_vision_y_representacion_visual]]
+- [[02_Lecturas/03_percepcion_y_vision/01_trivino_mosquera_vision]]
+- [[02_Lecturas/03_percepcion_y_vision/02_zeki_imagen_visual_mente_y_cerebro]]
+- [[02_Lecturas/09_material_complementario/10_the_minds_machine_vision]]
+- [[02_Lecturas/08_conciencia_agencia_y_modelos/02_nave_cerebro_predictivo]]
+- [[05_Visualizaciones/03_vision_y_representacion_visual]]
 
 ## 9. Conceptos clave que se desbloquean
 

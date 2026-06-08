@@ -31,14 +31,14 @@ En la sesión emerge además una **pregunta original del estudiante** (formaliza
 
 ## 3. Autores y lecturas asociadas
 
-- **Ramírez-Bermúdez, Pérez-Gay & Aliseda (2024)** — *Neuropsychiatric Constructs as Bridges between Psychopathology and Neuropathology*: lectura central. `[[Contenidos/pdf/5a - Ramírez-Bermúdez, Pérez-Gay, & Aliseda - (2024) Neuropsychiatric Constructs as Bridges between Psychopathology and Neuropathology. A Medical Perspective]]`.
+- **Ramírez-Bermúdez, Pérez-Gay & Aliseda (2024)** — *Neuropsychiatric Constructs as Bridges between Psychopathology and Neuropathology*: lectura central. `[[Fuentes/pdf/5a - Ramírez-Bermúdez, Pérez-Gay, & Aliseda - (2024) Neuropsychiatric Constructs as Bridges between Psychopathology and Neuropathology. A Medical Perspective]]`.
 - **Bennett & Hacker (2003)** — *Philosophical Foundations of Neuroscience*: falacia mereológica. Discutida en los apuntes de lecturas.
 - **Maturana & Varela (1980)** — *Autopoiesis and Cognition*.
 - **Varela, Thompson & Rosch (1991)** — *The Embodied Mind*.
 - **Thompson (2007)** — *Mind in Life*.
 - **Searle (1980)** — *Minds, Brains, and Programs* (cuarto chino). Background de la crítica al computacionalismo.
 - **Putnam (1967), Fodor (1974)** — autonomía y realizabilidad múltiple (recapitulados).
-- **Churchland P. & P.** — eliminativismo materialista; contrapeso fuerte al sistemismo del profesor. Ver `[[Contenidos/pdf/3b - Bickle - The Neurophilosophies of Patricia and Paul Churchland]]`.
+- **Churchland P. & P.** — eliminativismo materialista; contrapeso fuerte al sistemismo del profesor. Ver `[[Fuentes/pdf/3b - Bickle - The Neurophilosophies of Patricia and Paul Churchland]]`.
 - **Damasio (1994)** — *Descartes' Error*: somatic markers e ínsula.
 - **Bunge (1980)** — *The Mind-Body Problem*: emergentismo sistémico.
 - **Chalmers (1995)** — *Facing Up to the Problem of Consciousness*: el Hard Problem como telón de fondo.
@@ -110,16 +110,16 @@ flowchart TB
 
 ## 9. Cross-refs al backup
 
-- `[[Curso/QuintaClase/00_indice]]` — índice.
-- `[[Curso/QuintaClase/01_desarrollo_completo_de_la_pregunta]]` — formalización completa de la pregunta del estudiante.
-- `[[Curso/QuintaClase/02_dos_posturas_de_los_profesores]]` — tabla analítica vs. sistémica.
-- `[[Curso/QuintaClase/03_pregunta_hiperdensificada_y_formalizada]]` — versión ST (lógica formal) de la pregunta.
-- `[[Curso/QuintaClase/Charla1]]` — reconstrucción larga de la clase (Anton, Cotard, autopoiesis, enactivismo, metacognición).
-- `[[Curso/QuintaClase/Charla2]]` — enredos categoriales.
-- `[[Curso/QuintaClase/lecturas]]` — desglose de Ramírez-Bermúdez y de Bennett-Hacker.
-- `[[Contenidos/pdf/5a - Ramírez-Bermúdez, Pérez-Gay, & Aliseda - (2024) Neuropsychiatric Constructs as Bridges between Psychopathology and Neuropathology. A Medical Perspective]]` — PDF.
-- `[[Contenidos/Explicaciones/Temas/EmocionInterocepcionYNeuropsiquiatria]]` — carpeta temática.
-- `[[Contenidos/Explicaciones/Temas/ConcienciaAgenciaYModelos]]` — carpeta temática.
+- `[[01_Clases/clase-05-mente-conducta-cerebro/00_indice]]` — índice.
+- `[[01_Clases/clase-05-mente-conducta-cerebro/01_desarrollo_pregunta]]` — formalización completa de la pregunta del estudiante.
+- `[[01_Clases/clase-05-mente-conducta-cerebro/02_posturas_profesores]]` — tabla analítica vs. sistémica.
+- `[[01_Clases/clase-05-mente-conducta-cerebro/03_pregunta_formalizada]]` — versión ST (lógica formal) de la pregunta.
+- `[[01_Clases/clase-05-mente-conducta-cerebro/charla1]]` — reconstrucción larga de la clase (Anton, Cotard, autopoiesis, enactivismo, metacognición).
+- `[[01_Clases/clase-05-mente-conducta-cerebro/charla2]]` — enredos categoriales.
+- `[[01_Clases/clase-05-mente-conducta-cerebro/lecturas]]` — desglose de Ramírez-Bermúdez y de Bennett-Hacker.
+- `[[Fuentes/pdf/5a - Ramírez-Bermúdez, Pérez-Gay, & Aliseda - (2024) Neuropsychiatric Constructs as Bridges between Psychopathology and Neuropathology. A Medical Perspective]]` — PDF.
+- `[[02_Lecturas/06_emocion_interocepcion_neuropsiquiatria/00_indice]]` — carpeta temática.
+- `[[02_Lecturas/08_conciencia_agencia_y_modelos/00_indice]]` — carpeta temática.
 
 ## 10. Para el estudiante
 

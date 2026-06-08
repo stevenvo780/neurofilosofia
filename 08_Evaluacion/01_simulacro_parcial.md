@@ -30,21 +30,21 @@ Este simulacro selecciona **11 preguntas** del banco principal (`00_banco_pregun
 
 Liste las **cuatro fases** del algoritmo de retropropagación según Hinton (1992) y los **cuatro límites** que el propio Hinton reconoce.
 
-> *Doc:* `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/03_hinton_redes_neuronales]]`
+> *Doc:* `[[02_Lecturas/01_fundamentos_y_marco/03_hinton_redes_neuronales]]`
 
 ### Pregunta 2 (4 pts · ~7 min) — 🔴 Recordar — *Banco 3.1 + 4.1*
 
 (a) Enuncie las **tres condiciones** que Bechtel (2001) exige para que un estado interno cuente como representación.
 (b) Enuncie los **tres criterios** de confiabilidad de una técnica neurocientífica según Bechtel (epistemología de la evidencia).
 
-> *Docs:* `[[Contenidos/Explicaciones/Temas/MemoriaYRepresentacion/03_bechtel_representaciones]]`, `[[Contenidos/Explicaciones/Temas/MetodosYEvidencia/01_bechtel_epistemologia_de_la_evidencia]]`
+> *Docs:* `[[02_Lecturas/04_memoria_y_representacion/03_bechtel_representaciones]]`, `[[02_Lecturas/02_metodos_y_evidencia/01_bechtel_epistemologia_de_la_evidencia]]`
 
 ### Pregunta 3 (4 pts · ~6 min) — 🟠 Comprender — *Banco 2.1 + 2.2*
 
 (a) Defina **vigilia** y **awareness** según Laureys.
 (b) Describa qué mide el **potencial de preparación** en el experimento de Libet.
 
-> *Docs:* `[[Contenidos/Explicaciones/Temas/ConcienciaAgenciaYModelos/01_laureys_estado_vegetativo]]`, `[[Contenidos/Explicaciones/Temas/ConcienciaAgenciaYModelos/04_obhi_haggard_libre_albedrio]]`
+> *Docs:* `[[02_Lecturas/08_conciencia_agencia_y_modelos/01_laureys_estado_vegetativo]]`, `[[02_Lecturas/08_conciencia_agencia_y_modelos/04_obhi_haggard_libre_albedrio]]`
 
 ---
 
@@ -61,7 +61,7 @@ Aplique la distinción **representación local / distribuida / sparse** a dos ca
 
 ¿Qué dimensión es local, cuál distribuida y cuál sparse en cada caso? Justifique.
 
-> *Docs:* `[[Contenidos/Explicaciones/Temas/MemoriaYRepresentacion/02_quian_quiroga_celulas_de_la_abuela]]`, `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/03_hinton_redes_neuronales]]`
+> *Docs:* `[[02_Lecturas/04_memoria_y_representacion/02_quian_quiroga_celulas_de_la_abuela]]`, `[[02_Lecturas/01_fundamentos_y_marco/03_hinton_redes_neuronales]]`
 
 ### Pregunta 5 (6 pts · ~13 min) — 🟡 Aplicar — *Banco 4.7*
 
@@ -71,7 +71,7 @@ Diseñe un **experimento mínimo de sustracción** (Raichle) para localizar el p
 - Por qué la sustracción aísla (o no) la operación de interés.
 - Dos límites del diseño y cómo intentaría mitigarlos.
 
-> *Doc:* `[[Contenidos/Explicaciones/Temas/MetodosYEvidencia/02_raichle_visualizando_la_mente]]`
+> *Doc:* `[[02_Lecturas/02_metodos_y_evidencia/02_raichle_visualizando_la_mente]]`
 
 ---
 
@@ -87,7 +87,7 @@ Compare **IIT** (Tononi) y **GWT** (Dehaene-Baars) como teorías de la concienci
 2. Identifique **al menos dos predicciones distintas** que harían sobre el estado mínimamente consciente de Laureys.
 3. Indique qué tipo de evidencia (lesión, imagen, electrofisiología) favorece a cada una.
 
-> *Docs:* `[[Contenidos/Explicaciones/Temas/ConcienciaAgenciaYModelos/01_laureys_estado_vegetativo]]`, `[[Contenidos/Explicaciones/Temas/MaterialComplementario/09_passingham_cognitive_neuroscience]]`
+> *Docs:* `[[02_Lecturas/08_conciencia_agencia_y_modelos/01_laureys_estado_vegetativo]]`, `[[02_Lecturas/09_material_complementario/09_passingham_cognitive_neuroscience]]`
 
 ### Pregunta 7 (8 pts · ~18 min) — 🟢 Analizar — *Banco 5.12 + 1.7*
 
@@ -98,7 +98,7 @@ Su respuesta debe distinguir explícitamente:
 - Éxito **funcional** vs. valor **explicativo** neurocientífico.
 - Programa **progresivo** vs. **degenerativo** (Lakatos).
 
-> *Docs:* `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/02_daugman_metaforas_del_cerebro]]`, `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/03_hinton_redes_neuronales]]`
+> *Docs:* `[[02_Lecturas/01_fundamentos_y_marco/02_daugman_metaforas_del_cerebro]]`, `[[02_Lecturas/01_fundamentos_y_marco/03_hinton_redes_neuronales]]`
 
 ---
 
@@ -112,7 +112,7 @@ Su respuesta debe distinguir explícitamente:
 
 Defienda o critique aplicando las tres condiciones de Bechtel. Considere al menos una objeción y respóndala.
 
-> *Docs:* `[[Contenidos/Explicaciones/Temas/MemoriaYRepresentacion/03_bechtel_representaciones]]`, `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/03_hinton_redes_neuronales]]`
+> *Docs:* `[[02_Lecturas/04_memoria_y_representacion/03_bechtel_representaciones]]`, `[[02_Lecturas/01_fundamentos_y_marco/03_hinton_redes_neuronales]]`
 
 ### Pregunta 8b (10 pts · ~30 min) — 🔵 Evaluar — *Banco 7.11*
 
@@ -120,7 +120,7 @@ Defienda o critique aplicando las tres condiciones de Bechtel. Considere al meno
 
 Defienda o critique articulando Barrett (body budget + inflamación) con Ramírez-Bermúdez et al. (constructos neuropsiquiátricos). Considere al menos una objeción esencialista y respóndala.
 
-> *Docs:* `[[Contenidos/Explicaciones/Temas/EmocionInterocepcionYNeuropsiquiatria/03_barrett_emocion_y_enfermedad]]`, `[[Contenidos/Explicaciones/Temas/EmocionInterocepcionYNeuropsiquiatria/04_ramirez_bermudez_constructos_neuropsiquiatricos]]`
+> *Docs:* `[[02_Lecturas/06_emocion_interocepcion_neuropsiquiatria/03_barrett_emocion_y_enfermedad]]`, `[[02_Lecturas/06_emocion_interocepcion_neuropsiquiatria/04_ramirez_bermudez_constructos_neuropsiquiatricos]]`
 
 ---
 

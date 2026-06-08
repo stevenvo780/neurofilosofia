@@ -36,7 +36,7 @@ El profesor enmarca todo bajo una intuición fuerte que recoge de la **Princesa 
 - **Place (1956), Smart (1959), Feigl (1958)** — teoría de la identidad mente-cerebro.
 - **Putnam (1967)** — realizabilidad múltiple y funcionalismo de máquina.
 - **Fodor (1974)** — *Special Sciences*, autonomía de la psicología.
-- **Bechtel, Mandik & Mundale (2001)**, *Philosophy Meets the Neurosciences* — texto base del curso, ver `[[Contenidos/pdf/1 - Bechtel, Mandik, & Mundale - (2001) Philosophy Meets the Neurosciences]]` y `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/01_bechtel_mandik_mundale_filosofia_y_neurociencias]]`.
+- **Bechtel, Mandik & Mundale (2001)**, *Philosophy Meets the Neurosciences* — texto base del curso, ver `[[Fuentes/pdf/1 - Bechtel, Mandik, & Mundale - (2001) Philosophy Meets the Neurosciences]]` y `[[02_Lecturas/01_fundamentos_y_marco/01_bechtel_mandik_mundale_filosofia_y_neurociencias]]`.
 - **Raichle (1994)**, *Visualizing the Mind* — historia del PET y la neuroimagen.
 - **Kanwisher** — área fusiforme del rostro (FFA), citada por el profesor.
 
@@ -97,12 +97,12 @@ flowchart TD
 
 ## 9. Cross-refs al backup
 
-- `[[Curso/PrimeraClase/primeraclase]]` — apuntes en bruto del profesor.
-- `[[Curso/PrimeraClase/primeraclase_modelos_y_diagramas]]` — diagramas auxiliares.
-- `[[Contenidos/Explicaciones/Temas/FundamentosYMarco/01_bechtel_mandik_mundale_filosofia_y_neurociencias]]` — desarrollo del texto base.
-- `[[Contenidos/pdf/1 - Bechtel, Mandik, & Mundale - (2001) Philosophy Meets the Neurosciences]]` — PDF fuente.
-- `[[Contenidos/pdf/4b - Raichle - (1994) Visualizing the Mind]]` — historia del PET y la promesa del "cerebroscopio".
-- `[[Curso/SegundaClase/Sin título]]` — continuación natural: metáforas del cerebro.
+- `[[01_Clases/clase-01-dualismo-a-neurociencia-cognitiva/00_notas]]` — apuntes en bruto del profesor.
+- `[[01_Clases/clase-01-dualismo-a-neurociencia-cognitiva/modelos_y_diagramas]]` — diagramas auxiliares.
+- `[[02_Lecturas/01_fundamentos_y_marco/01_bechtel_mandik_mundale_filosofia_y_neurociencias]]` — desarrollo del texto base.
+- `[[Fuentes/pdf/1 - Bechtel, Mandik, & Mundale - (2001) Philosophy Meets the Neurosciences]]` — PDF fuente.
+- `[[Fuentes/pdf/4b - Raichle - (1994) Visualizing the Mind]]` — historia del PET y la promesa del "cerebroscopio".
+- `[[01_Clases/clase-02-metaforas-y-cerebro-computacional/00_notas]]` — continuación natural: metáforas del cerebro.
 
 ## 10. Para el estudiante
 
